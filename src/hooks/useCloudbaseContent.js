@@ -2,11 +2,13 @@ import { useEffect, useState } from "react";
 import { content as fallbackContent } from "../data/siteContent";
 
 async function fetchLocaleContent(locale) {
-  const response = await fetch(`/api/cloudbase/content?locale=${locale}`);
+  const response = await fetch(`/data/content.${locale}.json`, {
+    cache: "no-cache",
+  });
   const payload = await response.json();
 
   if (!response.ok) {
-    throw new Error(payload?.error ?? "CloudBase server fetch failed");
+    throw new Error(payload?.error ?? "Static content fetch failed");
   }
 
   return payload;
@@ -30,7 +32,7 @@ export function useCloudbaseContent(language) {
       .then((payload) => {
         if (!disposed) {
           setCopy(payload.copy);
-          setSource(payload.source ?? "cloudbase-server");
+          setSource(payload.source ?? "static-export");
         }
       })
       .catch((fetchError) => {

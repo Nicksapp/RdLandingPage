@@ -1,0 +1,512 @@
+{
+  "copy": {
+    "brand": "Guangdong Rongde",
+    "nav": [
+      "Home",
+      "About",
+      "Products",
+      "Contact"
+    ],
+    "switchLabel": "中文",
+    "heroEyebrow": "Premium Industrial Materials & Flow Control Systems",
+    "heroTitle": "Guangdong Rongde",
+    "heroTagline": "Trusted Industrial Supply Partner",
+    "heroPrimary": "Open Product Center",
+    "heroSecondary": "Contact Us",
+    "heroSlides": [
+      {
+        "title": "Premium Pipe Systems",
+        "description": "High-standard steel pipe supply for energy, chemical, and marine applications with traceable quality assurance.",
+        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
+      },
+      {
+        "title": "Industrial Valve Solutions",
+        "description": "Ball, gate, globe, and check valves engineered for stable performance in critical flow-control systems.",
+        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
+      },
+      {
+        "title": "Integrated Project Delivery",
+        "description": "From specification matching to export execution, we simplify procurement for industrial customers.",
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
+      }
+    ],
+    "heroStats": [
+      {
+        "value": "20+",
+        "label": "Years of expertise"
+      },
+      {
+        "value": "98%",
+        "label": "On-time delivery rate"
+      },
+      {
+        "value": "30+",
+        "label": "Countries served"
+      }
+    ],
+    "capabilitiesTitle": "Core Business",
+    "capabilitiesLead": "A complete industrial supply chain covering pipes, valves, customization, and project delivery.",
+    "capabilities": [
+      {
+        "title": "Premium Steel Pipes",
+        "text": "Seamless, welded, precision, and custom-profile pipes for demanding industrial operating conditions.",
+        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
+      },
+      {
+        "title": "Industrial Valves",
+        "text": "Ball, gate, globe, and check valves designed for reliability, lifetime stability, and easier maintenance.",
+        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
+      },
+      {
+        "title": "Project Supply",
+        "text": "Integrated execution for engineering orders with specification matching and export-ready coordination.",
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
+      }
+    ],
+    "aboutTitle": "About Us",
+    "aboutLead": "Guangdong Rongde focuses on premium steel pipes, industrial valves, and fluid-control components with strong capabilities in engineering, integration, and delivery.",
+    "aboutBody": "We support demanding high-pressure, high-temperature, and corrosion-resistant scenarios through end-to-end services covering material selection, spec matching, customization, and shipment visibility.",
+    "aboutHighlights": [
+      "Stainless, alloy, and duplex steel materials for critical environments",
+      "Support for cut-to-size, flange connection, and assembled delivery",
+      "Serving EPC contractors and industrial end clients worldwide"
+    ],
+    "aboutImage": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+    "showcaseTitle": "Product Center",
+    "showcaseLead": "A product portfolio built for durability, precision, and dependable lead times in critical industries.",
+    "showcaseCta": "View All Products",
+    "productsPageTitle": "Product Center",
+    "productsPageLead": "Browse categories on the left and explore steel pipe, valve, and accessory products on the right.",
+    "productsOverviewTitle": "Products & Services",
+    "productCategoriesLabel": "Categories",
+    "productInquiry": "Send Inquiry",
+    "productSpecs": "Specifications",
+    "categoriesLabelRelated": "Related Products",
+    "productMore": "More",
+    "projectTitle": "Applications",
+    "projectLead": "From process industry to advanced manufacturing, Guangdong Rongde supports a broad range of industrial use cases.",
+    "projectCards": [
+      {
+        "title": "Energy & Chemicals",
+        "text": "Products for high-pressure transfer, corrosive media, and continuous industrial operation."
+      },
+      {
+        "title": "Marine Engineering",
+        "text": "Solutions for complex piping systems and harsh offshore operating environments."
+      },
+      {
+        "title": "Advanced Manufacturing",
+        "text": "Multi-spec tubes and control components for automated, clean, and precision systems."
+      }
+    ],
+    "products": [
+      {
+        "slug": "premium-steel-pipes",
+        "category": "Pipe Series",
+        "title": "Premium Steel Pipes",
+        "text": "Seamless, welded, precision, and custom-profile pipes for transmission, structural, and high-pressure systems.",
+        "specs": [
+          "Stainless / Alloy / Duplex Steel",
+          "DN15-DN1200",
+          "Pressure & corrosion resistant"
+        ],
+        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
+      },
+      {
+        "slug": "industrial-valves",
+        "category": "Valve Series",
+        "title": "Industrial Valves",
+        "text": "Ball, gate, globe, check, and control valves designed for sealing performance and long service life.",
+        "specs": [
+          "API / DIN / GB standards",
+          "Manual / pneumatic / electric",
+          "High-temp sealing structure"
+        ],
+        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
+      },
+      {
+        "slug": "supporting-components",
+        "category": "Accessory Series",
+        "title": "Supporting Components",
+        "text": "Flanges, fittings, actuators, and connection accessories for complete fluid-control integration.",
+        "specs": [
+          "Flanges / elbows / tees",
+          "Actuator integration",
+          "Project package supply"
+        ],
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
+      },
+      {
+        "slug": "precision-stainless-tubes",
+        "category": "Pipe Series",
+        "title": "Precision Stainless Tubes",
+        "text": "Designed for clean transfer systems, instrumentation, and advanced manufacturing lines with tighter tolerances.",
+        "specs": [
+          "BA / EP finishes",
+          "High cleanliness",
+          "Cut-to-length support"
+        ],
+        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
+      },
+      {
+        "slug": "high-performance-ball-valves",
+        "category": "Valve Series",
+        "title": "High-Performance Ball Valves",
+        "text": "Built for petrochemical, gas, and process-industry applications with rapid operation and low leakage.",
+        "specs": [
+          "Floating / trunnion",
+          "Soft / metal seated",
+          "Fire-safe and anti-static"
+        ],
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
+      },
+      {
+        "slug": "industrial-flanges-fittings",
+        "category": "Accessory Series",
+        "title": "Industrial Flanges & Fittings",
+        "text": "Multi-standard connections and custom machining for complex piping systems and export projects.",
+        "specs": [
+          "ASME / EN / JIS",
+          "Forged and machined",
+          "Material traceability reports"
+        ],
+        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
+      }
+    ],
+    "categories": [
+      "All Products",
+      "Pipe Series",
+      "Valve Series",
+      "Accessory Series"
+    ],
+    "productGroups": [
+      {
+        "id": "pipe-systems",
+        "title": "Pipe Systems",
+        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1",
+        "subcategories": [
+          {
+            "title": "Premium Pipe",
+            "children": [
+              {
+                "title": "Industrial Transfer Pipe",
+                "items": [
+                  {
+                    "slug": "premium-steel-pipes",
+                    "title": "Premium Steel Pipes",
+                    "points": [
+                      "High-pressure transfer",
+                      "Multiple material grades",
+                      "Project-ready supply",
+                      "Full batch traceability"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Precision Tubing",
+                "items": [
+                  {
+                    "slug": "precision-stainless-tubes",
+                    "title": "Precision Stainless Tubes",
+                    "points": [
+                      "High cleanliness",
+                      "Stable tolerance",
+                      "BA / EP support",
+                      "Instrumentation-ready"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Engineering Tubes",
+            "children": [
+              {
+                "title": "Seamless Pipe",
+                "items": [
+                  {
+                    "slug": "premium-steel-pipes",
+                    "title": "Seamless & Welded Pipes",
+                    "points": [
+                      "Structural and transfer use",
+                      "Pressure resistant",
+                      "Wide size coverage",
+                      "Flexible customization"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Project Custom Tubes",
+                "items": [
+                  {
+                    "slug": "precision-stainless-tubes",
+                    "title": "Custom Engineering Tubes",
+                    "points": [
+                      "Cut-to-length delivery",
+                      "Profile customization",
+                      "Interface-ready",
+                      "Efficient for projects"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "valve-systems",
+        "title": "Valve Systems",
+        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+        "subcategories": [
+          {
+            "title": "General Valves",
+            "children": [
+              {
+                "title": "Ball Valve Series",
+                "items": [
+                  {
+                    "slug": "high-performance-ball-valves",
+                    "title": "High-Performance Ball Valves",
+                    "points": [
+                      "Fast opening and closing",
+                      "Low leakage control",
+                      "Fire-safe and anti-static",
+                      "Metal seated option"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "General Valve Series",
+                "items": [
+                  {
+                    "slug": "industrial-valves",
+                    "title": "Industrial Valves",
+                    "points": [
+                      "Stable sealing performance",
+                      "Multiple interface standards",
+                      "Manual / pneumatic / electric",
+                      "Reliable long-term operation"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Control & Actuation",
+            "children": [
+              {
+                "title": "Globe Valve",
+                "items": [
+                  {
+                    "slug": "industrial-valves",
+                    "title": "Globe & Check Valves",
+                    "points": [
+                      "Process-industry ready",
+                      "Robust structure",
+                      "Easy maintenance",
+                      "Project assembly support"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Actuation Unit",
+                "items": [
+                  {
+                    "slug": "industrial-valves",
+                    "title": "Valve Control Components",
+                    "points": [
+                      "Automation ready",
+                      "Stable linked control",
+                      "Fits multiple valve types",
+                      "Easy centralized maintenance"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fitting-systems",
+        "title": "Fittings & Components",
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+        "subcategories": [
+          {
+            "title": "Connections",
+            "children": [
+              {
+                "title": "Flange Products",
+                "items": [
+                  {
+                    "slug": "industrial-flanges-fittings",
+                    "title": "Industrial Flanges & Fittings",
+                    "points": [
+                      "Multi-standard compatibility",
+                      "Forged and machined",
+                      "Complex piping support",
+                      "Material reports available"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Special Fittings",
+                "items": [
+                  {
+                    "slug": "industrial-flanges-fittings",
+                    "title": "Elbows, Tees & Special Parts",
+                    "points": [
+                      "Multi-size machining",
+                      "Complex interface support",
+                      "Stable project supply",
+                      "Drawing-based sampling"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Package Components",
+            "children": [
+              {
+                "title": "Actuator Accessories",
+                "items": [
+                  {
+                    "slug": "supporting-components",
+                    "title": "Supporting Components",
+                    "points": [
+                      "Flanges, elbows, tees",
+                      "Actuators and accessories",
+                      "Complete package supply",
+                      "Shorter sourcing cycles"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Project Spare Parts",
+                "items": [
+                  {
+                    "slug": "supporting-components",
+                    "title": "Engineering Spare Components",
+                    "points": [
+                      "Retrofit and maintenance ready",
+                      "Common sizes covered",
+                      "Centralized sourcing",
+                      "Fast delivery support"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "project-services",
+        "title": "Project Services",
+        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+        "subcategories": [
+          {
+            "title": "Project Delivery",
+            "children": [
+              {
+                "title": "Integrated Delivery",
+                "items": [
+                  {
+                    "slug": "supporting-components",
+                    "title": "Integrated Engineering Supply",
+                    "points": [
+                      "Spec consolidation",
+                      "Export coordination",
+                      "Inspection and traceability",
+                      "Stable milestone delivery"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Supply Coordination",
+                "items": [
+                  {
+                    "slug": "supporting-components",
+                    "title": "Project Supply Coordination",
+                    "points": [
+                      "Planned batch supply",
+                      "Aligned to project milestones",
+                      "Transparent tracking",
+                      "Improved sourcing efficiency"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Technical Support",
+            "children": [
+              {
+                "title": "Selection Service",
+                "items": [
+                  {
+                    "slug": "premium-steel-pipes",
+                    "title": "Selection & Processing Support",
+                    "points": [
+                      "Material guidance",
+                      "Interface matching",
+                      "Custom fabrication",
+                      "Sampling support"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Project Consulting",
+                "items": [
+                  {
+                    "slug": "industrial-valves",
+                    "title": "Operating Condition Consulting",
+                    "points": [
+                      "Condition-based material advice",
+                      "Standard matching",
+                      "Optimized sourcing plan",
+                      "Less on-site adjustment"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "contactTitle": "Contact Us",
+    "contactLead": "If you are looking for a dependable partner for premium steel pipes and valves, our team is ready to help.",
+    "contactItems": [
+      {
+        "label": "Hotline",
+        "value": "+86 400-888-2026"
+      },
+      {
+        "label": "Email",
+        "value": "sales@rongde-gd.com"
+      },
+      {
+        "label": "Address",
+        "value": "High-end Equipment Industrial Park, Foshan, Guangdong, China"
+      }
+    ],
+    "contactImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+    "footer": "Guangdong Rongde · Premium Steel Pipe & Valve Solutions"
+  },
+  "source": "cloudbase-static-export"
+}

@@ -36,8 +36,8 @@ function App() {
             <span>{error.message}</span>
           </div>
         ) : null}
-        {import.meta.env.DEV && !error && source === "cloudbase-server" ? (
-          <div className="cloudbase-status">CloudBase connected</div>
+        {import.meta.env.DEV && !error && source !== "fallback" ? (
+          <div className="cloudbase-status">{source}</div>
         ) : null}
         <Routes>
           <Route path="/" element={<HomePage copy={copy} />} />
