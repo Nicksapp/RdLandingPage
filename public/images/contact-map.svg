@@ -1,0 +1,18 @@
+<svg width="960" height="620" viewBox="0 0 960 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="620" rx="28" fill="url(#paint0_linear)"/>
+  <path d="M82 146C216 112 298 212 430 184C556 158 650 70 878 144" stroke="#8B98A6" stroke-width="14" stroke-linecap="round"/>
+  <path d="M88 304C244 286 326 358 444 338C614 308 682 238 866 268" stroke="#D5DDE5" stroke-width="16" stroke-linecap="round"/>
+  <path d="M116 454C270 422 378 518 500 470C620 424 742 390 838 456" stroke="#728294" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="624" cy="206" r="24" fill="#123B63"/>
+  <circle cx="624" cy="206" r="56" fill="#123B63" fill-opacity="0.16"/>
+  <rect x="566" y="258" width="222" height="122" rx="20" fill="#FFFFFF" fill-opacity="0.78"/>
+  <rect x="600" y="296" width="154" height="18" rx="9" fill="#D2DAE2"/>
+  <rect x="600" y="330" width="102" height="18" rx="9" fill="#D2DAE2"/>
+  <text x="80" y="94" fill="#102033" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Service Network Placeholder</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="44" y1="40" x2="902" y2="572" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF3F8"/>
+      <stop offset="1" stop-color="#C3CED8"/>
+    </linearGradient>
+  </defs>
+</svg>

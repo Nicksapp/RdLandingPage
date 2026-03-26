@@ -1,0 +1,20 @@
+<svg width="960" height="620" viewBox="0 0 960 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="620" rx="28" fill="url(#paint0_linear)"/>
+  <rect x="80" y="96" width="220" height="180" rx="24" fill="#FFFFFF" fill-opacity="0.74"/>
+  <rect x="330" y="96" width="220" height="180" rx="24" fill="#EEF3F8"/>
+  <rect x="580" y="96" width="300" height="180" rx="24" fill="#D4DCE4"/>
+  <rect x="80" y="304" width="390" height="222" rx="24" fill="#D4DCE4"/>
+  <rect x="496" y="304" width="384" height="222" rx="24" fill="#FFFFFF" fill-opacity="0.7"/>
+  <circle cx="808" cy="156" r="52" fill="#8A98A7"/>
+  <rect x="140" y="152" width="98" height="68" rx="34" fill="#123B63"/>
+  <rect x="380" y="134" width="124" height="104" rx="22" fill="#A0ADBA"/>
+  <rect x="178" y="358" width="200" height="118" rx="20" fill="#EFF3F8"/>
+  <circle cx="688" cy="414" r="74" fill="#A0ADBA"/>
+  <text x="82" y="66" fill="#102033" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Product Matrix Placeholder</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="72" y1="34" x2="894" y2="586" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EDF2F7"/>
+      <stop offset="1" stop-color="#B2BFCB"/>
+    </linearGradient>
+  </defs>
+</svg>

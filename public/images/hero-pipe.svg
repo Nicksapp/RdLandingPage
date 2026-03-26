@@ -1,0 +1,25 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="32" fill="url(#paint0_linear)"/>
+  <circle cx="922" cy="164" r="140" fill="white" fill-opacity="0.25"/>
+  <circle cx="1002" cy="278" r="220" fill="white" fill-opacity="0.16"/>
+  <rect x="90" y="120" width="488" height="520" rx="28" fill="#F8FBFF" fill-opacity="0.72"/>
+  <rect x="146" y="184" width="380" height="58" rx="14" fill="#AAB5C0"/>
+  <rect x="146" y="272" width="310" height="20" rx="10" fill="#D1D8DF"/>
+  <rect x="146" y="312" width="268" height="20" rx="10" fill="#D1D8DF"/>
+  <rect x="146" y="420" width="176" height="64" rx="32" fill="#123B63"/>
+  <g opacity="0.95">
+    <rect x="710" y="176" width="172" height="366" rx="86" fill="#D4DAE0"/>
+    <rect x="760" y="154" width="72" height="412" rx="36" fill="#EEF2F7"/>
+    <rect x="856" y="212" width="198" height="308" rx="99" fill="#8A98A7"/>
+    <rect x="918" y="192" width="76" height="344" rx="38" fill="#EFF3F8"/>
+  </g>
+  <text x="146" y="390" fill="#102033" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="700">Premium Steel Pipe</text>
+  <text x="146" y="560" fill="#4B5A69" font-family="Inter, Arial, sans-serif" font-size="24">Guangdong Rongde Placeholder Visual</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="78" y1="56" x2="1140" y2="698" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF0F6"/>
+      <stop offset="0.48" stop-color="#C7D1DB"/>
+      <stop offset="1" stop-color="#8997A7"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,26 @@
+{
+  "name": "rongde-landing-page",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server.mjs",
+    "seed:cloudbase": "node ./scripts/seed-cloudbase.mjs"
+  },
+  "dependencies": {
+    "@cloudbase/js-sdk": "^2.27.1",
+    "@cloudbase/node-sdk": "^3.18.1",
+    "@fontsource/inter": "5.0.18",
+    "@paper-design/shaders-react": "0.0.47",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.30.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "5.4.19"
+  }
+}

@@ -1,0 +1,26 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="32" fill="url(#paint0_linear)"/>
+  <circle cx="250" cy="620" r="220" fill="white" fill-opacity="0.12"/>
+  <circle cx="1020" cy="120" r="160" fill="white" fill-opacity="0.22"/>
+  <rect x="120" y="132" width="386" height="488" rx="28" fill="#FFFFFF" fill-opacity="0.78"/>
+  <rect x="170" y="210" width="238" height="20" rx="10" fill="#D3DAE1"/>
+  <rect x="170" y="246" width="288" height="20" rx="10" fill="#D3DAE1"/>
+  <rect x="170" y="390" width="180" height="64" rx="32" fill="#123B63"/>
+  <g opacity="0.96">
+    <circle cx="830" cy="380" r="150" fill="#D5DCE3"/>
+    <circle cx="830" cy="380" r="80" fill="#EEF3F8"/>
+    <rect x="792" y="178" width="76" height="148" rx="28" fill="#EEF3F8"/>
+    <rect x="792" y="432" width="76" height="148" rx="28" fill="#EEF3F8"/>
+    <rect x="628" y="344" width="404" height="72" rx="32" fill="#8B98A6"/>
+    <rect x="756" y="120" width="148" height="62" rx="24" fill="#8B98A6"/>
+  </g>
+  <text x="170" y="334" fill="#102033" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="700">Industrial Valve</text>
+  <text x="170" y="532" fill="#4B5A69" font-family="Inter, Arial, sans-serif" font-size="24">Flow Control Placeholder Visual</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="180" y1="74" x2="1042" y2="716" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0F4F8"/>
+      <stop offset="0.52" stop-color="#C6D0D9"/>
+      <stop offset="1" stop-color="#8695A5"/>
+    </linearGradient>
+  </defs>
+</svg>
