@@ -9,11 +9,17 @@ function ProductDetailPage({ copy }) {
 
   return (
     <main className="detail-page">
-      <section className="catalog-hero">
-        <div className="shell catalog-hero__inner">
-          <p className="module-index">{product.category}</p>
-          <h1>{product.title}</h1>
-          <p>{product.text}</p>
+      <section className="catalog-hero catalog-hero--banner">
+        <div className="catalog-hero__background">
+          <img src={product.image} alt={product.title} />
+        </div>
+        <div className="catalog-hero__overlay" />
+        <div className="shell catalog-hero__inner catalog-hero__inner--banner">
+          <div className="catalog-hero__copy">
+            <p className="module-index">{product.category}</p>
+            <h1>{product.title}</h1>
+            <p>{product.text}</p>
+          </div>
         </div>
       </section>
 
