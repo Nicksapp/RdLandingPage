@@ -17,31 +17,31 @@
       {
         "title": "Premium Pipe Systems",
         "description": "High-standard steel pipe supply for energy, chemical, and marine applications with traceable quality assurance.",
-        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
+        "image": "/images/hero-pipes.jpg"
       },
       {
         "title": "Industrial Valve Solutions",
         "description": "Ball, gate, globe, and check valves engineered for stable performance in critical flow-control systems.",
-        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
+        "image": "/images/hero-valves.jpg"
       },
       {
         "title": "Integrated Project Delivery",
         "description": "From specification matching to export execution, we simplify procurement for industrial customers.",
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
+        "image": "/images/hero-project.jpg"
       }
     ],
     "heroStats": [
       {
+        "value": "2020",
+        "label": "Founded"
+      },
+      {
+        "value": "15M RMB",
+        "label": "Registered Capital"
+      },
+      {
         "value": "20+",
         "label": "Years of expertise"
-      },
-      {
-        "value": "98%",
-        "label": "On-time delivery rate"
-      },
-      {
-        "value": "30+",
-        "label": "Countries served"
       }
     ],
     "capabilitiesTitle": "Core Business",
@@ -50,28 +50,28 @@
       {
         "title": "Premium Steel Pipes",
         "text": "Seamless, welded, precision, and custom-profile pipes for demanding industrial operating conditions.",
-        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
+        "image": "/images/capability-pipes.jpg"
       },
       {
         "title": "Industrial Valves",
         "text": "Ball, gate, globe, and check valves designed for reliability, lifetime stability, and easier maintenance.",
-        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
+        "image": "/images/capability-valves.jpg"
       },
       {
         "title": "Project Supply",
         "text": "Integrated execution for engineering orders with specification matching and export-ready coordination.",
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
+        "image": "/images/capability-project.jpg"
       }
     ],
     "aboutTitle": "About Us",
     "aboutLead": "Guangdong Rongde focuses on premium steel pipes, industrial valves, and fluid-control components with strong capabilities in engineering, integration, and delivery.",
-    "aboutBody": "We support demanding high-pressure, high-temperature, and corrosion-resistant scenarios through end-to-end services covering material selection, spec matching, customization, and shipment visibility.",
+    "aboutBody": "Founded in 2020 with a registered capital of 15 million RMB, Guangdong Rongde Steel Pipe Co., Ltd. is located in Lecong Steel World, Shunde District, Foshan City. We support demanding industrial scenarios through end-to-end services covering material selection, spec matching, customization, and shipment visibility.",
     "aboutHighlights": [
-      "Stainless, alloy, and duplex steel materials for critical environments",
+      "Integrated metal material sales and manufacturing services",
       "Support for cut-to-size, flange connection, and assembled delivery",
       "Serving EPC contractors and industrial end clients worldwide"
     ],
-    "aboutImage": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+    "aboutImage": "/images/hero-valves.jpg",
     "showcaseTitle": "Product Center",
     "showcaseLead": "A product portfolio built for durability, precision, and dependable lead times in critical industries.",
     "showcaseCta": "View All Products",
@@ -101,119 +101,280 @@
     ],
     "products": [
       {
-        "slug": "premium-steel-pipes",
-        "category": "Pipe Series",
-        "title": "Premium Steel Pipes",
-        "text": "Seamless, welded, precision, and custom-profile pipes for transmission, structural, and high-pressure systems.",
+        "slug": "red-grooved-elbow-90",
+        "category": "Red Grooved Fittings",
+        "title": "90° Grooved Elbow",
+        "text": "Fire protection 90-degree elbow, red epoxy coating, ductile iron, grooved quick connection.",
         "specs": [
-          "Stainless / Alloy / Duplex Steel",
-          "DN15-DN1200",
-          "Pressure & corrosion resistant"
+          "QT450-10 Ductile Iron",
+          "DN50-DN300",
+          "GB 5135.11 Standard",
+          "Red Epoxy Coating"
         ],
-        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
+        "image": "/images/capability-valves.jpg"
       },
       {
-        "slug": "industrial-valves",
-        "category": "Valve Series",
-        "title": "Industrial Valves",
-        "text": "Ball, gate, globe, check, and control valves designed for sealing performance and long service life.",
+        "slug": "red-grooved-elbow-45",
+        "category": "Red Grooved Fittings",
+        "title": "45° Grooved Elbow",
+        "text": "Fire protection 45-degree elbow for pipe direction change, red epoxy coating.",
         "specs": [
-          "API / DIN / GB standards",
-          "Manual / pneumatic / electric",
-          "High-temp sealing structure"
+          "QT450-10 Ductile Iron",
+          "DN50-DN300",
+          "GB 5135.11 Standard",
+          "Red Epoxy Coating"
         ],
-        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
+        "image": "/images/capability-valves.jpg"
       },
       {
-        "slug": "supporting-components",
-        "category": "Accessory Series",
-        "title": "Supporting Components",
-        "text": "Flanges, fittings, actuators, and connection accessories for complete fluid-control integration.",
+        "slug": "red-grooved-tee",
+        "category": "Red Grooved Fittings",
+        "title": "Grooved Tee",
+        "text": "Fire protection flow branch connection, equal tee design, grooved quick connection.",
         "specs": [
-          "Flanges / elbows / tees",
-          "Actuator integration",
-          "Project package supply"
+          "QT450-10 Ductile Iron",
+          "DN50-DN300",
+          "GB 5135.11 Standard",
+          "Red Epoxy Coating"
         ],
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
+        "image": "/images/capability-valves.jpg"
       },
       {
-        "slug": "precision-stainless-tubes",
-        "category": "Pipe Series",
-        "title": "Precision Stainless Tubes",
-        "text": "Designed for clean transfer systems, instrumentation, and advanced manufacturing lines with tighter tolerances.",
+        "slug": "red-grooved-cross",
+        "category": "Red Grooved Fittings",
+        "title": "Grooved Cross",
+        "text": "Fire protection four-way branch connection, equal cross design, red coating.",
         "specs": [
-          "BA / EP finishes",
-          "High cleanliness",
-          "Cut-to-length support"
+          "QT450-10 Ductile Iron",
+          "DN50-DN300",
+          "GB 5135.11 Standard",
+          "Red Epoxy Coating"
         ],
-        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
+        "image": "/images/capability-valves.jpg"
       },
       {
-        "slug": "high-performance-ball-valves",
-        "category": "Valve Series",
-        "title": "High-Performance Ball Valves",
-        "text": "Built for petrochemical, gas, and process-industry applications with rapid operation and low leakage.",
+        "slug": "red-rigid-coupling",
+        "category": "Red Grooved Fittings",
+        "title": "Rigid Coupling",
+        "text": "Fire protection rigid pipe joint for fixed connections, red coating, rubber seal.",
         "specs": [
-          "Floating / trunnion",
-          "Soft / metal seated",
-          "Fire-safe and anti-static"
+          "QT450-10 Ductile Iron",
+          "DN50-DN300",
+          "1.6MPa/2.5MPa",
+          "Red Epoxy Coating"
         ],
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
+        "image": "/images/capability-project.jpg"
       },
       {
-        "slug": "industrial-flanges-fittings",
-        "category": "Accessory Series",
-        "title": "Industrial Flanges & Fittings",
-        "text": "Multi-standard connections and custom machining for complex piping systems and export projects.",
+        "slug": "red-flexible-coupling",
+        "category": "Red Grooved Fittings",
+        "title": "Flexible Coupling",
+        "text": "Fire protection flexible pipe joint allowing angular deviation, vibration damping.",
         "specs": [
-          "ASME / EN / JIS",
-          "Forged and machined",
-          "Material traceability reports"
+          "QT450-10 Ductile Iron",
+          "DN50-DN300",
+          "1.6MPa/2.5MPa",
+          "Red Epoxy Coating"
         ],
-        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
+        "image": "/images/capability-project.jpg"
+      },
+      {
+        "slug": "red-mechanical-tee",
+        "category": "Red Grooved Fittings",
+        "title": "Mechanical Tee",
+        "text": "Fire protection branch connection with mechanical outlet, no welding required.",
+        "specs": [
+          "QT450-10 Ductile Iron",
+          "DN50-DN300",
+          "GB 5135.11 Standard",
+          "Red Epoxy Coating"
+        ],
+        "image": "/images/capability-pipes.jpg"
+      },
+      {
+        "slug": "red-mechanical-cross",
+        "category": "Red Grooved Fittings",
+        "title": "Mechanical Cross",
+        "text": "Fire protection dual branch connection, mechanical outlet cross design.",
+        "specs": [
+          "QT450-10 Ductile Iron",
+          "DN50-DN300",
+          "GB 5135.11 Standard",
+          "Red Epoxy Coating"
+        ],
+        "image": "/images/capability-pipes.jpg"
+      },
+      {
+        "slug": "red-reducer",
+        "category": "Red Grooved Fittings",
+        "title": "Grooved Reducer",
+        "text": "Fire protection pipe size transition, concentric/eccentric reducer, red coating.",
+        "specs": [
+          "QT450-10 Ductile Iron",
+          "DN50-DN300",
+          "GB 5135.11 Standard",
+          "Red Epoxy Coating"
+        ],
+        "image": "/images/capability-pipes.jpg"
+      },
+      {
+        "slug": "red-cap",
+        "category": "Red Grooved Fittings",
+        "title": "Grooved Cap/Plug",
+        "text": "Fire protection pipe end closure, cap/plug design, red coating.",
+        "specs": [
+          "QT450-10 Ductile Iron",
+          "DN50-DN300",
+          "GB 5135.11 Standard",
+          "Red Epoxy Coating"
+        ],
+        "image": "/images/capability-project.jpg"
+      },
+      {
+        "slug": "lined-grooved-elbow",
+        "category": "Lined Fittings",
+        "title": "Lined Grooved Elbow",
+        "text": "Drinking water pipe fitting, galvanized exterior with PE lining, hygienic and non-toxic.",
+        "specs": [
+          "Galvanized+PE Lined",
+          "DN50-DN300",
+          "Potable Water",
+          "Sanitary Silicone Seal"
+        ],
+        "image": "/images/capability-valves.jpg"
+      },
+      {
+        "slug": "lined-grooved-tee",
+        "category": "Lined Fittings",
+        "title": "Lined Grooved Tee",
+        "text": "Drinking water branch connection, PE lined interior, galvanized protection.",
+        "specs": [
+          "Galvanized+PE Lined",
+          "DN50-DN300",
+          "Potable Water",
+          "Sanitary Silicone Seal"
+        ],
+        "image": "/images/capability-valves.jpg"
+      },
+      {
+        "slug": "lined-grooved-cross",
+        "category": "Lined Fittings",
+        "title": "Lined Grooved Cross",
+        "text": "Drinking water four-way branch, PE lined interior, for water supply systems.",
+        "specs": [
+          "Galvanized+PE Lined",
+          "DN50-DN300",
+          "Potable Water",
+          "Sanitary Silicone Seal"
+        ],
+        "image": "/images/capability-valves.jpg"
+      },
+      {
+        "slug": "lined-coupling",
+        "category": "Lined Fittings",
+        "title": "Lined Coupling",
+        "text": "Drinking water pipe connection, PE lined interior, galvanized/silver coating.",
+        "specs": [
+          "Galvanized+PE Lined",
+          "DN50-DN300",
+          "1.6MPa Pressure",
+          "Sanitary Silicone Seal"
+        ],
+        "image": "/images/capability-project.jpg"
+      },
+      {
+        "slug": "lined-reducer",
+        "category": "Lined Fittings",
+        "title": "Lined Reducer",
+        "text": "Drinking water size transition, PE lined interior, galvanized protection.",
+        "specs": [
+          "Galvanized+PE Lined",
+          "DN50-DN300",
+          "Potable Water",
+          "Sanitary Silicone Seal"
+        ],
+        "image": "/images/capability-pipes.jpg"
+      },
+      {
+        "slug": "lined-mechanical-tee",
+        "category": "Lined Fittings",
+        "title": "Lined Mechanical Tee",
+        "text": "Drinking water branch outlet, PE lined interior, mechanical connection.",
+        "specs": [
+          "Galvanized+PE Lined",
+          "DN50-DN300",
+          "Potable Water",
+          "Sanitary Silicone Seal"
+        ],
+        "image": "/images/capability-pipes.jpg"
+      },
+      {
+        "slug": "lined-cap",
+        "category": "Lined Fittings",
+        "title": "Lined Cap",
+        "text": "Drinking water pipe end closure, PE lined interior, galvanized protection.",
+        "specs": [
+          "Galvanized+PE Lined",
+          "DN50-DN300",
+          "Potable Water",
+          "Sanitary Silicone Seal"
+        ],
+        "image": "/images/capability-project.jpg"
+      },
+      {
+        "slug": "lined-flange-adapter",
+        "category": "Lined Fittings",
+        "title": "Lined Flange Adapter",
+        "text": "Drinking water flange transition, PE lined interior, multi-standard compatible.",
+        "specs": [
+          "Galvanized+PE Lined",
+          "DN50-DN300",
+          "GB/ANSI/DIN",
+          "Sanitary Silicone Seal"
+        ],
+        "image": "/images/capability-project.jpg"
       }
     ],
     "categories": [
       "All Products",
-      "Pipe Series",
-      "Valve Series",
-      "Accessory Series"
+      "Red Grooved Fittings",
+      "Lined Fittings"
     ],
     "productGroups": [
       {
-        "id": "pipe-systems",
-        "title": "Pipe Systems",
-        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1",
+        "id": "red-grooved-fittings",
+        "title": "Red Grooved Fittings",
+        "image": "/images/hero-valves.jpg",
         "subcategories": [
           {
-            "title": "Premium Pipe",
+            "title": "Elbow Series",
             "children": [
               {
-                "title": "Industrial Transfer Pipe",
+                "title": "90° Elbow",
                 "items": [
                   {
-                    "slug": "premium-steel-pipes",
-                    "title": "Premium Steel Pipes",
+                    "slug": "red-grooved-elbow-90",
+                    "title": "90° Grooved Elbow",
                     "points": [
-                      "High-pressure transfer",
-                      "Multiple material grades",
-                      "Project-ready supply",
-                      "Full batch traceability"
+                      "Fire protection",
+                      "Red epoxy coating",
+                      "QT450-10 material",
+                      "GB 5135.11 standard"
                     ]
                   }
                 ]
               },
               {
-                "title": "Precision Tubing",
+                "title": "45° Elbow",
                 "items": [
                   {
-                    "slug": "precision-stainless-tubes",
-                    "title": "Precision Stainless Tubes",
+                    "slug": "red-grooved-elbow-45",
+                    "title": "45° Grooved Elbow",
                     "points": [
-                      "High cleanliness",
-                      "Stable tolerance",
-                      "BA / EP support",
-                      "Instrumentation-ready"
+                      "Direction change",
+                      "Red epoxy coating",
+                      "Grooved connection",
+                      "Ductile iron"
                     ]
                   }
                 ]
@@ -221,34 +382,139 @@
             ]
           },
           {
-            "title": "Engineering Tubes",
+            "title": "Tee & Cross",
             "children": [
               {
-                "title": "Seamless Pipe",
+                "title": "Equal Tee",
                 "items": [
                   {
-                    "slug": "premium-steel-pipes",
-                    "title": "Seamless & Welded Pipes",
+                    "slug": "red-grooved-tee",
+                    "title": "Grooved Tee",
                     "points": [
-                      "Structural and transfer use",
-                      "Pressure resistant",
-                      "Wide size coverage",
-                      "Flexible customization"
+                      "Flow branch",
+                      "Equal design",
+                      "Red coating",
+                      "Easy install"
                     ]
                   }
                 ]
               },
               {
-                "title": "Project Custom Tubes",
+                "title": "Equal Cross",
                 "items": [
                   {
-                    "slug": "precision-stainless-tubes",
-                    "title": "Custom Engineering Tubes",
+                    "slug": "red-grooved-cross",
+                    "title": "Grooved Cross",
                     "points": [
-                      "Cut-to-length delivery",
-                      "Profile customization",
-                      "Interface-ready",
-                      "Efficient for projects"
+                      "Four-way branch",
+                      "Red coating",
+                      "Ductile iron",
+                      "GB standard"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Couplings",
+            "children": [
+              {
+                "title": "Rigid Coupling",
+                "items": [
+                  {
+                    "slug": "red-rigid-coupling",
+                    "title": "Rigid Coupling",
+                    "points": [
+                      "Fixed connection",
+                      "Rubber seal",
+                      "Red coating",
+                      "1.6/2.5MPa"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Flexible Coupling",
+                "items": [
+                  {
+                    "slug": "red-flexible-coupling",
+                    "title": "Flexible Coupling",
+                    "points": [
+                      "Angular tolerance",
+                      "Vibration damping",
+                      "Red coating",
+                      "Quick install"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Mechanical",
+            "children": [
+              {
+                "title": "Mechanical Tee",
+                "items": [
+                  {
+                    "slug": "red-mechanical-tee",
+                    "title": "Mechanical Tee",
+                    "points": [
+                      "Outlet branch",
+                      "No welding",
+                      "Quick install",
+                      "Red coating"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Mechanical Cross",
+                "items": [
+                  {
+                    "slug": "red-mechanical-cross",
+                    "title": "Mechanical Cross",
+                    "points": [
+                      "Dual branch",
+                      "Mechanical outlet",
+                      "Red coating",
+                      "GB standard"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Others",
+            "children": [
+              {
+                "title": "Reducer",
+                "items": [
+                  {
+                    "slug": "red-reducer",
+                    "title": "Grooved Reducer",
+                    "points": [
+                      "Size transition",
+                      "Concentric/Eccentric",
+                      "Red coating",
+                      "Grooved"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Cap/Plug",
+                "items": [
+                  {
+                    "slug": "red-cap",
+                    "title": "Grooved Cap/Plug",
+                    "points": [
+                      "End closure",
+                      "Plug design",
+                      "Red coating",
+                      "Quick install"
                     ]
                   }
                 ]
@@ -258,39 +524,24 @@
         ]
       },
       {
-        "id": "valve-systems",
-        "title": "Valve Systems",
-        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+        "id": "lined-grooved-fittings",
+        "title": "Lined Fittings",
+        "image": "/images/capability-pipes.jpg",
         "subcategories": [
           {
-            "title": "General Valves",
+            "title": "Lined Elbows",
             "children": [
               {
-                "title": "Ball Valve Series",
+                "title": "Lined Elbow",
                 "items": [
                   {
-                    "slug": "high-performance-ball-valves",
-                    "title": "High-Performance Ball Valves",
+                    "slug": "lined-grooved-elbow",
+                    "title": "Lined Grooved Elbow",
                     "points": [
-                      "Fast opening and closing",
-                      "Low leakage control",
-                      "Fire-safe and anti-static",
-                      "Metal seated option"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "General Valve Series",
-                "items": [
-                  {
-                    "slug": "industrial-valves",
-                    "title": "Industrial Valves",
-                    "points": [
-                      "Stable sealing performance",
-                      "Multiple interface standards",
-                      "Manual / pneumatic / electric",
-                      "Reliable long-term operation"
+                      "Potable water",
+                      "PE lined",
+                      "Galvanized",
+                      "Hygienic"
                     ]
                   }
                 ]
@@ -298,76 +549,34 @@
             ]
           },
           {
-            "title": "Control & Actuation",
+            "title": "Lined Tee & Cross",
             "children": [
               {
-                "title": "Globe Valve",
+                "title": "Lined Tee",
                 "items": [
                   {
-                    "slug": "industrial-valves",
-                    "title": "Globe & Check Valves",
+                    "slug": "lined-grooved-tee",
+                    "title": "Lined Grooved Tee",
                     "points": [
-                      "Process-industry ready",
-                      "Robust structure",
-                      "Easy maintenance",
-                      "Project assembly support"
+                      "Flow branch",
+                      "PE lined",
+                      "Galvanized",
+                      "Sanitary"
                     ]
                   }
                 ]
               },
               {
-                "title": "Actuation Unit",
+                "title": "Lined Cross",
                 "items": [
                   {
-                    "slug": "industrial-valves",
-                    "title": "Valve Control Components",
+                    "slug": "lined-grooved-cross",
+                    "title": "Lined Grooved Cross",
                     "points": [
-                      "Automation ready",
-                      "Stable linked control",
-                      "Fits multiple valve types",
-                      "Easy centralized maintenance"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "fitting-systems",
-        "title": "Fittings & Components",
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
-        "subcategories": [
-          {
-            "title": "Connections",
-            "children": [
-              {
-                "title": "Flange Products",
-                "items": [
-                  {
-                    "slug": "industrial-flanges-fittings",
-                    "title": "Industrial Flanges & Fittings",
-                    "points": [
-                      "Multi-standard compatibility",
-                      "Forged and machined",
-                      "Complex piping support",
-                      "Material reports available"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "Special Fittings",
-                "items": [
-                  {
-                    "slug": "industrial-flanges-fittings",
-                    "title": "Elbows, Tees & Special Parts",
-                    "points": [
-                      "Multi-size machining",
-                      "Complex interface support",
-                      "Stable project supply",
-                      "Drawing-based sampling"
+                      "Four-way branch",
+                      "PE lined",
+                      "Water supply",
+                      "Silicone seal"
                     ]
                   }
                 ]
@@ -375,76 +584,34 @@
             ]
           },
           {
-            "title": "Package Components",
+            "title": "Lined Couplings",
             "children": [
               {
-                "title": "Actuator Accessories",
+                "title": "Lined Coupling",
                 "items": [
                   {
-                    "slug": "supporting-components",
-                    "title": "Supporting Components",
+                    "slug": "lined-coupling",
+                    "title": "Lined Coupling",
                     "points": [
-                      "Flanges, elbows, tees",
-                      "Actuators and accessories",
-                      "Complete package supply",
-                      "Shorter sourcing cycles"
+                      "Pipe connection",
+                      "PE lined",
+                      "Galvanized",
+                      "1.6MPa"
                     ]
                   }
                 ]
               },
               {
-                "title": "Project Spare Parts",
+                "title": "Lined Reducer",
                 "items": [
                   {
-                    "slug": "supporting-components",
-                    "title": "Engineering Spare Components",
+                    "slug": "lined-reducer",
+                    "title": "Lined Reducer",
                     "points": [
-                      "Retrofit and maintenance ready",
-                      "Common sizes covered",
-                      "Centralized sourcing",
-                      "Fast delivery support"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "project-services",
-        "title": "Project Services",
-        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
-        "subcategories": [
-          {
-            "title": "Project Delivery",
-            "children": [
-              {
-                "title": "Integrated Delivery",
-                "items": [
-                  {
-                    "slug": "supporting-components",
-                    "title": "Integrated Engineering Supply",
-                    "points": [
-                      "Spec consolidation",
-                      "Export coordination",
-                      "Inspection and traceability",
-                      "Stable milestone delivery"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "Supply Coordination",
-                "items": [
-                  {
-                    "slug": "supporting-components",
-                    "title": "Project Supply Coordination",
-                    "points": [
-                      "Planned batch supply",
-                      "Aligned to project milestones",
-                      "Transparent tracking",
-                      "Improved sourcing efficiency"
+                      "Size transition",
+                      "PE lined",
+                      "Galvanized",
+                      "Sanitary"
                     ]
                   }
                 ]
@@ -452,34 +619,49 @@
             ]
           },
           {
-            "title": "Technical Support",
+            "title": "Other Lined",
             "children": [
               {
-                "title": "Selection Service",
+                "title": "Lined Mech Tee",
                 "items": [
                   {
-                    "slug": "premium-steel-pipes",
-                    "title": "Selection & Processing Support",
+                    "slug": "lined-mechanical-tee",
+                    "title": "Lined Mechanical Tee",
                     "points": [
-                      "Material guidance",
-                      "Interface matching",
-                      "Custom fabrication",
-                      "Sampling support"
+                      "Outlet branch",
+                      "PE lined",
+                      "Mechanical",
+                      "No welding"
                     ]
                   }
                 ]
               },
               {
-                "title": "Project Consulting",
+                "title": "Lined Cap",
                 "items": [
                   {
-                    "slug": "industrial-valves",
-                    "title": "Operating Condition Consulting",
+                    "slug": "lined-cap",
+                    "title": "Lined Cap",
                     "points": [
-                      "Condition-based material advice",
-                      "Standard matching",
-                      "Optimized sourcing plan",
-                      "Less on-site adjustment"
+                      "End closure",
+                      "PE lined",
+                      "Galvanized",
+                      "Sanitary"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Lined Flange",
+                "items": [
+                  {
+                    "slug": "lined-flange-adapter",
+                    "title": "Lined Flange Adapter",
+                    "points": [
+                      "Flange transition",
+                      "PE lined",
+                      "Multi-standard",
+                      "Silicone seal"
                     ]
                   }
                 ]
@@ -502,11 +684,11 @@
       },
       {
         "label": "Address",
-        "value": "High-end Equipment Industrial Park, Foshan, Guangdong, China"
+        "value": "No. 39, South 1st Road, Steel World Avenue 20, E1 District, Lecong Steel World, Lecong Town, Shunde District, Foshan City, Guangdong Province"
       }
     ],
-    "contactImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+    "contactImage": "/images/hero-project.jpg",
     "footer": "Guangdong Rongde · Premium Steel Pipe & Valve Solutions"
   },
-  "source": "cloudbase-static-export"
+  "source": "local-fallback-export"
 }

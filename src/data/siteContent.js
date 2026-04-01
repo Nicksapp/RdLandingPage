@@ -45,9 +45,9 @@ export const content = {
       },
     ],
     heroStats: [
+      { value: "2020", label: "公司成立" },
+      { value: "1500万", label: "注册资本" },
       { value: "20+", label: "年行业经验" },
-      { value: "98%", label: "项目准时交付率" },
-      { value: "30+", label: "覆盖国家与地区" },
     ],
     capabilitiesTitle: "核心业务",
     capabilitiesLead: "围绕钢管、阀门与项目成套交付，构建覆盖选型、加工、供应与服务的完整能力链。",
@@ -72,9 +72,9 @@ export const content = {
     aboutLead:
       "广东嵘德专注于高端钢管、工业阀门及配套流体控制部件的研发、集成与交付，以稳定质量和快速响应服务全球工业客户。",
     aboutBody:
-      "我们深耕高压、高温、耐腐蚀工况，构建从选材建议、规格匹配、加工定制到出货追踪的完整服务链路，让每一次采购都更高效、更可靠。",
+      "广东嵘德钢管有限公司成立于2020年，注册资本1500万元，位于佛山市顺德区乐从钢铁世界。我们深耕金属材料销售与制造，构建从选材建议、规格匹配、加工定制到出货追踪的完整服务链路，让每一次采购都更高效、更可靠。",
     aboutHighlights: [
-      "严选不锈钢、合金钢、双相钢等材质",
+      "金属材料销售与制造一体化服务",
       "支持多规格切割、法兰连接与组配交付",
       "服务海内外 EPC 与工业终端客户",
     ],
@@ -107,164 +107,280 @@ export const content = {
       },
     ],
     products: [
+      // 红色沟槽管件系列
       {
-        slug: "premium-steel-pipes",
-        category: "钢管系列",
-        title: "高端钢管",
-        text: "无缝钢管、焊接钢管、精密管及异形管，适配输送、结构与高压系统需求。",
-        specs: ["不锈钢 / 合金钢 / 双相钢", "DN15-DN1200", "耐压与耐腐蚀工况"],
-        image: images.capabilityPipes,
-      },
-      {
-        slug: "industrial-valves",
-        category: "阀门系列",
-        title: "工业阀门",
-        text: "球阀、闸阀、截止阀、止回阀与控制阀，兼顾密封性能与长期稳定运行。",
-        specs: ["API / DIN / GB 标准", "手动 / 气动 / 电动", "高温高压密封结构"],
+        slug: "red-grooved-elbow-90",
+        category: "红色沟槽管件",
+        title: "90°沟槽弯头",
+        text: "消防管道系统专用90度弯头，红色环氧涂层，球墨铸铁材质，沟槽式快速连接。",
+        specs: ["QT450-10球墨铸铁", "DN50-DN300", "GB 5135.11标准", "红色环氧涂层"],
         image: images.capabilityValves,
       },
       {
-        slug: "supporting-components",
-        category: "配件系列",
-        title: "配套组件",
-        text: "法兰、管件、执行器与连接附件，支持整套流体控制方案快速集成。",
-        specs: ["法兰 / 弯头 / 三通", "执行器联动方案", "项目成套供货"],
+        slug: "red-grooved-elbow-45",
+        category: "红色沟槽管件",
+        title: "45°沟槽弯头",
+        text: "消防管道系统专用45度弯头，用于管道转向连接，红色环氧涂层处理。",
+        specs: ["QT450-10球墨铸铁", "DN50-DN300", "GB 5135.11标准", "红色环氧涂层"],
+        image: images.capabilityValves,
+      },
+      {
+        slug: "red-grooved-tee",
+        category: "红色沟槽管件",
+        title: "沟槽正三通",
+        text: "消防管道分流连接专用，等径三通设计，沟槽式快速连接，安装便捷。",
+        specs: ["QT450-10球墨铸铁", "DN50-DN300", "GB 5135.11标准", "红色环氧涂层"],
+        image: images.capabilityValves,
+      },
+      {
+        slug: "red-grooved-cross",
+        category: "红色沟槽管件",
+        title: "沟槽正四通",
+        text: "消防管道十字分支连接，等径四通设计，红色涂层，球墨铸铁材质。",
+        specs: ["QT450-10球墨铸铁", "DN50-DN300", "GB 5135.11标准", "红色环氧涂层"],
+        image: images.capabilityValves,
+      },
+      {
+        slug: "red-rigid-coupling",
+        category: "红色沟槽管件",
+        title: "刚性卡箍接头",
+        text: "消防管道刚性连接接头，用于固定管道连接点，红色涂层，橡胶密封圈。",
+        specs: ["QT450-10球墨铸铁", "DN50-DN300", "1.6MPa/2.5MPa", "红色环氧涂层"],
         image: images.capabilityProject,
       },
       {
-        slug: "precision-stainless-tubes",
-        category: "钢管系列",
-        title: "精密不锈钢管",
-        text: "用于洁净输送、仪表系统与高要求制造产线，具备更高尺寸精度与表面质量。",
-        specs: ["BA / EP 表面处理", "高洁净度", "支持定尺交付"],
+        slug: "red-flexible-coupling",
+        category: "红色沟槽管件",
+        title: "挠性卡箍接头",
+        text: "消防管道挠性连接接头，允许一定角度偏差，减震降噪，红色涂层处理。",
+        specs: ["QT450-10球墨铸铁", "DN50-DN300", "1.6MPa/2.5MPa", "红色环氧涂层"],
+        image: images.capabilityProject,
+      },
+      {
+        slug: "red-mechanical-tee",
+        category: "红色沟槽管件",
+        title: "机械三通",
+        text: "消防管道开孔分支连接，无需焊接，机械开孔连接，快速安装。",
+        specs: ["QT450-10球墨铸铁", "DN50-DN300", "GB 5135.11标准", "红色环氧涂层"],
         image: images.capabilityPipes,
       },
       {
-        slug: "high-performance-ball-valves",
-        category: "阀门系列",
-        title: "高性能球阀",
-        text: "适用于石化、天然气与流程工业场景，兼顾快速启闭与低泄漏控制。",
-        specs: ["浮动式 / 固定式", "软密封 / 硬密封", "支持防火防静电"],
+        slug: "red-mechanical-cross",
+        category: "红色沟槽管件",
+        title: "机械四通",
+        text: "消防管道双分支连接，机械开孔四通设计，红色涂层，球墨铸铁材质。",
+        specs: ["QT450-10球墨铸铁", "DN50-DN300", "GB 5135.11标准", "红色环氧涂层"],
+        image: images.capabilityPipes,
+      },
+      {
+        slug: "red-reducer",
+        category: "红色沟槽管件",
+        title: "沟槽异径管",
+        text: "消防管道变径连接，同心/偏心异径设计，红色环氧涂层，沟槽连接。",
+        specs: ["QT450-10球墨铸铁", "DN50-DN300", "GB 5135.11标准", "红色环氧涂层"],
+        image: images.capabilityPipes,
+      },
+      {
+        slug: "red-cap",
+        category: "红色沟槽管件",
+        title: "沟槽管帽/堵板",
+        text: "消防管道末端封堵，盲板/管帽设计，红色涂层，沟槽式快速安装。",
+        specs: ["QT450-10球墨铸铁", "DN50-DN300", "GB 5135.11标准", "红色环氧涂层"],
+        image: images.capabilityProject,
+      },
+      // 衬塑产品系列
+      {
+        slug: "lined-grooved-elbow",
+        category: "衬塑产品",
+        title: "衬塑沟槽弯头",
+        text: "饮用水/给水管件，外镀锌/喷塑内衬PE，卫生无毒，沟槽快速连接。",
+        specs: ["外镀锌内衬PE", "DN50-DN300", "饮用水专用", "卫生级硅胶密封圈"],
+        image: images.capabilityValves,
+      },
+      {
+        slug: "lined-grooved-tee",
+        category: "衬塑产品",
+        title: "衬塑沟槽三通",
+        text: "饮用水管道分流连接，内衬PE防腐层，外镀锌保护，卫生安全。",
+        specs: ["外镀锌内衬PE", "DN50-DN300", "饮用水专用", "卫生级硅胶密封圈"],
+        image: images.capabilityValves,
+      },
+      {
+        slug: "lined-grooved-cross",
+        category: "衬塑产品",
+        title: "衬塑沟槽四通",
+        text: "饮用水管道十字分支，内衬PE防腐，外镀锌层，适用于给水系统。",
+        specs: ["外镀锌内衬PE", "DN50-DN300", "饮用水专用", "卫生级硅胶密封圈"],
+        image: images.capabilityValves,
+      },
+      {
+        slug: "lined-coupling",
+        category: "衬塑产品",
+        title: "衬塑卡箍接头",
+        text: "饮用水管道连接专用，内衬PE防腐层，外镀锌/银色喷塑，硅胶密封圈。",
+        specs: ["外镀锌内衬PE", "DN50-DN300", "1.6MPa压力", "卫生级硅胶密封圈"],
         image: images.capabilityProject,
       },
       {
-        slug: "industrial-flanges-fittings",
-        category: "配件系列",
-        title: "工业法兰与管件",
-        text: "支持多标准连接与非标加工，适配复杂管路系统与出口项目。",
-        specs: ["ASME / EN / JIS", "锻造与机加工", "可提供材质报告"],
-        image: images.capabilityValves,
+        slug: "lined-reducer",
+        category: "衬塑产品",
+        title: "衬塑异径管",
+        text: "饮用水管道变径连接，内衬PE防腐，外镀锌保护，卫生无毒材质。",
+        specs: ["外镀锌内衬PE", "DN50-DN300", "饮用水专用", "卫生级硅胶密封圈"],
+        image: images.capabilityPipes,
+      },
+      {
+        slug: "lined-mechanical-tee",
+        category: "衬塑产品",
+        title: "衬塑机械三通",
+        text: "饮用水管道开孔分支，内衬PE防腐层，机械连接，无需焊接。",
+        specs: ["外镀锌内衬PE", "DN50-DN300", "饮用水专用", "卫生级硅胶密封圈"],
+        image: images.capabilityPipes,
+      },
+      {
+        slug: "lined-cap",
+        category: "衬塑产品",
+        title: "衬塑管帽",
+        text: "饮用水管道末端封堵，内衬PE防腐，外镀锌保护，卫生安全。",
+        specs: ["外镀锌内衬PE", "DN50-DN300", "饮用水专用", "卫生级硅胶密封圈"],
+        image: images.capabilityProject,
+      },
+      {
+        slug: "lined-flange-adapter",
+        category: "衬塑产品",
+        title: "衬塑法兰接头",
+        text: "饮用水管道法兰转换连接，内衬PE防腐，适配各种法兰标准。",
+        specs: ["外镀锌内衬PE", "DN50-DN300", "GB/ANSI/DIN", "卫生级硅胶密封圈"],
+        image: images.capabilityProject,
       },
     ],
-    categories: ["全部产品", "钢管系列", "阀门系列", "配件系列"],
+    categories: ["全部产品", "红色沟槽管件", "衬塑产品"],
     productGroups: [
       {
-        id: "pipe-systems",
-        title: "钢管系统",
-        image: images.heroPipes,
-        subcategories: [
-          {
-            title: "高端钢管",
-            children: [
-              {
-                title: "工业输送管",
-                items: [
-                  {
-                    slug: "premium-steel-pipes",
-                    title: "高端钢管",
-                    points: ["高压输送工况", "多材质可选", "支持项目批量供货", "批次追溯完整"],
-                  },
-                ],
-              },
-              {
-                title: "精密管材",
-                items: [
-                  {
-                    slug: "precision-stainless-tubes",
-                    title: "精密不锈钢管",
-                    points: ["高洁净度", "尺寸精度稳定", "支持 BA / EP", "适配仪表与洁净系统"],
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            title: "工程管材",
-            children: [
-              {
-                title: "无缝钢管",
-                items: [
-                  {
-                    slug: "premium-steel-pipes",
-                    title: "无缝与焊接管",
-                    points: ["结构与输送双场景", "耐压耐腐蚀", "规格覆盖广", "加工定制灵活"],
-                  },
-                ],
-              },
-              {
-                title: "项目定制管",
-                items: [
-                  {
-                    slug: "precision-stainless-tubes",
-                    title: "定制工程管",
-                    points: ["支持定尺交付", "可做异形加工", "配合安装接口", "工程配套效率高"],
-                  },
-                ],
-              },
-            ],
-          },
-        ],
-      },
-      {
-        id: "valve-systems",
-        title: "阀门系统",
+        id: "red-grooved-fittings",
+        title: "红色沟槽管件",
         image: images.heroValves,
         subcategories: [
           {
-            title: "通用工业阀门",
+            title: "弯头系列",
             children: [
               {
-                title: "球阀系列",
+                title: "90°弯头",
                 items: [
                   {
-                    slug: "high-performance-ball-valves",
-                    title: "高性能球阀",
-                    points: ["快速启闭", "低泄漏控制", "防火防静电", "硬密封可选"],
+                    slug: "red-grooved-elbow-90",
+                    title: "90°沟槽弯头",
+                    points: ["消防管道专用", "红色环氧涂层", "QT450-10材质", "GB 5135.11标准"],
                   },
                 ],
               },
               {
-                title: "通用阀门",
+                title: "45°弯头",
                 items: [
                   {
-                    slug: "industrial-valves",
-                    title: "工业阀门",
-                    points: ["密封性能稳定", "适配多标准接口", "手动气动电动可选", "长期运行可靠"],
+                    slug: "red-grooved-elbow-45",
+                    title: "45°沟槽弯头",
+                    points: ["管道转向连接", "红色环氧涂层", "沟槽快速连接", "球墨铸铁"],
                   },
                 ],
               },
             ],
           },
           {
-            title: "控制与执行",
+            title: "三通四通",
             children: [
               {
-                title: "截止阀",
+                title: "正三通",
                 items: [
                   {
-                    slug: "industrial-valves",
-                    title: "截止阀与止回阀",
-                    points: ["适用流程工业", "结构稳固", "维护便利", "支持项目组配"],
+                    slug: "red-grooved-tee",
+                    title: "沟槽正三通",
+                    points: ["分流连接专用", "等径设计", "红色涂层", "安装便捷"],
                   },
                 ],
               },
               {
-                title: "执行控制单元",
+                title: "正四通",
                 items: [
                   {
-                    slug: "industrial-valves",
-                    title: "阀门执行控制组件",
-                    points: ["支持自动化改造", "联动控制稳定", "适配多阀型", "便于集中维护"],
+                    slug: "red-grooved-cross",
+                    title: "沟槽正四通",
+                    points: ["十字分支", "红色涂层", "球墨铸铁", "GB标准"],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            title: "卡箍接头",
+            children: [
+              {
+                title: "刚性接头",
+                items: [
+                  {
+                    slug: "red-rigid-coupling",
+                    title: "刚性卡箍接头",
+                    points: ["固定连接", "橡胶密封", "红色涂层", "1.6/2.5MPa"],
+                  },
+                ],
+              },
+              {
+                title: "挠性接头",
+                items: [
+                  {
+                    slug: "red-flexible-coupling",
+                    title: "挠性卡箍接头",
+                    points: ["允许角度偏差", "减震降噪", "红色涂层", "快速安装"],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            title: "机械连接",
+            children: [
+              {
+                title: "机械三通",
+                items: [
+                  {
+                    slug: "red-mechanical-tee",
+                    title: "机械三通",
+                    points: ["开孔分支", "无需焊接", "快速安装", "红色涂层"],
+                  },
+                ],
+              },
+              {
+                title: "机械四通",
+                items: [
+                  {
+                    slug: "red-mechanical-cross",
+                    title: "机械四通",
+                    points: ["双分支连接", "机械开孔", "红色涂层", "GB标准"],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            title: "其他管件",
+            children: [
+              {
+                title: "异径管",
+                items: [
+                  {
+                    slug: "red-reducer",
+                    title: "沟槽异径管",
+                    points: ["变径连接", "同心/偏心", "红色涂层", "沟槽连接"],
+                  },
+                ],
+              },
+              {
+                title: "管帽堵板",
+                items: [
+                  {
+                    slug: "red-cap",
+                    title: "沟槽管帽/堵板",
+                    points: ["末端封堵", "盲板设计", "红色涂层", "快速安装"],
                   },
                 ],
               },
@@ -273,112 +389,105 @@ export const content = {
         ],
       },
       {
-        id: "fitting-systems",
-        title: "管件配件",
-        image: images.capabilityProject,
+        id: "lined-grooved-fittings",
+        title: "衬塑产品",
+        image: images.capabilityPipes,
         subcategories: [
           {
-            title: "连接件",
+            title: "衬塑弯头",
             children: [
               {
-                title: "法兰产品",
+                title: "衬塑沟槽弯头",
                 items: [
                   {
-                    slug: "industrial-flanges-fittings",
-                    title: "工业法兰与管件",
-                    points: ["多标准兼容", "锻造与机加工", "适配复杂管路", "可提供材质报告"],
-                  },
-                ],
-              },
-              {
-                title: "异形管件",
-                items: [
-                  {
-                    slug: "industrial-flanges-fittings",
-                    title: "弯头三通与异形件",
-                    points: ["多规格机加工", "适配复杂接口", "项目供货稳定", "支持图纸打样"],
+                    slug: "lined-grooved-elbow",
+                    title: "衬塑沟槽弯头",
+                    points: ["饮用水专用", "内衬PE防腐", "外镀锌保护", "卫生无毒"],
                   },
                 ],
               },
             ],
           },
           {
-            title: "成套配件",
+            title: "衬塑三通四通",
             children: [
               {
-                title: "执行器附件",
+                title: "衬塑三通",
                 items: [
                   {
-                    slug: "supporting-components",
-                    title: "配套组件",
-                    points: ["法兰弯头三通", "执行器与附件", "整套配供", "缩短采购周期"],
+                    slug: "lined-grooved-tee",
+                    title: "衬塑沟槽三通",
+                    points: ["分流连接", "内衬PE", "外镀锌", "卫生安全"],
                   },
                 ],
               },
               {
-                title: "项目备件",
+                title: "衬塑四通",
                 items: [
                   {
-                    slug: "supporting-components",
-                    title: "工程备件组件",
-                    points: ["适配改造维护", "常用规格覆盖", "便于集中采购", "快速交付支持"],
-                  },
-                ],
-              },
-            ],
-          },
-        ],
-      },
-      {
-        id: "project-services",
-        title: "项目服务",
-        image: images.heroValves,
-        subcategories: [
-          {
-            title: "项目交付",
-            children: [
-              {
-                title: "成套交付",
-                items: [
-                  {
-                    slug: "supporting-components",
-                    title: "工程成套交付",
-                    points: ["规格整合", "出口协同", "质检与追溯", "节点交付稳定"],
-                  },
-                ],
-              },
-              {
-                title: "供应协同",
-                items: [
-                  {
-                    slug: "supporting-components",
-                    title: "项目供应协同",
-                    points: ["多批次计划供货", "对接工程节点", "交付跟踪透明", "提升整体采购效率"],
+                    slug: "lined-grooved-cross",
+                    title: "衬塑沟槽四通",
+                    points: ["十字分支", "内衬PE防腐", "给水系统", "硅胶密封"],
                   },
                 ],
               },
             ],
           },
           {
-            title: "技术支持",
+            title: "衬塑接头",
             children: [
               {
-                title: "选型服务",
+                title: "衬塑卡箍",
                 items: [
                   {
-                    slug: "premium-steel-pipes",
-                    title: "选型与加工支持",
-                    points: ["选材建议", "接口匹配", "非标加工", "样品与打样支持"],
+                    slug: "lined-coupling",
+                    title: "衬塑卡箍接头",
+                    points: ["管道连接", "内衬PE", "外镀锌", "1.6MPa压力"],
                   },
                 ],
               },
               {
-                title: "项目咨询",
+                title: "衬塑异径管",
                 items: [
                   {
-                    slug: "industrial-valves",
-                    title: "工况匹配咨询",
-                    points: ["结合工况选材", "接口标准匹配", "帮助优化采购方案", "降低现场调整成本"],
+                    slug: "lined-reducer",
+                    title: "衬塑异径管",
+                    points: ["变径连接", "内衬PE", "外镀锌保护", "卫生材质"],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            title: "其他衬塑件",
+            children: [
+              {
+                title: "衬塑机械三通",
+                items: [
+                  {
+                    slug: "lined-mechanical-tee",
+                    title: "衬塑机械三通",
+                    points: ["开孔分支", "内衬PE", "机械连接", "无需焊接"],
+                  },
+                ],
+              },
+              {
+                title: "衬塑管帽",
+                items: [
+                  {
+                    slug: "lined-cap",
+                    title: "衬塑管帽",
+                    points: ["末端封堵", "内衬PE", "外镀锌", "卫生安全"],
+                  },
+                ],
+              },
+              {
+                title: "衬塑法兰接头",
+                items: [
+                  {
+                    slug: "lined-flange-adapter",
+                    title: "衬塑法兰接头",
+                    points: ["法兰转换", "内衬PE", "多标准适配", "硅胶密封"],
                   },
                 ],
               },
@@ -392,7 +501,7 @@ export const content = {
     contactItems: [
       { label: "服务热线", value: "+86 400-888-2026" },
       { label: "商务邮箱", value: "sales@rongde-gd.com" },
-      { label: "公司地址", value: "中国广东省佛山市高端装备产业园" },
+      { label: "公司地址", value: "广东省佛山市顺德区乐从镇广东乐从钢铁世界E1区钢铁世界大道20号南一路39号" },
     ],
     contactImage: images.contactMap,
     footer: "广东嵘德 · 专注高端钢管与阀门解决方案",
@@ -424,9 +533,9 @@ export const content = {
       },
     ],
     heroStats: [
+      { value: "2020", label: "Founded" },
+      { value: "15M RMB", label: "Registered Capital" },
       { value: "20+", label: "Years of expertise" },
-      { value: "98%", label: "On-time delivery rate" },
-      { value: "30+", label: "Countries served" },
     ],
     capabilitiesTitle: "Core Business",
     capabilitiesLead: "A complete industrial supply chain covering pipes, valves, customization, and project delivery.",
@@ -451,9 +560,9 @@ export const content = {
     aboutLead:
       "Guangdong Rongde focuses on premium steel pipes, industrial valves, and fluid-control components with strong capabilities in engineering, integration, and delivery.",
     aboutBody:
-      "We support demanding high-pressure, high-temperature, and corrosion-resistant scenarios through end-to-end services covering material selection, spec matching, customization, and shipment visibility.",
+      "Founded in 2020 with a registered capital of 15 million RMB, Guangdong Rongde Steel Pipe Co., Ltd. is located in Lecong Steel World, Shunde District, Foshan City. We support demanding industrial scenarios through end-to-end services covering material selection, spec matching, customization, and shipment visibility.",
     aboutHighlights: [
-      "Stainless, alloy, and duplex steel materials for critical environments",
+      "Integrated metal material sales and manufacturing services",
       "Support for cut-to-size, flange connection, and assembled delivery",
       "Serving EPC contractors and industrial end clients worldwide",
     ],
@@ -486,164 +595,280 @@ export const content = {
       },
     ],
     products: [
+      // Red Grooved Fittings Series
       {
-        slug: "premium-steel-pipes",
-        category: "Pipe Series",
-        title: "Premium Steel Pipes",
-        text: "Seamless, welded, precision, and custom-profile pipes for transmission, structural, and high-pressure systems.",
-        specs: ["Stainless / Alloy / Duplex Steel", "DN15-DN1200", "Pressure & corrosion resistant"],
-        image: images.capabilityPipes,
-      },
-      {
-        slug: "industrial-valves",
-        category: "Valve Series",
-        title: "Industrial Valves",
-        text: "Ball, gate, globe, check, and control valves designed for sealing performance and long service life.",
-        specs: ["API / DIN / GB standards", "Manual / pneumatic / electric", "High-temp sealing structure"],
+        slug: "red-grooved-elbow-90",
+        category: "Red Grooved Fittings",
+        title: "90° Grooved Elbow",
+        text: "Fire protection 90-degree elbow, red epoxy coating, ductile iron, grooved quick connection.",
+        specs: ["QT450-10 Ductile Iron", "DN50-DN300", "GB 5135.11 Standard", "Red Epoxy Coating"],
         image: images.capabilityValves,
       },
       {
-        slug: "supporting-components",
-        category: "Accessory Series",
-        title: "Supporting Components",
-        text: "Flanges, fittings, actuators, and connection accessories for complete fluid-control integration.",
-        specs: ["Flanges / elbows / tees", "Actuator integration", "Project package supply"],
+        slug: "red-grooved-elbow-45",
+        category: "Red Grooved Fittings",
+        title: "45° Grooved Elbow",
+        text: "Fire protection 45-degree elbow for pipe direction change, red epoxy coating.",
+        specs: ["QT450-10 Ductile Iron", "DN50-DN300", "GB 5135.11 Standard", "Red Epoxy Coating"],
+        image: images.capabilityValves,
+      },
+      {
+        slug: "red-grooved-tee",
+        category: "Red Grooved Fittings",
+        title: "Grooved Tee",
+        text: "Fire protection flow branch connection, equal tee design, grooved quick connection.",
+        specs: ["QT450-10 Ductile Iron", "DN50-DN300", "GB 5135.11 Standard", "Red Epoxy Coating"],
+        image: images.capabilityValves,
+      },
+      {
+        slug: "red-grooved-cross",
+        category: "Red Grooved Fittings",
+        title: "Grooved Cross",
+        text: "Fire protection four-way branch connection, equal cross design, red coating.",
+        specs: ["QT450-10 Ductile Iron", "DN50-DN300", "GB 5135.11 Standard", "Red Epoxy Coating"],
+        image: images.capabilityValves,
+      },
+      {
+        slug: "red-rigid-coupling",
+        category: "Red Grooved Fittings",
+        title: "Rigid Coupling",
+        text: "Fire protection rigid pipe joint for fixed connections, red coating, rubber seal.",
+        specs: ["QT450-10 Ductile Iron", "DN50-DN300", "1.6MPa/2.5MPa", "Red Epoxy Coating"],
         image: images.capabilityProject,
       },
       {
-        slug: "precision-stainless-tubes",
-        category: "Pipe Series",
-        title: "Precision Stainless Tubes",
-        text: "Designed for clean transfer systems, instrumentation, and advanced manufacturing lines with tighter tolerances.",
-        specs: ["BA / EP finishes", "High cleanliness", "Cut-to-length support"],
+        slug: "red-flexible-coupling",
+        category: "Red Grooved Fittings",
+        title: "Flexible Coupling",
+        text: "Fire protection flexible pipe joint allowing angular deviation, vibration damping.",
+        specs: ["QT450-10 Ductile Iron", "DN50-DN300", "1.6MPa/2.5MPa", "Red Epoxy Coating"],
+        image: images.capabilityProject,
+      },
+      {
+        slug: "red-mechanical-tee",
+        category: "Red Grooved Fittings",
+        title: "Mechanical Tee",
+        text: "Fire protection branch connection with mechanical outlet, no welding required.",
+        specs: ["QT450-10 Ductile Iron", "DN50-DN300", "GB 5135.11 Standard", "Red Epoxy Coating"],
         image: images.capabilityPipes,
       },
       {
-        slug: "high-performance-ball-valves",
-        category: "Valve Series",
-        title: "High-Performance Ball Valves",
-        text: "Built for petrochemical, gas, and process-industry applications with rapid operation and low leakage.",
-        specs: ["Floating / trunnion", "Soft / metal seated", "Fire-safe and anti-static"],
+        slug: "red-mechanical-cross",
+        category: "Red Grooved Fittings",
+        title: "Mechanical Cross",
+        text: "Fire protection dual branch connection, mechanical outlet cross design.",
+        specs: ["QT450-10 Ductile Iron", "DN50-DN300", "GB 5135.11 Standard", "Red Epoxy Coating"],
+        image: images.capabilityPipes,
+      },
+      {
+        slug: "red-reducer",
+        category: "Red Grooved Fittings",
+        title: "Grooved Reducer",
+        text: "Fire protection pipe size transition, concentric/eccentric reducer, red coating.",
+        specs: ["QT450-10 Ductile Iron", "DN50-DN300", "GB 5135.11 Standard", "Red Epoxy Coating"],
+        image: images.capabilityPipes,
+      },
+      {
+        slug: "red-cap",
+        category: "Red Grooved Fittings",
+        title: "Grooved Cap/Plug",
+        text: "Fire protection pipe end closure, cap/plug design, red coating.",
+        specs: ["QT450-10 Ductile Iron", "DN50-DN300", "GB 5135.11 Standard", "Red Epoxy Coating"],
+        image: images.capabilityProject,
+      },
+      // Lined Fittings Series
+      {
+        slug: "lined-grooved-elbow",
+        category: "Lined Fittings",
+        title: "Lined Grooved Elbow",
+        text: "Drinking water pipe fitting, galvanized exterior with PE lining, hygienic and non-toxic.",
+        specs: ["Galvanized+PE Lined", "DN50-DN300", "Potable Water", "Sanitary Silicone Seal"],
+        image: images.capabilityValves,
+      },
+      {
+        slug: "lined-grooved-tee",
+        category: "Lined Fittings",
+        title: "Lined Grooved Tee",
+        text: "Drinking water branch connection, PE lined interior, galvanized protection.",
+        specs: ["Galvanized+PE Lined", "DN50-DN300", "Potable Water", "Sanitary Silicone Seal"],
+        image: images.capabilityValves,
+      },
+      {
+        slug: "lined-grooved-cross",
+        category: "Lined Fittings",
+        title: "Lined Grooved Cross",
+        text: "Drinking water four-way branch, PE lined interior, for water supply systems.",
+        specs: ["Galvanized+PE Lined", "DN50-DN300", "Potable Water", "Sanitary Silicone Seal"],
+        image: images.capabilityValves,
+      },
+      {
+        slug: "lined-coupling",
+        category: "Lined Fittings",
+        title: "Lined Coupling",
+        text: "Drinking water pipe connection, PE lined interior, galvanized/silver coating.",
+        specs: ["Galvanized+PE Lined", "DN50-DN300", "1.6MPa Pressure", "Sanitary Silicone Seal"],
         image: images.capabilityProject,
       },
       {
-        slug: "industrial-flanges-fittings",
-        category: "Accessory Series",
-        title: "Industrial Flanges & Fittings",
-        text: "Multi-standard connections and custom machining for complex piping systems and export projects.",
-        specs: ["ASME / EN / JIS", "Forged and machined", "Material traceability reports"],
-        image: images.capabilityValves,
+        slug: "lined-reducer",
+        category: "Lined Fittings",
+        title: "Lined Reducer",
+        text: "Drinking water size transition, PE lined interior, galvanized protection.",
+        specs: ["Galvanized+PE Lined", "DN50-DN300", "Potable Water", "Sanitary Silicone Seal"],
+        image: images.capabilityPipes,
+      },
+      {
+        slug: "lined-mechanical-tee",
+        category: "Lined Fittings",
+        title: "Lined Mechanical Tee",
+        text: "Drinking water branch outlet, PE lined interior, mechanical connection.",
+        specs: ["Galvanized+PE Lined", "DN50-DN300", "Potable Water", "Sanitary Silicone Seal"],
+        image: images.capabilityPipes,
+      },
+      {
+        slug: "lined-cap",
+        category: "Lined Fittings",
+        title: "Lined Cap",
+        text: "Drinking water pipe end closure, PE lined interior, galvanized protection.",
+        specs: ["Galvanized+PE Lined", "DN50-DN300", "Potable Water", "Sanitary Silicone Seal"],
+        image: images.capabilityProject,
+      },
+      {
+        slug: "lined-flange-adapter",
+        category: "Lined Fittings",
+        title: "Lined Flange Adapter",
+        text: "Drinking water flange transition, PE lined interior, multi-standard compatible.",
+        specs: ["Galvanized+PE Lined", "DN50-DN300", "GB/ANSI/DIN", "Sanitary Silicone Seal"],
+        image: images.capabilityProject,
       },
     ],
-    categories: ["All Products", "Pipe Series", "Valve Series", "Accessory Series"],
+    categories: ["All Products", "Red Grooved Fittings", "Lined Fittings"],
     productGroups: [
       {
-        id: "pipe-systems",
-        title: "Pipe Systems",
-        image: images.heroPipes,
-        subcategories: [
-          {
-            title: "Premium Pipe",
-            children: [
-              {
-                title: "Industrial Transfer Pipe",
-                items: [
-                  {
-                    slug: "premium-steel-pipes",
-                    title: "Premium Steel Pipes",
-                    points: ["High-pressure transfer", "Multiple material grades", "Project-ready supply", "Full batch traceability"],
-                  },
-                ],
-              },
-              {
-                title: "Precision Tubing",
-                items: [
-                  {
-                    slug: "precision-stainless-tubes",
-                    title: "Precision Stainless Tubes",
-                    points: ["High cleanliness", "Stable tolerance", "BA / EP support", "Instrumentation-ready"],
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            title: "Engineering Tubes",
-            children: [
-              {
-                title: "Seamless Pipe",
-                items: [
-                  {
-                    slug: "premium-steel-pipes",
-                    title: "Seamless & Welded Pipes",
-                    points: ["Structural and transfer use", "Pressure resistant", "Wide size coverage", "Flexible customization"],
-                  },
-                ],
-              },
-              {
-                title: "Project Custom Tubes",
-                items: [
-                  {
-                    slug: "precision-stainless-tubes",
-                    title: "Custom Engineering Tubes",
-                    points: ["Cut-to-length delivery", "Profile customization", "Interface-ready", "Efficient for projects"],
-                  },
-                ],
-              },
-            ],
-          },
-        ],
-      },
-      {
-        id: "valve-systems",
-        title: "Valve Systems",
+        id: "red-grooved-fittings",
+        title: "Red Grooved Fittings",
         image: images.heroValves,
         subcategories: [
           {
-            title: "General Valves",
+            title: "Elbow Series",
             children: [
               {
-                title: "Ball Valve Series",
+                title: "90° Elbow",
                 items: [
                   {
-                    slug: "high-performance-ball-valves",
-                    title: "High-Performance Ball Valves",
-                    points: ["Fast opening and closing", "Low leakage control", "Fire-safe and anti-static", "Metal seated option"],
+                    slug: "red-grooved-elbow-90",
+                    title: "90° Grooved Elbow",
+                    points: ["Fire protection", "Red epoxy coating", "QT450-10 material", "GB 5135.11 standard"],
                   },
                 ],
               },
               {
-                title: "General Valve Series",
+                title: "45° Elbow",
                 items: [
                   {
-                    slug: "industrial-valves",
-                    title: "Industrial Valves",
-                    points: ["Stable sealing performance", "Multiple interface standards", "Manual / pneumatic / electric", "Reliable long-term operation"],
+                    slug: "red-grooved-elbow-45",
+                    title: "45° Grooved Elbow",
+                    points: ["Direction change", "Red epoxy coating", "Grooved connection", "Ductile iron"],
                   },
                 ],
               },
             ],
           },
           {
-            title: "Control & Actuation",
+            title: "Tee & Cross",
             children: [
               {
-                title: "Globe Valve",
+                title: "Equal Tee",
                 items: [
                   {
-                    slug: "industrial-valves",
-                    title: "Globe & Check Valves",
-                    points: ["Process-industry ready", "Robust structure", "Easy maintenance", "Project assembly support"],
+                    slug: "red-grooved-tee",
+                    title: "Grooved Tee",
+                    points: ["Flow branch", "Equal design", "Red coating", "Easy install"],
                   },
                 ],
               },
               {
-                title: "Actuation Unit",
+                title: "Equal Cross",
                 items: [
                   {
-                    slug: "industrial-valves",
-                    title: "Valve Control Components",
-                    points: ["Automation ready", "Stable linked control", "Fits multiple valve types", "Easy centralized maintenance"],
+                    slug: "red-grooved-cross",
+                    title: "Grooved Cross",
+                    points: ["Four-way branch", "Red coating", "Ductile iron", "GB standard"],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            title: "Couplings",
+            children: [
+              {
+                title: "Rigid Coupling",
+                items: [
+                  {
+                    slug: "red-rigid-coupling",
+                    title: "Rigid Coupling",
+                    points: ["Fixed connection", "Rubber seal", "Red coating", "1.6/2.5MPa"],
+                  },
+                ],
+              },
+              {
+                title: "Flexible Coupling",
+                items: [
+                  {
+                    slug: "red-flexible-coupling",
+                    title: "Flexible Coupling",
+                    points: ["Angular tolerance", "Vibration damping", "Red coating", "Quick install"],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            title: "Mechanical",
+            children: [
+              {
+                title: "Mechanical Tee",
+                items: [
+                  {
+                    slug: "red-mechanical-tee",
+                    title: "Mechanical Tee",
+                    points: ["Outlet branch", "No welding", "Quick install", "Red coating"],
+                  },
+                ],
+              },
+              {
+                title: "Mechanical Cross",
+                items: [
+                  {
+                    slug: "red-mechanical-cross",
+                    title: "Mechanical Cross",
+                    points: ["Dual branch", "Mechanical outlet", "Red coating", "GB standard"],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            title: "Others",
+            children: [
+              {
+                title: "Reducer",
+                items: [
+                  {
+                    slug: "red-reducer",
+                    title: "Grooved Reducer",
+                    points: ["Size transition", "Concentric/Eccentric", "Red coating", "Grooved"],
+                  },
+                ],
+              },
+              {
+                title: "Cap/Plug",
+                items: [
+                  {
+                    slug: "red-cap",
+                    title: "Grooved Cap/Plug",
+                    points: ["End closure", "Plug design", "Red coating", "Quick install"],
                   },
                 ],
               },
@@ -652,112 +877,105 @@ export const content = {
         ],
       },
       {
-        id: "fitting-systems",
-        title: "Fittings & Components",
-        image: images.capabilityProject,
+        id: "lined-grooved-fittings",
+        title: "Lined Fittings",
+        image: images.capabilityPipes,
         subcategories: [
           {
-            title: "Connections",
+            title: "Lined Elbows",
             children: [
               {
-                title: "Flange Products",
+                title: "Lined Elbow",
                 items: [
                   {
-                    slug: "industrial-flanges-fittings",
-                    title: "Industrial Flanges & Fittings",
-                    points: ["Multi-standard compatibility", "Forged and machined", "Complex piping support", "Material reports available"],
-                  },
-                ],
-              },
-              {
-                title: "Special Fittings",
-                items: [
-                  {
-                    slug: "industrial-flanges-fittings",
-                    title: "Elbows, Tees & Special Parts",
-                    points: ["Multi-size machining", "Complex interface support", "Stable project supply", "Drawing-based sampling"],
+                    slug: "lined-grooved-elbow",
+                    title: "Lined Grooved Elbow",
+                    points: ["Potable water", "PE lined", "Galvanized", "Hygienic"],
                   },
                 ],
               },
             ],
           },
           {
-            title: "Package Components",
+            title: "Lined Tee & Cross",
             children: [
               {
-                title: "Actuator Accessories",
+                title: "Lined Tee",
                 items: [
                   {
-                    slug: "supporting-components",
-                    title: "Supporting Components",
-                    points: ["Flanges, elbows, tees", "Actuators and accessories", "Complete package supply", "Shorter sourcing cycles"],
+                    slug: "lined-grooved-tee",
+                    title: "Lined Grooved Tee",
+                    points: ["Flow branch", "PE lined", "Galvanized", "Sanitary"],
                   },
                 ],
               },
               {
-                title: "Project Spare Parts",
+                title: "Lined Cross",
                 items: [
                   {
-                    slug: "supporting-components",
-                    title: "Engineering Spare Components",
-                    points: ["Retrofit and maintenance ready", "Common sizes covered", "Centralized sourcing", "Fast delivery support"],
-                  },
-                ],
-              },
-            ],
-          },
-        ],
-      },
-      {
-        id: "project-services",
-        title: "Project Services",
-        image: images.heroValves,
-        subcategories: [
-          {
-            title: "Project Delivery",
-            children: [
-              {
-                title: "Integrated Delivery",
-                items: [
-                  {
-                    slug: "supporting-components",
-                    title: "Integrated Engineering Supply",
-                    points: ["Spec consolidation", "Export coordination", "Inspection and traceability", "Stable milestone delivery"],
-                  },
-                ],
-              },
-              {
-                title: "Supply Coordination",
-                items: [
-                  {
-                    slug: "supporting-components",
-                    title: "Project Supply Coordination",
-                    points: ["Planned batch supply", "Aligned to project milestones", "Transparent tracking", "Improved sourcing efficiency"],
+                    slug: "lined-grooved-cross",
+                    title: "Lined Grooved Cross",
+                    points: ["Four-way branch", "PE lined", "Water supply", "Silicone seal"],
                   },
                 ],
               },
             ],
           },
           {
-            title: "Technical Support",
+            title: "Lined Couplings",
             children: [
               {
-                title: "Selection Service",
+                title: "Lined Coupling",
                 items: [
                   {
-                    slug: "premium-steel-pipes",
-                    title: "Selection & Processing Support",
-                    points: ["Material guidance", "Interface matching", "Custom fabrication", "Sampling support"],
+                    slug: "lined-coupling",
+                    title: "Lined Coupling",
+                    points: ["Pipe connection", "PE lined", "Galvanized", "1.6MPa"],
                   },
                 ],
               },
               {
-                title: "Project Consulting",
+                title: "Lined Reducer",
                 items: [
                   {
-                    slug: "industrial-valves",
-                    title: "Operating Condition Consulting",
-                    points: ["Condition-based material advice", "Standard matching", "Optimized sourcing plan", "Less on-site adjustment"],
+                    slug: "lined-reducer",
+                    title: "Lined Reducer",
+                    points: ["Size transition", "PE lined", "Galvanized", "Sanitary"],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            title: "Other Lined",
+            children: [
+              {
+                title: "Lined Mech Tee",
+                items: [
+                  {
+                    slug: "lined-mechanical-tee",
+                    title: "Lined Mechanical Tee",
+                    points: ["Outlet branch", "PE lined", "Mechanical", "No welding"],
+                  },
+                ],
+              },
+              {
+                title: "Lined Cap",
+                items: [
+                  {
+                    slug: "lined-cap",
+                    title: "Lined Cap",
+                    points: ["End closure", "PE lined", "Galvanized", "Sanitary"],
+                  },
+                ],
+              },
+              {
+                title: "Lined Flange",
+                items: [
+                  {
+                    slug: "lined-flange-adapter",
+                    title: "Lined Flange Adapter",
+                    points: ["Flange transition", "PE lined", "Multi-standard", "Silicone seal"],
                   },
                 ],
               },
@@ -771,7 +989,7 @@ export const content = {
     contactItems: [
       { label: "Hotline", value: "+86 400-888-2026" },
       { label: "Email", value: "sales@rongde-gd.com" },
-      { label: "Address", value: "High-end Equipment Industrial Park, Foshan, Guangdong, China" },
+      { label: "Address", value: "No. 39, South 1st Road, Steel World Avenue 20, E1 District, Lecong Steel World, Lecong Town, Shunde District, Foshan City, Guangdong Province" },
     ],
     contactImage: images.contactMap,
     footer: "Guangdong Rongde · Premium Steel Pipe & Valve Solutions",
