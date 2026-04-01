@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
+import ImageWithFallback from "../components/ImageWithFallback";
 
 function ProductsPage({ copy }) {
   const [activeGroupId, setActiveGroupId] = useState(copy.productGroups[0].id);
@@ -48,7 +49,11 @@ function ProductsPage({ copy }) {
     <main className="catalog-page">
       <section className="catalog-hero catalog-hero--banner">
         <div className="catalog-hero__background">
-          <img src={activeGroup.image} alt={activeGroup.title} />
+          <ImageWithFallback 
+            src={activeGroup.image} 
+            alt={activeGroup.title}
+            loading="eager"
+          />
         </div>
         <div className="catalog-hero__overlay" />
         <div className="shell catalog-hero__inner catalog-hero__inner--banner">
@@ -144,7 +149,11 @@ function ProductsPage({ copy }) {
               return (
                 <article className="catalog-card catalog-card--clean" key={`${activeChild.title}-${item.title}`}>
                   <div className="catalog-card__media">
-                    <img src={product.image} alt={product.title} />
+                    <ImageWithFallback 
+                      src={product.image} 
+                      alt={product.title}
+                      loading="lazy"
+                    />
                     <div className="catalog-card__hoverpanel">
                       <ul className="catalog-points catalog-points--hover">
                         {item.points.map((point) => (

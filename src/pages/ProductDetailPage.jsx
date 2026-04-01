@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router-dom";
+import ImageWithFallback from "../components/ImageWithFallback";
 
 function ProductDetailPage({ copy }) {
   const { slug } = useParams();
@@ -11,7 +12,11 @@ function ProductDetailPage({ copy }) {
     <main className="detail-page">
       <section className="catalog-hero catalog-hero--banner">
         <div className="catalog-hero__background">
-          <img src={product.image} alt={product.title} />
+          <ImageWithFallback 
+            src={product.image} 
+            alt={product.title}
+            loading="eager"
+          />
         </div>
         <div className="catalog-hero__overlay" />
         <div className="shell catalog-hero__inner catalog-hero__inner--banner">
@@ -25,7 +30,11 @@ function ProductDetailPage({ copy }) {
 
       <section className="detail-layout shell">
         <div className="detail-layout__media">
-          <img src={product.image} alt={product.title} />
+          <ImageWithFallback 
+            src={product.image} 
+            alt={product.title}
+            loading="lazy"
+          />
         </div>
         <div className="detail-layout__content">
           <div className="detail-panel">

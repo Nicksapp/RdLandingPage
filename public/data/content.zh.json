@@ -1,6 +1,6 @@
 {
   "copy": {
-    "brand": "广东嵘德",
+    "brand": "广东嵘德钢管有限公司",
     "nav": [
       "首页",
       "公司简介",
@@ -9,9 +9,9 @@
     ],
     "switchLabel": "English",
     "heroEyebrow": "test高端工业材料与流体控制系统",
-    "heroTitle": "广东嵘德钢铁有限公司",
+    "heroTitle": "广东嵘德钢管有限公司",
     "heroTagline": "Premium Steel Pipe & Valve Solutions",
-    "heroPrimary": "进入产品中心",
+    "heroPrimary": "产品中心",
     "heroSecondary": "联系团队",
     "heroSlides": [
       {
@@ -506,7 +506,7 @@
       }
     ],
     "contactImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
-    "footer": "广东嵘德 · 专注高端钢管与阀门解决方案"
+    "footer": "广东嵘德钢管有限公司 · 广东嵘德阀门有限公司"
   },
   "source": "cloudbase-static-export"
 }

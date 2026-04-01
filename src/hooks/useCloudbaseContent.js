@@ -1,5 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { content as fallbackContent } from "../data/siteContent";
+
+const MIN_LOADING_TIME = 400; // 最小加载时间，避免闪烁
 
 async function fetchLocaleContent(locale) {
   const response = await fetch(`/data/content.${locale}.json`, {
@@ -19,9 +21,20 @@ export function useCloudbaseContent(language) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [source, setSource] = useState("fallback");
+  const [isReady, setIsReady] = useState(false);
+  
+  const loadingStartTimeRef = useRef(Date.now());
+  const prevLanguageRef = useRef(language);
 
   useEffect(() => {
     let disposed = false;
+    
+    // 语言切换时重置状态
+    if (prevLanguageRef.current !== language) {
+      setIsReady(false);
+      loadingStartTimeRef.current = Date.now();
+    }
+    prevLanguageRef.current = language;
 
     setCopy(fallbackContent[language]);
     setLoading(true);
@@ -43,7 +56,16 @@ export function useCloudbaseContent(language) {
       })
       .finally(() => {
         if (!disposed) {
-          setLoading(false);
+          // 确保最小加载时间，避免闪烁
+          const elapsed = Date.now() - loadingStartTimeRef.current;
+          const remaining = Math.max(0, MIN_LOADING_TIME - elapsed);
+          
+          setTimeout(() => {
+            if (!disposed) {
+              setLoading(false);
+              setIsReady(true);
+            }
+          }, remaining);
         }
       });
 
@@ -57,5 +79,8 @@ export function useCloudbaseContent(language) {
     loading,
     error,
     source,
+    isReady, // 新增：表示内容已准备好可以显示
   };
 }
+
+export default useCloudbaseContent;

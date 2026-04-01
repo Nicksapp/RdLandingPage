@@ -5,6 +5,18 @@ export const sectionIds = {
   contact: "contact",
 };
 
+// 本地图片路径映射
+const images = {
+  heroPipes: "/images/hero-pipes.jpg",
+  heroValves: "/images/hero-valves.jpg",
+  heroProject: "/images/hero-project.jpg",
+  capabilityPipes: "/images/capability-pipes.jpg",
+  capabilityValves: "/images/capability-valves.jpg",
+  capabilityProject: "/images/capability-project.jpg",
+  aboutFactory: "/images/hero-valves.jpg",
+  contactMap: "/images/hero-project.jpg",
+};
+
 export const content = {
   zh: {
     brand: "广东嵘德",
@@ -19,17 +31,17 @@ export const content = {
       {
         title: "高端钢管系统",
         description: "面向能源、化工与船舶工程的高标准钢管供应，兼顾耐压、耐蚀与批次追溯。",
-        image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1",
+        image: images.heroPipes,
       },
       {
         title: "工业阀门解决方案",
         description: "覆盖球阀、闸阀、截止阀与止回阀，满足关键流体系统长期稳定运行需求。",
-        image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+        image: images.heroValves,
       },
       {
         title: "项目化成套交付",
         description: "从规格匹配到出口协同，为工业客户提供更高效率的一站式采购体验。",
-        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+        image: images.heroProject,
       },
     ],
     heroStats: [
@@ -43,17 +55,17 @@ export const content = {
       {
         title: "高端钢管",
         text: "覆盖无缝管、焊接管、精密管及异形管，满足高压、高温及耐腐蚀工况。",
-        image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1",
+        image: images.capabilityPipes,
       },
       {
         title: "工业阀门",
         text: "提供球阀、闸阀、截止阀和止回阀等产品，兼顾长期稳定运行与维护便利性。",
-        image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+        image: images.capabilityValves,
       },
       {
         title: "项目供配",
         text: "支持工程类订单的批量供货、规格整合与出口协同，缩短项目采购周期。",
-        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+        image: images.capabilityProject,
       },
     ],
     aboutTitle: "公司简介",
@@ -66,7 +78,7 @@ export const content = {
       "支持多规格切割、法兰连接与组配交付",
       "服务海内外 EPC 与工业终端客户",
     ],
-    aboutImage: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+    aboutImage: images.aboutFactory,
     showcaseTitle: "产品中心",
     showcaseLead: "围绕关键工业场景，提供兼顾耐久性、精度与交付效率的产品矩阵。",
     showcaseCta: "查看全部产品",
@@ -101,7 +113,7 @@ export const content = {
         title: "高端钢管",
         text: "无缝钢管、焊接钢管、精密管及异形管，适配输送、结构与高压系统需求。",
         specs: ["不锈钢 / 合金钢 / 双相钢", "DN15-DN1200", "耐压与耐腐蚀工况"],
-        image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1",
+        image: images.capabilityPipes,
       },
       {
         slug: "industrial-valves",
@@ -109,7 +121,7 @@ export const content = {
         title: "工业阀门",
         text: "球阀、闸阀、截止阀、止回阀与控制阀，兼顾密封性能与长期稳定运行。",
         specs: ["API / DIN / GB 标准", "手动 / 气动 / 电动", "高温高压密封结构"],
-        image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+        image: images.capabilityValves,
       },
       {
         slug: "supporting-components",
@@ -117,7 +129,7 @@ export const content = {
         title: "配套组件",
         text: "法兰、管件、执行器与连接附件，支持整套流体控制方案快速集成。",
         specs: ["法兰 / 弯头 / 三通", "执行器联动方案", "项目成套供货"],
-        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+        image: images.capabilityProject,
       },
       {
         slug: "precision-stainless-tubes",
@@ -125,7 +137,7 @@ export const content = {
         title: "精密不锈钢管",
         text: "用于洁净输送、仪表系统与高要求制造产线，具备更高尺寸精度与表面质量。",
         specs: ["BA / EP 表面处理", "高洁净度", "支持定尺交付"],
-        image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1",
+        image: images.capabilityPipes,
       },
       {
         slug: "high-performance-ball-valves",
@@ -133,7 +145,7 @@ export const content = {
         title: "高性能球阀",
         text: "适用于石化、天然气与流程工业场景，兼顾快速启闭与低泄漏控制。",
         specs: ["浮动式 / 固定式", "软密封 / 硬密封", "支持防火防静电"],
-        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+        image: images.capabilityProject,
       },
       {
         slug: "industrial-flanges-fittings",
@@ -141,7 +153,7 @@ export const content = {
         title: "工业法兰与管件",
         text: "支持多标准连接与非标加工，适配复杂管路系统与出口项目。",
         specs: ["ASME / EN / JIS", "锻造与机加工", "可提供材质报告"],
-        image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+        image: images.capabilityValves,
       },
     ],
     categories: ["全部产品", "钢管系列", "阀门系列", "配件系列"],
@@ -149,7 +161,7 @@ export const content = {
       {
         id: "pipe-systems",
         title: "钢管系统",
-        image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1",
+        image: images.heroPipes,
         subcategories: [
           {
             title: "高端钢管",
@@ -206,7 +218,7 @@ export const content = {
       {
         id: "valve-systems",
         title: "阀门系统",
-        image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+        image: images.heroValves,
         subcategories: [
           {
             title: "通用工业阀门",
@@ -263,7 +275,7 @@ export const content = {
       {
         id: "fitting-systems",
         title: "管件配件",
-        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+        image: images.capabilityProject,
         subcategories: [
           {
             title: "连接件",
@@ -320,7 +332,7 @@ export const content = {
       {
         id: "project-services",
         title: "项目服务",
-        image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+        image: images.heroValves,
         subcategories: [
           {
             title: "项目交付",
@@ -382,7 +394,7 @@ export const content = {
       { label: "商务邮箱", value: "sales@rongde-gd.com" },
       { label: "公司地址", value: "中国广东省佛山市高端装备产业园" },
     ],
-    contactImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+    contactImage: images.contactMap,
     footer: "广东嵘德 · 专注高端钢管与阀门解决方案",
   },
   en: {
@@ -398,17 +410,17 @@ export const content = {
       {
         title: "Premium Pipe Systems",
         description: "High-standard steel pipe supply for energy, chemical, and marine applications with traceable quality assurance.",
-        image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1",
+        image: images.heroPipes,
       },
       {
         title: "Industrial Valve Solutions",
         description: "Ball, gate, globe, and check valves engineered for stable performance in critical flow-control systems.",
-        image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+        image: images.heroValves,
       },
       {
         title: "Integrated Project Delivery",
         description: "From specification matching to export execution, we simplify procurement for industrial customers.",
-        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+        image: images.heroProject,
       },
     ],
     heroStats: [
@@ -422,17 +434,17 @@ export const content = {
       {
         title: "Premium Steel Pipes",
         text: "Seamless, welded, precision, and custom-profile pipes for demanding industrial operating conditions.",
-        image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1",
+        image: images.capabilityPipes,
       },
       {
         title: "Industrial Valves",
         text: "Ball, gate, globe, and check valves designed for reliability, lifetime stability, and easier maintenance.",
-        image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+        image: images.capabilityValves,
       },
       {
         title: "Project Supply",
         text: "Integrated execution for engineering orders with specification matching and export-ready coordination.",
-        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+        image: images.capabilityProject,
       },
     ],
     aboutTitle: "About Us",
@@ -445,7 +457,7 @@ export const content = {
       "Support for cut-to-size, flange connection, and assembled delivery",
       "Serving EPC contractors and industrial end clients worldwide",
     ],
-    aboutImage: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+    aboutImage: images.aboutFactory,
     showcaseTitle: "Product Center",
     showcaseLead: "A product portfolio built for durability, precision, and dependable lead times in critical industries.",
     showcaseCta: "View All Products",
@@ -480,7 +492,7 @@ export const content = {
         title: "Premium Steel Pipes",
         text: "Seamless, welded, precision, and custom-profile pipes for transmission, structural, and high-pressure systems.",
         specs: ["Stainless / Alloy / Duplex Steel", "DN15-DN1200", "Pressure & corrosion resistant"],
-        image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1",
+        image: images.capabilityPipes,
       },
       {
         slug: "industrial-valves",
@@ -488,7 +500,7 @@ export const content = {
         title: "Industrial Valves",
         text: "Ball, gate, globe, check, and control valves designed for sealing performance and long service life.",
         specs: ["API / DIN / GB standards", "Manual / pneumatic / electric", "High-temp sealing structure"],
-        image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+        image: images.capabilityValves,
       },
       {
         slug: "supporting-components",
@@ -496,7 +508,7 @@ export const content = {
         title: "Supporting Components",
         text: "Flanges, fittings, actuators, and connection accessories for complete fluid-control integration.",
         specs: ["Flanges / elbows / tees", "Actuator integration", "Project package supply"],
-        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+        image: images.capabilityProject,
       },
       {
         slug: "precision-stainless-tubes",
@@ -504,7 +516,7 @@ export const content = {
         title: "Precision Stainless Tubes",
         text: "Designed for clean transfer systems, instrumentation, and advanced manufacturing lines with tighter tolerances.",
         specs: ["BA / EP finishes", "High cleanliness", "Cut-to-length support"],
-        image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1",
+        image: images.capabilityPipes,
       },
       {
         slug: "high-performance-ball-valves",
@@ -512,7 +524,7 @@ export const content = {
         title: "High-Performance Ball Valves",
         text: "Built for petrochemical, gas, and process-industry applications with rapid operation and low leakage.",
         specs: ["Floating / trunnion", "Soft / metal seated", "Fire-safe and anti-static"],
-        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+        image: images.capabilityProject,
       },
       {
         slug: "industrial-flanges-fittings",
@@ -520,7 +532,7 @@ export const content = {
         title: "Industrial Flanges & Fittings",
         text: "Multi-standard connections and custom machining for complex piping systems and export projects.",
         specs: ["ASME / EN / JIS", "Forged and machined", "Material traceability reports"],
-        image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+        image: images.capabilityValves,
       },
     ],
     categories: ["All Products", "Pipe Series", "Valve Series", "Accessory Series"],
@@ -528,7 +540,7 @@ export const content = {
       {
         id: "pipe-systems",
         title: "Pipe Systems",
-        image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1",
+        image: images.heroPipes,
         subcategories: [
           {
             title: "Premium Pipe",
@@ -585,7 +597,7 @@ export const content = {
       {
         id: "valve-systems",
         title: "Valve Systems",
-        image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+        image: images.heroValves,
         subcategories: [
           {
             title: "General Valves",
@@ -642,7 +654,7 @@ export const content = {
       {
         id: "fitting-systems",
         title: "Fittings & Components",
-        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+        image: images.capabilityProject,
         subcategories: [
           {
             title: "Connections",
@@ -699,7 +711,7 @@ export const content = {
       {
         id: "project-services",
         title: "Project Services",
-        image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+        image: images.heroValves,
         subcategories: [
           {
             title: "Project Delivery",
@@ -761,7 +773,7 @@ export const content = {
       { label: "Email", value: "sales@rongde-gd.com" },
       { label: "Address", value: "High-end Equipment Industrial Park, Foshan, Guangdong, China" },
     ],
-    contactImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+    contactImage: images.contactMap,
     footer: "Guangdong Rongde · Premium Steel Pipe & Valve Solutions",
   },
 };

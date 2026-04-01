@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { GrainGradient } from "@paper-design/shaders-react";
 import { Link, useLocation } from "react-router-dom";
 import RevealSection from "../components/RevealSection";
+import ImageWithFallback from "../components/ImageWithFallback";
 import { sectionIds } from "../data/siteContent";
 
 function HomePage({ copy }) {
@@ -61,7 +62,12 @@ function HomePage({ copy }) {
           {copy.heroSlides.map((slide, index) => (
             <article className={index === activeSlide ? "hero-slide is-active" : "hero-slide"} key={slide.title}>
               <div className="hero-slide__image">
-                <img src={slide.image} alt={slide.title} />
+                <ImageWithFallback 
+                  src={slide.image} 
+                  alt={slide.title}
+                  loading={index === 0 ? "eager" : "lazy"}
+                  fill
+                />
               </div>
               <div className="hero-slide__overlay" />
               <div className="hero-slide__content shell">
@@ -110,7 +116,11 @@ function HomePage({ copy }) {
           <div className="capability-grid">
             {copy.capabilities.map((item) => (
               <article className="capability-card" key={item.title}>
-                <img src={item.image} alt={item.title} />
+                <ImageWithFallback 
+                  src={item.image} 
+                  alt={item.title}
+                  loading="lazy"
+                />
                 <div className="capability-card__content">
                   <h3>{item.title}</h3>
                   <p>{item.text}</p>
@@ -124,7 +134,11 @@ function HomePage({ copy }) {
       <RevealSection className="split-module split-module--light" id={sectionIds.about}>
         <div className="shell split-module__inner">
           <div className="split-module__media">
-            <img src={copy.aboutImage} alt={copy.aboutTitle} />
+            <ImageWithFallback 
+              src={copy.aboutImage} 
+              alt={copy.aboutTitle}
+              loading="lazy"
+            />
           </div>
           <div className="split-module__content">
             <p className="module-index">02</p>
@@ -154,7 +168,11 @@ function HomePage({ copy }) {
           </div>
           <div className="product-showcase__grid">
             <article className="feature-tile feature-tile--large">
-              <img src={copy.products[0].image} alt={copy.products[0].title} />
+              <ImageWithFallback 
+                src={copy.products[0].image} 
+                alt={copy.products[0].title}
+                loading="lazy"
+              />
               <div className="feature-tile__content">
                 <p>{copy.products[0].category}</p>
                 <h3>{copy.products[0].title}</h3>
@@ -163,7 +181,11 @@ function HomePage({ copy }) {
             </article>
             {copy.products.slice(1, 5).map((product) => (
               <article className="feature-tile" key={product.slug}>
-                <img src={product.image} alt={product.title} />
+                <ImageWithFallback 
+                  src={product.image} 
+                  alt={product.title}
+                  loading="lazy"
+                />
                 <div className="feature-tile__content">
                   <p>{product.category}</p>
                   <h3>{product.title}</h3>
@@ -208,7 +230,11 @@ function HomePage({ copy }) {
             </div>
           </div>
           <div className="split-module__media">
-            <img src={copy.contactImage} alt={copy.contactTitle} />
+            <ImageWithFallback 
+              src={copy.contactImage} 
+              alt={copy.contactTitle}
+              loading="lazy"
+            />
           </div>
         </div>
       </RevealSection>

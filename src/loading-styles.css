@@ -1,0 +1,225 @@
+/* ================================
+   页面加载骨架屏样式
+   ================================ */
+
+/* 页面过渡容器 */
+.page-transition {
+  min-height: 100vh;
+}
+
+/* 骨架屏容器 */
+.page-skeleton {
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+/* Hero 区域骨架屏 */
+.skeleton-hero {
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.skeleton-shader {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    #f8f9fb 0%,
+    #dce1e8 25%,
+    #e7ebf0 50%,
+    #dce1e8 75%,
+    #f8f9fb 100%
+  );
+  background-size: 200% 200%;
+  animation: shimmer 2s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 48px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .skeleton-hero-content {
+    padding: 0 24px;
+  }
+}
+
+/* 骨架屏文字 */
+.skeleton-text {
+  background: linear-gradient(90deg, #e2e8f0 25%, #f1f5f9 50%, #e2e8f0 75%);
+  background-size: 200% 100%;
+  animation: textShimmer 1.5s ease-in-out infinite;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+@keyframes textShimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-text--eyebrow {
+  width: 200px;
+  height: 20px;
+  margin-bottom: 24px;
+}
+
+.skeleton-text--title {
+  width: 100%;
+  max-width: 500px;
+  height: 56px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+  .skeleton-text--title {
+    height: 40px;
+  }
+}
+
+.skeleton-text--tagline {
+  width: 100%;
+  max-width: 400px;
+  height: 24px;
+  margin-bottom: 32px;
+}
+
+/* 骨架屏按钮 */
+.skeleton-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.skeleton-button {
+  width: 160px;
+  height: 48px;
+  background: linear-gradient(90deg, #cbd5e1 25%, #e2e8f0 50%, #cbd5e1 75%);
+  background-size: 200% 100%;
+  animation: textShimmer 1.5s ease-in-out infinite;
+  border-radius: 8px;
+}
+
+.skeleton-button--ghost {
+  background: linear-gradient(90deg, transparent 25%, rgba(255,255,255,0.3) 50%, transparent 75%);
+  border: 2px solid #cbd5e1;
+}
+
+/* 内容区域骨架屏 */
+.skeleton-section {
+  padding: 80px 48px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .skeleton-section {
+    padding: 48px 24px;
+  }
+}
+
+.skeleton-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 968px) {
+  .skeleton-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .skeleton-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.skeleton-card {
+  aspect-ratio: 4 / 3;
+  background: linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 50%, #f1f5f9 75%);
+  background-size: 200% 100%;
+  animation: textShimmer 1.5s ease-in-out infinite;
+  border-radius: 12px;
+}
+
+/* ================================
+   图片加载优化样式
+   ================================ */
+
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: #f1f5f9;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-skeleton {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 50%, #f1f5f9 75%);
+  background-size: 200% 100%;
+  animation: textShimmer 1.5s ease-in-out infinite;
+}
+
+.image-wrapper.is-loaded .image-skeleton {
+  display: none;
+}
+
+/* ================================
+   CloudBase 状态提示
+   ================================ */
+
+.cloudbase-status {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 16px;
+  background: rgba(15, 31, 51, 0.9);
+  color: white;
+  font-size: 12px;
+  border-radius: 8px;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+}
+
+.cloudbase-status--error {
+  background: rgba(220, 38, 38, 0.9);
+}
+
+.cloudbase-status strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.cloudbase-status span {
+  opacity: 0.8;
+}
