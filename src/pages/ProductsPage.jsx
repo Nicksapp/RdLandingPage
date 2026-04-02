@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import ImageWithFallback from "../components/ImageWithFallback";
 
 function ProductsPage({ copy }) {
+  const itemsPerPage = 9;
   const [activeGroupId, setActiveGroupId] = useState(copy.productGroups[0].id);
   const [activeSubcategoryTitle, setActiveSubcategoryTitle] = useState(copy.productGroups[0].subcategories[0].title);
   const [activeChildTitle, setActiveChildTitle] = useState(copy.productGroups[0].subcategories[0].children[0].title);
+  const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
     const firstGroup = copy.productGroups[0];
@@ -39,11 +41,27 @@ function ProductsPage({ copy }) {
     [activeChildTitle, activeSubcategory],
   );
 
+  const activeSubcategoryHasMeaningfulChildren = useMemo(
+    () =>
+      activeSubcategory.children.some(
+        (child) => child.title !== activeSubcategory.title || activeSubcategory.children.length > 1,
+      ),
+    [activeSubcategory],
+  );
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [activeGroupId, activeSubcategoryTitle, activeChildTitle]);
+
   if (!activeGroup || !activeSubcategory || !activeChild) {
     return null;
   }
 
   const currentItems = activeChild.items;
+  const totalPages = Math.max(1, Math.ceil(currentItems.length / itemsPerPage));
+  const paginatedItems = currentItems.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
+  const subcategoryHasMeaningfulChildren = (subcategory) =>
+    subcategory.children.some((child) => child.title !== subcategory.title || subcategory.children.length > 1);
 
   return (
     <main className="catalog-page">
@@ -84,8 +102,11 @@ function ProductsPage({ copy }) {
                 </button>
                 {group.id === activeGroupId ? (
                   <div className="catalog-sidebar__list">
-                    {activeGroup.subcategories.map((subcategory) => (
-                      <div className="catalog-category-group" key={subcategory.title}>
+                    {activeGroup.subcategories.map((subcategory) => {
+                      const hasMeaningfulChildren = subcategoryHasMeaningfulChildren(subcategory);
+
+                      return (
+                        <div className="catalog-category-group" key={subcategory.title}>
                         <button
                           type="button"
                           className={
@@ -100,10 +121,10 @@ function ProductsPage({ copy }) {
                         >
                           <span>{subcategory.title}</span>
                           <span className="catalog-chevron">
-                            {subcategory.title === activeSubcategoryTitle ? "⌄" : "›"}
+                            {hasMeaningfulChildren && subcategory.title === activeSubcategoryTitle ? "⌄" : "›"}
                           </span>
                         </button>
-                        {subcategory.title === activeSubcategoryTitle ? (
+                        {subcategory.title === activeSubcategoryTitle && hasMeaningfulChildren ? (
                           <div className="catalog-subcategory-list">
                             {subcategory.children.map((child) => (
                               <button
@@ -124,8 +145,9 @@ function ProductsPage({ copy }) {
                             ))}
                           </div>
                         ) : null}
-                      </div>
-                    ))}
+                        </div>
+                      );
+                    })}
                   </div>
                 ) : null}
               </div>
@@ -136,18 +158,20 @@ function ProductsPage({ copy }) {
         <div className="catalog-content">
           <div className="catalog-content__header">
             <div>
-              <h2>{activeChild.title}</h2>
+              <h2>{activeSubcategoryHasMeaningfulChildren ? activeChild.title : activeSubcategory.title}</h2>
               <p>
-                {activeGroup.title} / {activeSubcategory.title}
+                {activeSubcategoryHasMeaningfulChildren
+                  ? `${activeGroup.title} / ${activeSubcategory.title}`
+                  : activeGroup.title}
               </p>
             </div>
           </div>
           <div className="catalog-grid">
-            {currentItems.map((item) => {
+            {paginatedItems.map((item) => {
               const product = copy.products.find((entry) => entry.slug === item.slug) ?? copy.products[0];
 
               return (
-                <article className="catalog-card catalog-card--clean" key={`${activeChild.title}-${item.title}`}>
+                <article className="catalog-card catalog-card--clean" key={product.slug}>
                   <div className="catalog-card__media">
                     <ImageWithFallback 
                       src={product.image} 
@@ -173,6 +197,42 @@ function ProductsPage({ copy }) {
               );
             })}
           </div>
+          {totalPages > 1 ? (
+            <div className="catalog-pagination" aria-label="Product pagination">
+              <button
+                type="button"
+                className="catalog-pagination__button"
+                onClick={() => setCurrentPage((page) => Math.max(1, page - 1))}
+                disabled={currentPage === 1}
+              >
+                Prev
+              </button>
+              <div className="catalog-pagination__pages">
+                {Array.from({ length: totalPages }, (_, index) => index + 1).map((page) => (
+                  <button
+                    key={page}
+                    type="button"
+                    className={
+                      page === currentPage
+                        ? "catalog-pagination__button is-active"
+                        : "catalog-pagination__button"
+                    }
+                    onClick={() => setCurrentPage(page)}
+                  >
+                    {page}
+                  </button>
+                ))}
+              </div>
+              <button
+                type="button"
+                className="catalog-pagination__button"
+                onClick={() => setCurrentPage((page) => Math.min(totalPages, page + 1))}
+                disabled={currentPage === totalPages}
+              >
+                Next
+              </button>
+            </div>
+          ) : null}
         </div>
       </section>
     </main>

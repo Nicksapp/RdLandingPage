@@ -1,6 +1,6 @@
 {
   "copy": {
-    "brand": "广东嵘德",
+    "brand": "广东嵘德钢管有限公司",
     "nav": [
       "首页",
       "公司简介",
@@ -8,26 +8,26 @@
       "联系我们"
     ],
     "switchLabel": "English",
-    "heroEyebrow": "高端工业材料与流体控制系统",
-    "heroTitle": "广东嵘德",
+    "heroEyebrow": "test高端工业材料与流体控制系统",
+    "heroTitle": "广东嵘德钢管有限公司",
     "heroTagline": "Premium Steel Pipe & Valve Solutions",
-    "heroPrimary": "进入产品中心",
+    "heroPrimary": "产品中心",
     "heroSecondary": "联系团队",
     "heroSlides": [
       {
         "title": "高端钢管系统",
         "description": "面向能源、化工与船舶工程的高标准钢管供应，兼顾耐压、耐蚀与批次追溯。",
-        "image": "/images/hero-pipes.jpg"
+        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
       },
       {
         "title": "工业阀门解决方案",
         "description": "覆盖球阀、闸阀、截止阀与止回阀，满足关键流体系统长期稳定运行需求。",
-        "image": "/images/hero-valves.jpg"
+        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
       },
       {
         "title": "项目化成套交付",
         "description": "从规格匹配到出口协同，为工业客户提供更高效率的一站式采购体验。",
-        "image": "/images/hero-project.jpg"
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
       }
     ],
     "heroStats": [
@@ -50,28 +50,28 @@
       {
         "title": "高端钢管",
         "text": "覆盖无缝管、焊接管、精密管及异形管，满足高压、高温及耐腐蚀工况。",
-        "image": "/images/capability-pipes.jpg"
+        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
       },
       {
         "title": "工业阀门",
         "text": "提供球阀、闸阀、截止阀和止回阀等产品，兼顾长期稳定运行与维护便利性。",
-        "image": "/images/capability-valves.jpg"
+        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
       },
       {
         "title": "项目供配",
         "text": "支持工程类订单的批量供货、规格整合与出口协同，缩短项目采购周期。",
-        "image": "/images/capability-project.jpg"
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
       }
     ],
     "aboutTitle": "公司简介",
     "aboutLead": "广东嵘德专注于高端钢管、工业阀门及配套流体控制部件的研发、集成与交付，以稳定质量和快速响应服务全球工业客户。",
-    "aboutBody": "广东嵘德钢管有限公司成立于2020年，注册资本1500万元，位于佛山市顺德区乐从钢铁世界。我们深耕金属材料销售与制造，构建从选材建议、规格匹配、加工定制到出货追踪的完整服务链路，让每一次采购都更高效、更可靠。",
+    "aboutBody": "我们深耕高压、高温、耐腐蚀工况，构建从选材建议、规格匹配、加工定制到出货追踪的完整服务链路，让每一次采购都更高效、更可靠。",
     "aboutHighlights": [
-      "金属材料销售与制造一体化服务",
+      "严选不锈钢、合金钢、双相钢等材质",
       "支持多规格切割、法兰连接与组配交付",
       "服务海内外 EPC 与工业终端客户"
     ],
-    "aboutImage": "/images/hero-valves.jpg",
+    "aboutImage": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
     "showcaseTitle": "产品中心",
     "showcaseLead": "围绕关键工业场景，提供兼顾耐久性、精度与交付效率的产品矩阵。",
     "showcaseCta": "查看全部产品",
@@ -101,238 +101,76 @@
     ],
     "products": [
       {
-        "slug": "red-grooved-elbow-90",
-        "category": "红色沟槽管件",
-        "title": "90°沟槽弯头",
-        "text": "消防管道系统专用90度弯头，红色环氧涂层，球墨铸铁材质，沟槽式快速连接。",
+        "slug": "premium-steel-pipes",
+        "category": "钢管系列",
+        "title": "高端钢管",
+        "text": "无缝钢管、焊接钢管、精密管及异形管，适配输送、结构与高压系统需求。",
         "specs": [
-          "QT450-10球墨铸铁",
-          "DN50-DN300",
-          "GB 5135.11标准",
-          "红色环氧涂层"
+          "不锈钢 / 合金钢 / 双相钢",
+          "DN15-DN1200",
+          "耐压与耐腐蚀工况"
         ],
-        "image": "/images/capability-valves.jpg"
+        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
       },
       {
-        "slug": "red-grooved-elbow-45",
-        "category": "红色沟槽管件",
-        "title": "45°沟槽弯头",
-        "text": "消防管道系统专用45度弯头，用于管道转向连接，红色环氧涂层处理。",
+        "slug": "industrial-valves",
+        "category": "阀门系列",
+        "title": "工业阀门",
+        "text": "球阀、闸阀、截止阀、止回阀与控制阀，兼顾密封性能与长期稳定运行。",
         "specs": [
-          "QT450-10球墨铸铁",
-          "DN50-DN300",
-          "GB 5135.11标准",
-          "红色环氧涂层"
+          "API / DIN / GB 标准",
+          "手动 / 气动 / 电动",
+          "高温高压密封结构"
         ],
-        "image": "/images/capability-valves.jpg"
+        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
       },
       {
-        "slug": "red-grooved-tee",
-        "category": "红色沟槽管件",
-        "title": "沟槽正三通",
-        "text": "消防管道分流连接专用，等径三通设计，沟槽式快速连接，安装便捷。",
+        "slug": "supporting-components",
+        "category": "配件系列",
+        "title": "配套组件",
+        "text": "法兰、管件、执行器与连接附件，支持整套流体控制方案快速集成。",
         "specs": [
-          "QT450-10球墨铸铁",
-          "DN50-DN300",
-          "GB 5135.11标准",
-          "红色环氧涂层"
+          "法兰 / 弯头 / 三通",
+          "执行器联动方案",
+          "项目成套供货"
         ],
-        "image": "/images/capability-valves.jpg"
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
       },
       {
-        "slug": "red-grooved-cross",
-        "category": "红色沟槽管件",
-        "title": "沟槽正四通",
-        "text": "消防管道十字分支连接，等径四通设计，红色涂层，球墨铸铁材质。",
+        "slug": "precision-stainless-tubes",
+        "category": "钢管系列",
+        "title": "精密不锈钢管",
+        "text": "用于洁净输送、仪表系统与高要求制造产线，具备更高尺寸精度与表面质量。",
         "specs": [
-          "QT450-10球墨铸铁",
-          "DN50-DN300",
-          "GB 5135.11标准",
-          "红色环氧涂层"
+          "BA / EP 表面处理",
+          "高洁净度",
+          "支持定尺交付"
         ],
-        "image": "/images/capability-valves.jpg"
+        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
       },
       {
-        "slug": "red-rigid-coupling",
-        "category": "红色沟槽管件",
-        "title": "刚性卡箍接头",
-        "text": "消防管道刚性连接接头，用于固定管道连接点，红色涂层，橡胶密封圈。",
+        "slug": "high-performance-ball-valves",
+        "category": "阀门系列",
+        "title": "高性能球阀",
+        "text": "适用于石化、天然气与流程工业场景，兼顾快速启闭与低泄漏控制。",
         "specs": [
-          "QT450-10球墨铸铁",
-          "DN50-DN300",
-          "1.6MPa/2.5MPa",
-          "红色环氧涂层"
+          "浮动式 / 固定式",
+          "软密封 / 硬密封",
+          "支持防火防静电"
         ],
-        "image": "/images/capability-project.jpg"
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
       },
       {
-        "slug": "red-flexible-coupling",
-        "category": "红色沟槽管件",
-        "title": "挠性卡箍接头",
-        "text": "消防管道挠性连接接头，允许一定角度偏差，减震降噪，红色涂层处理。",
+        "slug": "industrial-flanges-fittings",
+        "category": "配件系列",
+        "title": "工业法兰与管件",
+        "text": "支持多标准连接与非标加工，适配复杂管路系统与出口项目。",
         "specs": [
-          "QT450-10球墨铸铁",
-          "DN50-DN300",
-          "1.6MPa/2.5MPa",
-          "红色环氧涂层"
+          "ASME / EN / JIS",
+          "锻造与机加工",
+          "可提供材质报告"
         ],
-        "image": "/images/capability-project.jpg"
-      },
-      {
-        "slug": "red-mechanical-tee",
-        "category": "红色沟槽管件",
-        "title": "机械三通",
-        "text": "消防管道开孔分支连接，无需焊接，机械开孔连接，快速安装。",
-        "specs": [
-          "QT450-10球墨铸铁",
-          "DN50-DN300",
-          "GB 5135.11标准",
-          "红色环氧涂层"
-        ],
-        "image": "/images/capability-pipes.jpg"
-      },
-      {
-        "slug": "red-mechanical-cross",
-        "category": "红色沟槽管件",
-        "title": "机械四通",
-        "text": "消防管道双分支连接，机械开孔四通设计，红色涂层，球墨铸铁材质。",
-        "specs": [
-          "QT450-10球墨铸铁",
-          "DN50-DN300",
-          "GB 5135.11标准",
-          "红色环氧涂层"
-        ],
-        "image": "/images/capability-pipes.jpg"
-      },
-      {
-        "slug": "red-reducer",
-        "category": "红色沟槽管件",
-        "title": "沟槽异径管",
-        "text": "消防管道变径连接，同心/偏心异径设计，红色环氧涂层，沟槽连接。",
-        "specs": [
-          "QT450-10球墨铸铁",
-          "DN50-DN300",
-          "GB 5135.11标准",
-          "红色环氧涂层"
-        ],
-        "image": "/images/capability-pipes.jpg"
-      },
-      {
-        "slug": "red-cap",
-        "category": "红色沟槽管件",
-        "title": "沟槽管帽/堵板",
-        "text": "消防管道末端封堵，盲板/管帽设计，红色涂层，沟槽式快速安装。",
-        "specs": [
-          "QT450-10球墨铸铁",
-          "DN50-DN300",
-          "GB 5135.11标准",
-          "红色环氧涂层"
-        ],
-        "image": "/images/capability-project.jpg"
-      },
-      {
-        "slug": "lined-grooved-elbow",
-        "category": "衬塑产品",
-        "title": "衬塑沟槽弯头",
-        "text": "饮用水/给水管件，外镀锌/喷塑内衬PE，卫生无毒，沟槽快速连接。",
-        "specs": [
-          "外镀锌内衬PE",
-          "DN50-DN300",
-          "饮用水专用",
-          "卫生级硅胶密封圈"
-        ],
-        "image": "/images/capability-valves.jpg"
-      },
-      {
-        "slug": "lined-grooved-tee",
-        "category": "衬塑产品",
-        "title": "衬塑沟槽三通",
-        "text": "饮用水管道分流连接，内衬PE防腐层，外镀锌保护，卫生安全。",
-        "specs": [
-          "外镀锌内衬PE",
-          "DN50-DN300",
-          "饮用水专用",
-          "卫生级硅胶密封圈"
-        ],
-        "image": "/images/capability-valves.jpg"
-      },
-      {
-        "slug": "lined-grooved-cross",
-        "category": "衬塑产品",
-        "title": "衬塑沟槽四通",
-        "text": "饮用水管道十字分支，内衬PE防腐，外镀锌层，适用于给水系统。",
-        "specs": [
-          "外镀锌内衬PE",
-          "DN50-DN300",
-          "饮用水专用",
-          "卫生级硅胶密封圈"
-        ],
-        "image": "/images/capability-valves.jpg"
-      },
-      {
-        "slug": "lined-coupling",
-        "category": "衬塑产品",
-        "title": "衬塑卡箍接头",
-        "text": "饮用水管道连接专用，内衬PE防腐层，外镀锌/银色喷塑，硅胶密封圈。",
-        "specs": [
-          "外镀锌内衬PE",
-          "DN50-DN300",
-          "1.6MPa压力",
-          "卫生级硅胶密封圈"
-        ],
-        "image": "/images/capability-project.jpg"
-      },
-      {
-        "slug": "lined-reducer",
-        "category": "衬塑产品",
-        "title": "衬塑异径管",
-        "text": "饮用水管道变径连接，内衬PE防腐，外镀锌保护，卫生无毒材质。",
-        "specs": [
-          "外镀锌内衬PE",
-          "DN50-DN300",
-          "饮用水专用",
-          "卫生级硅胶密封圈"
-        ],
-        "image": "/images/capability-pipes.jpg"
-      },
-      {
-        "slug": "lined-mechanical-tee",
-        "category": "衬塑产品",
-        "title": "衬塑机械三通",
-        "text": "饮用水管道开孔分支，内衬PE防腐层，机械连接，无需焊接。",
-        "specs": [
-          "外镀锌内衬PE",
-          "DN50-DN300",
-          "饮用水专用",
-          "卫生级硅胶密封圈"
-        ],
-        "image": "/images/capability-pipes.jpg"
-      },
-      {
-        "slug": "lined-cap",
-        "category": "衬塑产品",
-        "title": "衬塑管帽",
-        "text": "饮用水管道末端封堵，内衬PE防腐，外镀锌保护，卫生安全。",
-        "specs": [
-          "外镀锌内衬PE",
-          "DN50-DN300",
-          "饮用水专用",
-          "卫生级硅胶密封圈"
-        ],
-        "image": "/images/capability-project.jpg"
-      },
-      {
-        "slug": "lined-flange-adapter",
-        "category": "衬塑产品",
-        "title": "衬塑法兰接头",
-        "text": "饮用水管道法兰转换连接，内衬PE防腐，适配各种法兰标准。",
-        "specs": [
-          "外镀锌内衬PE",
-          "DN50-DN300",
-          "GB/ANSI/DIN",
-          "卫生级硅胶密封圈"
-        ],
-        "image": "/images/capability-project.jpg"
+        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
       }
     ],
     "categories": [
@@ -342,39 +180,39 @@
     ],
     "productGroups": [
       {
-        "id": "red-grooved-fittings",
-        "title": "红色沟槽管件",
-        "image": "/images/hero-valves.jpg",
+        "id": "pipe-systems",
+        "title": "钢管系统",
+        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1",
         "subcategories": [
           {
-            "title": "弯头系列",
+            "title": "高端钢管",
             "children": [
               {
-                "title": "90°弯头",
+                "title": "工业输送管",
                 "items": [
                   {
-                    "slug": "red-grooved-elbow-90",
-                    "title": "90°沟槽弯头",
+                    "slug": "premium-steel-pipes",
+                    "title": "高端钢管",
                     "points": [
-                      "消防管道专用",
-                      "红色环氧涂层",
-                      "QT450-10材质",
-                      "GB 5135.11标准"
+                      "高压输送工况",
+                      "多材质可选",
+                      "支持项目批量供货",
+                      "批次追溯完整"
                     ]
                   }
                 ]
               },
               {
-                "title": "45°弯头",
+                "title": "精密管材",
                 "items": [
                   {
-                    "slug": "red-grooved-elbow-45",
-                    "title": "45°沟槽弯头",
+                    "slug": "precision-stainless-tubes",
+                    "title": "精密不锈钢管",
                     "points": [
-                      "管道转向连接",
-                      "红色环氧涂层",
-                      "沟槽快速连接",
-                      "球墨铸铁"
+                      "高洁净度",
+                      "尺寸精度稳定",
+                      "支持 BA / EP",
+                      "适配仪表与洁净系统"
                     ]
                   }
                 ]
@@ -382,139 +220,34 @@
             ]
           },
           {
-            "title": "三通四通",
+            "title": "工程管材",
             "children": [
               {
-                "title": "正三通",
+                "title": "无缝钢管",
                 "items": [
                   {
-                    "slug": "red-grooved-tee",
-                    "title": "沟槽正三通",
+                    "slug": "premium-steel-pipes",
+                    "title": "无缝与焊接管",
                     "points": [
-                      "分流连接专用",
-                      "等径设计",
-                      "红色涂层",
-                      "安装便捷"
+                      "结构与输送双场景",
+                      "耐压耐腐蚀",
+                      "规格覆盖广",
+                      "加工定制灵活"
                     ]
                   }
                 ]
               },
               {
-                "title": "正四通",
+                "title": "项目定制管",
                 "items": [
                   {
-                    "slug": "red-grooved-cross",
-                    "title": "沟槽正四通",
+                    "slug": "precision-stainless-tubes",
+                    "title": "定制工程管",
                     "points": [
-                      "十字分支",
-                      "红色涂层",
-                      "球墨铸铁",
-                      "GB标准"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "卡箍接头",
-            "children": [
-              {
-                "title": "刚性接头",
-                "items": [
-                  {
-                    "slug": "red-rigid-coupling",
-                    "title": "刚性卡箍接头",
-                    "points": [
-                      "固定连接",
-                      "橡胶密封",
-                      "红色涂层",
-                      "1.6/2.5MPa"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "挠性接头",
-                "items": [
-                  {
-                    "slug": "red-flexible-coupling",
-                    "title": "挠性卡箍接头",
-                    "points": [
-                      "允许角度偏差",
-                      "减震降噪",
-                      "红色涂层",
-                      "快速安装"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "机械连接",
-            "children": [
-              {
-                "title": "机械三通",
-                "items": [
-                  {
-                    "slug": "red-mechanical-tee",
-                    "title": "机械三通",
-                    "points": [
-                      "开孔分支",
-                      "无需焊接",
-                      "快速安装",
-                      "红色涂层"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "机械四通",
-                "items": [
-                  {
-                    "slug": "red-mechanical-cross",
-                    "title": "机械四通",
-                    "points": [
-                      "双分支连接",
-                      "机械开孔",
-                      "红色涂层",
-                      "GB标准"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "其他管件",
-            "children": [
-              {
-                "title": "异径管",
-                "items": [
-                  {
-                    "slug": "red-reducer",
-                    "title": "沟槽异径管",
-                    "points": [
-                      "变径连接",
-                      "同心/偏心",
-                      "红色涂层",
-                      "沟槽连接"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "管帽堵板",
-                "items": [
-                  {
-                    "slug": "red-cap",
-                    "title": "沟槽管帽/堵板",
-                    "points": [
-                      "末端封堵",
-                      "盲板设计",
-                      "红色涂层",
-                      "快速安装"
+                      "支持定尺交付",
+                      "可做异形加工",
+                      "配合安装接口",
+                      "工程配套效率高"
                     ]
                   }
                 ]
@@ -524,24 +257,39 @@
         ]
       },
       {
-        "id": "lined-grooved-fittings",
-        "title": "衬塑产品",
-        "image": "/images/capability-pipes.jpg",
+        "id": "valve-systems",
+        "title": "阀门系统",
+        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
         "subcategories": [
           {
-            "title": "衬塑弯头",
+            "title": "通用工业阀门",
             "children": [
               {
-                "title": "衬塑沟槽弯头",
+                "title": "球阀系列",
                 "items": [
                   {
-                    "slug": "lined-grooved-elbow",
-                    "title": "衬塑沟槽弯头",
+                    "slug": "high-performance-ball-valves",
+                    "title": "高性能球阀",
                     "points": [
-                      "饮用水专用",
-                      "内衬PE防腐",
-                      "外镀锌保护",
-                      "卫生无毒"
+                      "快速启闭",
+                      "低泄漏控制",
+                      "防火防静电",
+                      "硬密封可选"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "通用阀门",
+                "items": [
+                  {
+                    "slug": "industrial-valves",
+                    "title": "工业阀门",
+                    "points": [
+                      "密封性能稳定",
+                      "适配多标准接口",
+                      "手动气动电动可选",
+                      "长期运行可靠"
                     ]
                   }
                 ]
@@ -549,34 +297,76 @@
             ]
           },
           {
-            "title": "衬塑三通四通",
+            "title": "控制与执行",
             "children": [
               {
-                "title": "衬塑三通",
+                "title": "截止阀",
                 "items": [
                   {
-                    "slug": "lined-grooved-tee",
-                    "title": "衬塑沟槽三通",
+                    "slug": "industrial-valves",
+                    "title": "截止阀与止回阀",
                     "points": [
-                      "分流连接",
-                      "内衬PE",
-                      "外镀锌",
-                      "卫生安全"
+                      "适用流程工业",
+                      "结构稳固",
+                      "维护便利",
+                      "支持项目组配"
                     ]
                   }
                 ]
               },
               {
-                "title": "衬塑四通",
+                "title": "执行控制单元",
                 "items": [
                   {
-                    "slug": "lined-grooved-cross",
-                    "title": "衬塑沟槽四通",
+                    "slug": "industrial-valves",
+                    "title": "阀门执行控制组件",
                     "points": [
-                      "十字分支",
-                      "内衬PE防腐",
-                      "给水系统",
-                      "硅胶密封"
+                      "支持自动化改造",
+                      "联动控制稳定",
+                      "适配多阀型",
+                      "便于集中维护"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fitting-systems",
+        "title": "管件配件",
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+        "subcategories": [
+          {
+            "title": "连接件",
+            "children": [
+              {
+                "title": "法兰产品",
+                "items": [
+                  {
+                    "slug": "industrial-flanges-fittings",
+                    "title": "工业法兰与管件",
+                    "points": [
+                      "多标准兼容",
+                      "锻造与机加工",
+                      "适配复杂管路",
+                      "可提供材质报告"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "异形管件",
+                "items": [
+                  {
+                    "slug": "industrial-flanges-fittings",
+                    "title": "弯头三通与异形件",
+                    "points": [
+                      "多规格机加工",
+                      "适配复杂接口",
+                      "项目供货稳定",
+                      "支持图纸打样"
                     ]
                   }
                 ]
@@ -584,34 +374,76 @@
             ]
           },
           {
-            "title": "衬塑接头",
+            "title": "成套配件",
             "children": [
               {
-                "title": "衬塑卡箍",
+                "title": "执行器附件",
                 "items": [
                   {
-                    "slug": "lined-coupling",
-                    "title": "衬塑卡箍接头",
+                    "slug": "supporting-components",
+                    "title": "配套组件",
                     "points": [
-                      "管道连接",
-                      "内衬PE",
-                      "外镀锌",
-                      "1.6MPa压力"
+                      "法兰弯头三通",
+                      "执行器与附件",
+                      "整套配供",
+                      "缩短采购周期"
                     ]
                   }
                 ]
               },
               {
-                "title": "衬塑异径管",
+                "title": "项目备件",
                 "items": [
                   {
-                    "slug": "lined-reducer",
-                    "title": "衬塑异径管",
+                    "slug": "supporting-components",
+                    "title": "工程备件组件",
                     "points": [
-                      "变径连接",
-                      "内衬PE",
-                      "外镀锌保护",
-                      "卫生材质"
+                      "适配改造维护",
+                      "常用规格覆盖",
+                      "便于集中采购",
+                      "快速交付支持"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "project-services",
+        "title": "项目服务",
+        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+        "subcategories": [
+          {
+            "title": "项目交付",
+            "children": [
+              {
+                "title": "成套交付",
+                "items": [
+                  {
+                    "slug": "supporting-components",
+                    "title": "工程成套交付",
+                    "points": [
+                      "规格整合",
+                      "出口协同",
+                      "质检与追溯",
+                      "节点交付稳定"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "供应协同",
+                "items": [
+                  {
+                    "slug": "supporting-components",
+                    "title": "项目供应协同",
+                    "points": [
+                      "多批次计划供货",
+                      "对接工程节点",
+                      "交付跟踪透明",
+                      "提升整体采购效率"
                     ]
                   }
                 ]
@@ -619,49 +451,34 @@
             ]
           },
           {
-            "title": "其他衬塑件",
+            "title": "技术支持",
             "children": [
               {
-                "title": "衬塑机械三通",
+                "title": "选型服务",
                 "items": [
                   {
-                    "slug": "lined-mechanical-tee",
-                    "title": "衬塑机械三通",
+                    "slug": "premium-steel-pipes",
+                    "title": "选型与加工支持",
                     "points": [
-                      "开孔分支",
-                      "内衬PE",
-                      "机械连接",
-                      "无需焊接"
+                      "选材建议",
+                      "接口匹配",
+                      "非标加工",
+                      "样品与打样支持"
                     ]
                   }
                 ]
               },
               {
-                "title": "衬塑管帽",
+                "title": "项目咨询",
                 "items": [
                   {
-                    "slug": "lined-cap",
-                    "title": "衬塑管帽",
+                    "slug": "industrial-valves",
+                    "title": "工况匹配咨询",
                     "points": [
-                      "末端封堵",
-                      "内衬PE",
-                      "外镀锌",
-                      "卫生安全"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "衬塑法兰接头",
-                "items": [
-                  {
-                    "slug": "lined-flange-adapter",
-                    "title": "衬塑法兰接头",
-                    "points": [
-                      "法兰转换",
-                      "内衬PE",
-                      "多标准适配",
-                      "硅胶密封"
+                      "结合工况选材",
+                      "接口标准匹配",
+                      "帮助优化采购方案",
+                      "降低现场调整成本"
                     ]
                   }
                 ]
@@ -684,11 +501,11 @@
       },
       {
         "label": "公司地址",
-        "value": "广东省佛山市顺德区乐从镇广东乐从钢铁世界E1区钢铁世界大道20号南一路39号"
+        "value": "中国广东省佛山市高端装备产业园"
       }
     ],
-    "contactImage": "/images/hero-project.jpg",
-    "footer": "广东嵘德 · 专注高端钢管与阀门解决方案"
+    "contactImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+    "footer": "广东嵘德钢管有限公司 · 广东嵘德阀门有限公司"
   },
-  "source": "local-fallback-export"
+  "source": "cloudbase-static-export"
 }
