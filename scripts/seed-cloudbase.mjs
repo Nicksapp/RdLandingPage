@@ -1,5 +1,31 @@
 import cloudbase from "@cloudbase/node-sdk";
 import { content, sectionIds } from "../src/data/siteContent.js";
+import { readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import path from "node:path";
+
+// 加载 .env.local 文件
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const envPath = path.join(__dirname, "..", ".env.local");
+
+try {
+  const envContent = readFileSync(envPath, "utf8");
+  for (const line of envContent.split(/\r?\n/)) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith("#")) continue;
+    const separatorIndex = trimmed.indexOf("=");
+    if (separatorIndex === -1) continue;
+    const key = trimmed.slice(0, separatorIndex).trim();
+    const value = trimmed.slice(separatorIndex + 1).trim();
+    if (key && !process.env[key]) {
+      process.env[key] = value;
+    }
+  }
+  console.log("Loaded .env.local successfully");
+} catch (error) {
+  console.warn("Failed to load .env.local:", error.message);
+}
 
 const env = process.env.CLOUDBASE_ENV_ID ?? "tx-base-cloud-0giy45il8f83ce7e";
 const accessKey = process.env.CLOUDBASE_ACCESS_KEY;
@@ -39,7 +65,12 @@ async function ensureCollection(collectionName) {
     await db.createCollection(collectionName);
     console.log(`Created collection: ${collectionName}`);
   } catch (error) {
-    if (error?.code === "DATABASE_COLLECTION_EXIST") {
+    // 处理集合已存在的各种错误代码
+    if (error?.code === "DATABASE_COLLECTION_EXIST" || 
+        error?.code === "ResourceUnavailable.ResourceExist" ||
+        error?.message?.includes("Table exist") ||
+        error?.message?.includes("DATABASE_COLLECTION_ALREADY_EXIST")) {
+      console.log(`Collection already exists: ${collectionName}`);
       return;
     }
 

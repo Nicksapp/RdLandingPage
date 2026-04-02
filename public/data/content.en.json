@@ -17,17 +17,17 @@
       {
         "title": "Premium Pipe Systems",
         "description": "High-standard steel pipe supply for energy, chemical, and marine applications with traceable quality assurance.",
-        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
+        "image": "/images/hero-pipes.jpg"
       },
       {
         "title": "Industrial Valve Solutions",
         "description": "Ball, gate, globe, and check valves engineered for stable performance in critical flow-control systems.",
-        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
+        "image": "/images/hero-valves.jpg"
       },
       {
         "title": "Integrated Project Delivery",
         "description": "From specification matching to export execution, we simplify procurement for industrial customers.",
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
+        "image": "/images/hero-project.jpg"
       }
     ],
     "heroStats": [
@@ -50,28 +50,28 @@
       {
         "title": "Premium Steel Pipes",
         "text": "Seamless, welded, precision, and custom-profile pipes for demanding industrial operating conditions.",
-        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
+        "image": "/images/capability-pipes.jpg"
       },
       {
         "title": "Industrial Valves",
         "text": "Ball, gate, globe, and check valves designed for reliability, lifetime stability, and easier maintenance.",
-        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/be69ac41-c3ef-4359-9834-426ab27bb071.jpg"
       },
       {
         "title": "Project Supply",
         "text": "Integrated execution for engineering orders with specification matching and export-ready coordination.",
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
+        "image": "/images/capability-project.jpg"
       }
     ],
     "aboutTitle": "About Us",
     "aboutLead": "Guangdong Rongde focuses on premium steel pipes, industrial valves, and fluid-control components with strong capabilities in engineering, integration, and delivery.",
-    "aboutBody": "We support demanding high-pressure, high-temperature, and corrosion-resistant scenarios through end-to-end services covering material selection, spec matching, customization, and shipment visibility.",
+    "aboutBody": "Founded in 2020 with a registered capital of 15 million RMB, Guangdong Rongde Steel Pipe Co., Ltd. is located in Lecong Steel World, Shunde District, Foshan City. We support demanding industrial scenarios through end-to-end services covering material selection, spec matching, customization, and shipment visibility.",
     "aboutHighlights": [
-      "Stainless, alloy, and duplex steel materials for critical environments",
+      "Integrated metal material sales and manufacturing services",
       "Support for cut-to-size, flange connection, and assembled delivery",
       "Serving EPC contractors and industrial end clients worldwide"
     ],
-    "aboutImage": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+    "aboutImage": "/images/hero-valves.jpg",
     "showcaseTitle": "Product Center",
     "showcaseLead": "A product portfolio built for durability, precision, and dependable lead times in critical industries.",
     "showcaseCta": "View All Products",
@@ -113,6 +113,19 @@
         "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
       },
       {
+        "slug": "xwx-red-61",
+        "category": "Red Grooved Fittings",
+        "title": "Reducer Grooved Cross",
+        "text": "Official Xinwanxing item \"Reducer Grooved Cross\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/1b3574d0-563f-4cde-a647-349a3db33e33.jpg"
+      },
+      {
         "slug": "industrial-valves",
         "category": "Valve Series",
         "title": "Industrial Valves",
@@ -123,6 +136,19 @@
           "High-temp sealing structure"
         ],
         "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
+      },
+      {
+        "slug": "xwx-red-60",
+        "category": "Red Grooved Fittings",
+        "title": "45° Elbow",
+        "text": "Official Xinwanxing item \"45° Elbow\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/a8010711-c0ab-44bd-8786-14d4c809832f.jpg"
       },
       {
         "slug": "supporting-components",
@@ -137,6 +163,19 @@
         "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
       },
       {
+        "slug": "xwx-red-59",
+        "category": "Red Grooved Fittings",
+        "title": "90° Elbow",
+        "text": "Official Xinwanxing item \"90° Elbow\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/33c37bfb-37a9-4308-8cfd-00c4c23c76b3.jpg"
+      },
+      {
         "slug": "precision-stainless-tubes",
         "category": "Pipe Series",
         "title": "Precision Stainless Tubes",
@@ -147,6 +186,19 @@
           "Cut-to-length support"
         ],
         "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
+      },
+      {
+        "slug": "xwx-red-58",
+        "category": "Red Grooved Fittings",
+        "title": "90° Elbow",
+        "text": "Official Xinwanxing item \"90° Elbow\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/b74b9c47-e6e6-4de5-ab36-3483f510c229.jpg"
       },
       {
         "slug": "high-performance-ball-valves",
@@ -161,6 +213,19 @@
         "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
       },
       {
+        "slug": "xwx-red-57",
+        "category": "Red Grooved Fittings",
+        "title": "90° Grooved Elbow",
+        "text": "Official Xinwanxing item \"90° Grooved Elbow\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/7c59d32c-718d-4220-8a59-f9a1ed82d040.jpg"
+      },
+      {
         "slug": "industrial-flanges-fittings",
         "category": "Accessory Series",
         "title": "Industrial Flanges & Fittings",
@@ -171,6 +236,318 @@
           "Material traceability reports"
         ],
         "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
+      },
+      {
+        "slug": "xwx-red-56",
+        "category": "Red Grooved Fittings",
+        "title": "Raised Flange",
+        "text": "Official Xinwanxing item \"Raised Flange\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/f8b04fb7-8c6b-4020-bc43-13b94b0cffe0.jpg"
+      },
+      {
+        "slug": "xwx-red-55",
+        "category": "Red Grooved Fittings",
+        "title": "Raised Grooved Flange",
+        "text": "Official Xinwanxing item \"Raised Grooved Flange\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/e69098c0-07c1-4ced-a80c-bfc514bbcfef.jpg"
+      },
+      {
+        "slug": "xwx-red-54",
+        "category": "Red Grooved Fittings",
+        "title": "Grooved Reducer",
+        "text": "Official Xinwanxing item \"Grooved Reducer\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/30b2ce4c-56b8-4adf-a924-0cd074060a6f.jpg"
+      },
+      {
+        "slug": "xwx-red-53",
+        "category": "Red Grooved Fittings",
+        "title": "Grooved Cross",
+        "text": "Official Xinwanxing item \"Grooved Cross\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/b4b2d362-3478-497a-a015-a56491884bd0.jpg"
+      },
+      {
+        "slug": "xwx-red-52",
+        "category": "Red Grooved Fittings",
+        "title": "Reducer Threaded Grooved Tee",
+        "text": "Official Xinwanxing item \"Reducer Threaded Grooved Tee\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/52403e87-ea9a-45ab-ae00-69b705f373d5.jpg"
+      },
+      {
+        "slug": "xwx-red-51",
+        "category": "Red Grooved Fittings",
+        "title": "Reducer Grooved Cross",
+        "text": "Official Xinwanxing item \"Reducer Grooved Cross\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/0aeeb3db-3eac-49d7-9841-811a8d2b98f9.jpg"
+      },
+      {
+        "slug": "xwx-red-50",
+        "category": "Red Grooved Fittings",
+        "title": "Mechanical Threaded Tee",
+        "text": "Official Xinwanxing item \"Mechanical Threaded Tee\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/995c7b81-2221-45f2-b4c0-7fb7747ad1f4.jpg"
+      },
+      {
+        "slug": "xwx-red-49",
+        "category": "Red Grooved Fittings",
+        "title": "Mechanical Threaded Cross",
+        "text": "Official Xinwanxing item \"Mechanical Threaded Cross\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/b9921901-bb37-45bf-9354-fe3236446fc1.jpg"
+      },
+      {
+        "slug": "xwx-red-48",
+        "category": "Red Grooved Fittings",
+        "title": "Coupling Clamp",
+        "text": "Official Xinwanxing item \"Coupling Clamp\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/6c43b338-6e4c-4a7e-863e-5db03c7e5617.jpg"
+      },
+      {
+        "slug": "xwx-red-47",
+        "category": "Red Grooved Fittings",
+        "title": "Blind Plate",
+        "text": "Official Xinwanxing item \"Blind Plate\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/419f4695-cde2-4d77-860f-8bb819571910.jpg"
+      },
+      {
+        "slug": "xwx-red-46",
+        "category": "Red Grooved Fittings",
+        "title": "Threaded Reducer",
+        "text": "Official Xinwanxing item \"Threaded Reducer\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/11ff7d29-7623-4c33-ade9-b4d402d9b36e.jpg"
+      },
+      {
+        "slug": "xwx-red-45",
+        "category": "Red Grooved Fittings",
+        "title": "Equal Grooved Tee",
+        "text": "Official Xinwanxing item \"Equal Grooved Tee\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/88101895-9407-407c-84b8-719957e79653.jpg"
+      },
+      {
+        "slug": "xwx-red-44",
+        "category": "Red Grooved Fittings",
+        "title": "Reducer Grooved Tee",
+        "text": "Official Xinwanxing item \"Reducer Grooved Tee\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/9e2aeb67-db2f-45c7-a4ec-648681540ec6.jpg"
+      },
+      {
+        "slug": "xwx-red-43",
+        "category": "Red Grooved Fittings",
+        "title": "Reducer Tee",
+        "text": "Official Xinwanxing item \"Reducer Tee\" under Red Grooved Fittings, shown with the matching product image from the source site.",
+        "specs": [
+          "Red Grooved Fittings",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/bebe3094-4b55-48a2-83a5-732228a7b0ec.jpg"
+      },
+      {
+        "slug": "xwx-lined-34",
+        "category": "Lined Products",
+        "title": "Reducer Cross",
+        "text": "Official Xinwanxing item \"Reducer Cross\" under Lined Products, shown with the matching product image from the source site.",
+        "specs": [
+          "Lined Products",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/4efd4cde-85be-469c-92bb-2a370644cb51.jpg"
+      },
+      {
+        "slug": "xwx-lined-33",
+        "category": "Lined Products",
+        "title": "Reducer Tee",
+        "text": "Official Xinwanxing item \"Reducer Tee\" under Lined Products, shown with the matching product image from the source site.",
+        "specs": [
+          "Lined Products",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/19f52d27-ef9f-4c99-a636-221ef27f757a.jpg"
+      },
+      {
+        "slug": "xwx-lined-32",
+        "category": "Lined Products",
+        "title": "Reducer Tee",
+        "text": "Official Xinwanxing item \"Reducer Tee\" under Lined Products, shown with the matching product image from the source site.",
+        "specs": [
+          "Lined Products",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/1ee53705-dd3b-403e-a16a-d7b26782b140.jpg"
+      },
+      {
+        "slug": "xwx-lined-31",
+        "category": "Lined Products",
+        "title": "Reducer Tee",
+        "text": "Official Xinwanxing item \"Reducer Tee\" under Lined Products, shown with the matching product image from the source site.",
+        "specs": [
+          "Lined Products",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/d162e773-976b-4f52-9575-a3b08307fa30.jpg"
+      },
+      {
+        "slug": "xwx-lined-30",
+        "category": "Lined Products",
+        "title": "Equal Coupling",
+        "text": "Official Xinwanxing item \"Equal Coupling\" under Lined Products, shown with the matching product image from the source site.",
+        "specs": [
+          "Lined Products",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/64dd7c96-28ac-4f1a-b0b7-2474e5b98edb.jpg"
+      },
+      {
+        "slug": "xwx-lined-29",
+        "category": "Lined Products",
+        "title": "Quick Coupling",
+        "text": "Official Xinwanxing item \"Quick Coupling\" under Lined Products, shown with the matching product image from the source site.",
+        "specs": [
+          "Lined Products",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/e7ce9f7f-28fc-410c-9256-eba1a48bc0a8.jpg"
+      },
+      {
+        "slug": "xwx-lined-28",
+        "category": "Lined Products",
+        "title": "Bushing",
+        "text": "Official Xinwanxing item \"Bushing\" under Lined Products, shown with the matching product image from the source site.",
+        "specs": [
+          "Lined Products",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/df9033d1-25fc-470b-990f-f54135fd3f5f.jpg"
+      },
+      {
+        "slug": "xwx-lined-27",
+        "category": "Lined Products",
+        "title": "Reducer Coupling",
+        "text": "Official Xinwanxing item \"Reducer Coupling\" under Lined Products, shown with the matching product image from the source site.",
+        "specs": [
+          "Lined Products",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/8b3365d2-3897-4c45-867f-8a049e2d1ce6.jpg"
+      },
+      {
+        "slug": "xwx-lined-26",
+        "category": "Lined Products",
+        "title": "90° Equal Coupling",
+        "text": "Official Xinwanxing item \"90° Equal Coupling\" under Lined Products, shown with the matching product image from the source site.",
+        "specs": [
+          "Lined Products",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/be69ac41-c3ef-4359-9834-426ab27bb071.jpg"
+      },
+      {
+        "slug": "xwx-lined-25",
+        "category": "Lined Products",
+        "title": "90° Reducer Coupling",
+        "text": "Official Xinwanxing item \"90° Reducer Coupling\" under Lined Products, shown with the matching product image from the source site.",
+        "specs": [
+          "Lined Products",
+          "Official matching image",
+          "Pipe connection fitting",
+          "Specification on request"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/68e07e63-3063-446f-857a-83a61e93ff30.jpg"
       }
     ],
     "categories": [
@@ -257,6 +634,213 @@
         ]
       },
       {
+        "id": "red-grooved-fittings",
+        "title": "Red Grooved Fittings",
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/fd85ca82-9d1d-425f-82a9-bc4267c8f841.jpg",
+        "subcategories": [
+          {
+            "title": "Red Grooved Fittings",
+            "children": [
+              {
+                "title": "Red Grooved Fittings",
+                "items": [
+                  {
+                    "slug": "xwx-red-61",
+                    "title": "Reducer Grooved Cross",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-60",
+                    "title": "45° Elbow",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-59",
+                    "title": "90° Elbow",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-58",
+                    "title": "90° Elbow",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-57",
+                    "title": "90° Grooved Elbow",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-56",
+                    "title": "Raised Flange",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-55",
+                    "title": "Raised Grooved Flange",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-54",
+                    "title": "Grooved Reducer",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-53",
+                    "title": "Grooved Cross",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-52",
+                    "title": "Reducer Threaded Grooved Tee",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-51",
+                    "title": "Reducer Grooved Cross",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-50",
+                    "title": "Mechanical Threaded Tee",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-49",
+                    "title": "Mechanical Threaded Cross",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-48",
+                    "title": "Coupling Clamp",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-47",
+                    "title": "Blind Plate",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-46",
+                    "title": "Threaded Reducer",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-45",
+                    "title": "Equal Grooved Tee",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-44",
+                    "title": "Reducer Grooved Tee",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-43",
+                    "title": "Reducer Tee",
+                    "points": [
+                      "Red Grooved Fittings",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "valve-systems",
         "title": "Valve Systems",
         "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
@@ -325,6 +909,123 @@
                       "Stable linked control",
                       "Fits multiple valve types",
                       "Easy centralized maintenance"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lined-grooved-fittings",
+        "title": "Lined Products",
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/737292e3-10a5-45f0-8446-ee4eda3e18c5.jpg",
+        "subcategories": [
+          {
+            "title": "Lined Products",
+            "children": [
+              {
+                "title": "Lined Products",
+                "items": [
+                  {
+                    "slug": "xwx-lined-34",
+                    "title": "Reducer Cross",
+                    "points": [
+                      "Lined Products",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-lined-33",
+                    "title": "Reducer Tee",
+                    "points": [
+                      "Lined Products",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-lined-32",
+                    "title": "Reducer Tee",
+                    "points": [
+                      "Lined Products",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-lined-31",
+                    "title": "Reducer Tee",
+                    "points": [
+                      "Lined Products",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-lined-30",
+                    "title": "Equal Coupling",
+                    "points": [
+                      "Lined Products",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-lined-29",
+                    "title": "Quick Coupling",
+                    "points": [
+                      "Lined Products",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-lined-28",
+                    "title": "Bushing",
+                    "points": [
+                      "Lined Products",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-lined-27",
+                    "title": "Reducer Coupling",
+                    "points": [
+                      "Lined Products",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-lined-26",
+                    "title": "90° Equal Coupling",
+                    "points": [
+                      "Lined Products",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-lined-25",
+                    "title": "90° Reducer Coupling",
+                    "points": [
+                      "Lined Products",
+                      "Official matching image",
+                      "Pipe connection fitting",
+                      "Specification on request"
                     ]
                   }
                 ]
@@ -501,10 +1202,10 @@
       },
       {
         "label": "Address",
-        "value": "High-end Equipment Industrial Park, Foshan, Guangdong, China"
+        "value": "No. 39, South 1st Road, Steel World Avenue 20, E1 District, Lecong Steel World, Lecong Town, Shunde District, Foshan City, Guangdong Province"
       }
     ],
-    "contactImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+    "contactImage": "/images/hero-project.jpg",
     "footer": "Guangdong Rongde · Premium Steel Pipe & Valve Solutions"
   },
   "source": "cloudbase-static-export"

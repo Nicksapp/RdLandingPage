@@ -1,6 +1,6 @@
 {
   "copy": {
-    "brand": "广东嵘德钢管有限公司",
+    "brand": "广东嵘德",
     "nav": [
       "首页",
       "公司简介",
@@ -8,26 +8,26 @@
       "联系我们"
     ],
     "switchLabel": "English",
-    "heroEyebrow": "test高端工业材料与流体控制系统",
-    "heroTitle": "广东嵘德钢管有限公司",
+    "heroEyebrow": "高端工业材料与流体控制系统",
+    "heroTitle": "广东嵘德",
     "heroTagline": "Premium Steel Pipe & Valve Solutions",
-    "heroPrimary": "产品中心",
+    "heroPrimary": "进入产品中心",
     "heroSecondary": "联系团队",
     "heroSlides": [
       {
         "title": "高端钢管系统",
         "description": "面向能源、化工与船舶工程的高标准钢管供应，兼顾耐压、耐蚀与批次追溯。",
-        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
+        "image": "/images/hero-pipes.jpg"
       },
       {
         "title": "工业阀门解决方案",
         "description": "覆盖球阀、闸阀、截止阀与止回阀，满足关键流体系统长期稳定运行需求。",
-        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
+        "image": "/images/hero-valves.jpg"
       },
       {
         "title": "项目化成套交付",
         "description": "从规格匹配到出口协同，为工业客户提供更高效率的一站式采购体验。",
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
+        "image": "/images/hero-project.jpg"
       }
     ],
     "heroStats": [
@@ -50,28 +50,28 @@
       {
         "title": "高端钢管",
         "text": "覆盖无缝管、焊接管、精密管及异形管，满足高压、高温及耐腐蚀工况。",
-        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
+        "image": "/images/capability-pipes.jpg"
       },
       {
         "title": "工业阀门",
         "text": "提供球阀、闸阀、截止阀和止回阀等产品，兼顾长期稳定运行与维护便利性。",
-        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/be69ac41-c3ef-4359-9834-426ab27bb071.jpg"
       },
       {
         "title": "项目供配",
         "text": "支持工程类订单的批量供货、规格整合与出口协同，缩短项目采购周期。",
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
+        "image": "/images/capability-project.jpg"
       }
     ],
     "aboutTitle": "公司简介",
     "aboutLead": "广东嵘德专注于高端钢管、工业阀门及配套流体控制部件的研发、集成与交付，以稳定质量和快速响应服务全球工业客户。",
-    "aboutBody": "我们深耕高压、高温、耐腐蚀工况，构建从选材建议、规格匹配、加工定制到出货追踪的完整服务链路，让每一次采购都更高效、更可靠。",
+    "aboutBody": "广东嵘德钢管有限公司成立于2020年，注册资本1500万元，位于佛山市顺德区乐从钢铁世界。我们深耕金属材料销售与制造，构建从选材建议、规格匹配、加工定制到出货追踪的完整服务链路，让每一次采购都更高效、更可靠。",
     "aboutHighlights": [
-      "严选不锈钢、合金钢、双相钢等材质",
+      "金属材料销售与制造一体化服务",
       "支持多规格切割、法兰连接与组配交付",
       "服务海内外 EPC 与工业终端客户"
     ],
-    "aboutImage": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
+    "aboutImage": "/images/hero-valves.jpg",
     "showcaseTitle": "产品中心",
     "showcaseLead": "围绕关键工业场景，提供兼顾耐久性、精度与交付效率的产品矩阵。",
     "showcaseCta": "查看全部产品",
@@ -113,6 +113,19 @@
         "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
       },
       {
+        "slug": "xwx-red-61",
+        "category": "红色沟槽管件",
+        "title": "沟槽异径四通",
+        "text": "山西鑫万兴铸业官网同款「沟槽异径四通」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/1b3574d0-563f-4cde-a647-349a3db33e33.jpg"
+      },
+      {
         "slug": "industrial-valves",
         "category": "阀门系列",
         "title": "工业阀门",
@@ -123,6 +136,19 @@
           "高温高压密封结构"
         ],
         "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
+      },
+      {
+        "slug": "xwx-red-60",
+        "category": "红色沟槽管件",
+        "title": "45-°弯头",
+        "text": "山西鑫万兴铸业官网同款「45-°弯头」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/a8010711-c0ab-44bd-8786-14d4c809832f.jpg"
       },
       {
         "slug": "supporting-components",
@@ -137,6 +163,19 @@
         "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
       },
       {
+        "slug": "xwx-red-59",
+        "category": "红色沟槽管件",
+        "title": "90-°弯头",
+        "text": "山西鑫万兴铸业官网同款「90-°弯头」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/33c37bfb-37a9-4308-8cfd-00c4c23c76b3.jpg"
+      },
+      {
         "slug": "precision-stainless-tubes",
         "category": "钢管系列",
         "title": "精密不锈钢管",
@@ -147,6 +186,19 @@
           "支持定尺交付"
         ],
         "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
+      },
+      {
+        "slug": "xwx-red-58",
+        "category": "红色沟槽管件",
+        "title": "90-°弯头",
+        "text": "山西鑫万兴铸业官网同款「90-°弯头」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/b74b9c47-e6e6-4de5-ab36-3483f510c229.jpg"
       },
       {
         "slug": "high-performance-ball-valves",
@@ -161,6 +213,19 @@
         "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
       },
       {
+        "slug": "xwx-red-57",
+        "category": "红色沟槽管件",
+        "title": "90度沟槽弯头",
+        "text": "山西鑫万兴铸业官网同款「90度沟槽弯头」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/7c59d32c-718d-4220-8a59-f9a1ed82d040.jpg"
+      },
+      {
         "slug": "industrial-flanges-fittings",
         "category": "配件系列",
         "title": "工业法兰与管件",
@@ -171,6 +236,318 @@
           "可提供材质报告"
         ],
         "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
+      },
+      {
+        "slug": "xwx-red-56",
+        "category": "红色沟槽管件",
+        "title": "高径法兰",
+        "text": "山西鑫万兴铸业官网同款「高径法兰」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/f8b04fb7-8c6b-4020-bc43-13b94b0cffe0.jpg"
+      },
+      {
+        "slug": "xwx-red-55",
+        "category": "红色沟槽管件",
+        "title": "高径沟槽法兰",
+        "text": "山西鑫万兴铸业官网同款「高径沟槽法兰」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/e69098c0-07c1-4ced-a80c-bfc514bbcfef.jpg"
+      },
+      {
+        "slug": "xwx-red-54",
+        "category": "红色沟槽管件",
+        "title": "沟槽大小头",
+        "text": "山西鑫万兴铸业官网同款「沟槽大小头」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/30b2ce4c-56b8-4adf-a924-0cd074060a6f.jpg"
+      },
+      {
+        "slug": "xwx-red-53",
+        "category": "红色沟槽管件",
+        "title": "沟槽四通",
+        "text": "山西鑫万兴铸业官网同款「沟槽四通」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/b4b2d362-3478-497a-a015-a56491884bd0.jpg"
+      },
+      {
+        "slug": "xwx-red-52",
+        "category": "红色沟槽管件",
+        "title": "沟槽异径丝接三通",
+        "text": "山西鑫万兴铸业官网同款「沟槽异径丝接三通」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/52403e87-ea9a-45ab-ae00-69b705f373d5.jpg"
+      },
+      {
+        "slug": "xwx-red-51",
+        "category": "红色沟槽管件",
+        "title": "沟槽异径四通",
+        "text": "山西鑫万兴铸业官网同款「沟槽异径四通」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/0aeeb3db-3eac-49d7-9841-811a8d2b98f9.jpg"
+      },
+      {
+        "slug": "xwx-red-50",
+        "category": "红色沟槽管件",
+        "title": "机械丝接三通",
+        "text": "山西鑫万兴铸业官网同款「机械丝接三通」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/995c7b81-2221-45f2-b4c0-7fb7747ad1f4.jpg"
+      },
+      {
+        "slug": "xwx-red-49",
+        "category": "红色沟槽管件",
+        "title": "机械丝接四通",
+        "text": "山西鑫万兴铸业官网同款「机械丝接四通」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/b9921901-bb37-45bf-9354-fe3236446fc1.jpg"
+      },
+      {
+        "slug": "xwx-red-48",
+        "category": "红色沟槽管件",
+        "title": "卡 箍",
+        "text": "山西鑫万兴铸业官网同款「卡 箍」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/6c43b338-6e4c-4a7e-863e-5db03c7e5617.jpg"
+      },
+      {
+        "slug": "xwx-red-47",
+        "category": "红色沟槽管件",
+        "title": "盲 片",
+        "text": "山西鑫万兴铸业官网同款「盲 片」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/419f4695-cde2-4d77-860f-8bb819571910.jpg"
+      },
+      {
+        "slug": "xwx-red-46",
+        "category": "红色沟槽管件",
+        "title": "丝接大小头",
+        "text": "山西鑫万兴铸业官网同款「丝接大小头」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/11ff7d29-7623-4c33-ade9-b4d402d9b36e.jpg"
+      },
+      {
+        "slug": "xwx-red-45",
+        "category": "红色沟槽管件",
+        "title": "同径沟槽三通",
+        "text": "山西鑫万兴铸业官网同款「同径沟槽三通」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/88101895-9407-407c-84b8-719957e79653.jpg"
+      },
+      {
+        "slug": "xwx-red-44",
+        "category": "红色沟槽管件",
+        "title": "异径沟槽三通",
+        "text": "山西鑫万兴铸业官网同款「异径沟槽三通」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/9e2aeb67-db2f-45c7-a4ec-648681540ec6.jpg"
+      },
+      {
+        "slug": "xwx-red-43",
+        "category": "红色沟槽管件",
+        "title": "异径三通",
+        "text": "山西鑫万兴铸业官网同款「异径三通」，归属红色沟槽管件分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "红色沟槽管件",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/bebe3094-4b55-48a2-83a5-732228a7b0ec.jpg"
+      },
+      {
+        "slug": "xwx-lined-34",
+        "category": "衬塑产品",
+        "title": "异径四通",
+        "text": "山西鑫万兴铸业官网同款「异径四通」，归属衬塑产品分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "衬塑产品",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/4efd4cde-85be-469c-92bb-2a370644cb51.jpg"
+      },
+      {
+        "slug": "xwx-lined-33",
+        "category": "衬塑产品",
+        "title": "异径三通",
+        "text": "山西鑫万兴铸业官网同款「异径三通」，归属衬塑产品分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "衬塑产品",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/19f52d27-ef9f-4c99-a636-221ef27f757a.jpg"
+      },
+      {
+        "slug": "xwx-lined-32",
+        "category": "衬塑产品",
+        "title": "异径三通",
+        "text": "山西鑫万兴铸业官网同款「异径三通」，归属衬塑产品分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "衬塑产品",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/1ee53705-dd3b-403e-a16a-d7b26782b140.jpg"
+      },
+      {
+        "slug": "xwx-lined-31",
+        "category": "衬塑产品",
+        "title": "异径三通",
+        "text": "山西鑫万兴铸业官网同款「异径三通」，归属衬塑产品分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "衬塑产品",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/d162e773-976b-4f52-9575-a3b08307fa30.jpg"
+      },
+      {
+        "slug": "xwx-lined-30",
+        "category": "衬塑产品",
+        "title": "同经管箍",
+        "text": "山西鑫万兴铸业官网同款「同经管箍」，归属衬塑产品分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "衬塑产品",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/64dd7c96-28ac-4f1a-b0b7-2474e5b98edb.jpg"
+      },
+      {
+        "slug": "xwx-lined-29",
+        "category": "衬塑产品",
+        "title": "速接",
+        "text": "山西鑫万兴铸业官网同款「速接」，归属衬塑产品分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "衬塑产品",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/e7ce9f7f-28fc-410c-9256-eba1a48bc0a8.jpg"
+      },
+      {
+        "slug": "xwx-lined-28",
+        "category": "衬塑产品",
+        "title": "补芯",
+        "text": "山西鑫万兴铸业官网同款「补芯」，归属衬塑产品分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "衬塑产品",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/df9033d1-25fc-470b-990f-f54135fd3f5f.jpg"
+      },
+      {
+        "slug": "xwx-lined-27",
+        "category": "衬塑产品",
+        "title": "变径管箍",
+        "text": "山西鑫万兴铸业官网同款「变径管箍」，归属衬塑产品分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "衬塑产品",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/8b3365d2-3897-4c45-867f-8a049e2d1ce6.jpg"
+      },
+      {
+        "slug": "xwx-lined-26",
+        "category": "衬塑产品",
+        "title": "90度同径管箍",
+        "text": "山西鑫万兴铸业官网同款「90度同径管箍」，归属衬塑产品分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "衬塑产品",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/be69ac41-c3ef-4359-9834-426ab27bb071.jpg"
+      },
+      {
+        "slug": "xwx-lined-25",
+        "category": "衬塑产品",
+        "title": "90度变径管箍",
+        "text": "山西鑫万兴铸业官网同款「90度变径管箍」，归属衬塑产品分类，当前页面采用对应商品图展示。",
+        "specs": [
+          "衬塑产品",
+          "官网对应商品图",
+          "管道连接配件",
+          "规格型号可咨询"
+        ],
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/68e07e63-3063-446f-857a-83a61e93ff30.jpg"
       }
     ],
     "categories": [
@@ -257,6 +634,213 @@
         ]
       },
       {
+        "id": "red-grooved-fittings",
+        "title": "红色沟槽管件",
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/fd85ca82-9d1d-425f-82a9-bc4267c8f841.jpg",
+        "subcategories": [
+          {
+            "title": "红色沟槽管件",
+            "children": [
+              {
+                "title": "红色沟槽管件",
+                "items": [
+                  {
+                    "slug": "xwx-red-61",
+                    "title": "沟槽异径四通",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-60",
+                    "title": "45-°弯头",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-59",
+                    "title": "90-°弯头",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-58",
+                    "title": "90-°弯头",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-57",
+                    "title": "90度沟槽弯头",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-56",
+                    "title": "高径法兰",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-55",
+                    "title": "高径沟槽法兰",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-54",
+                    "title": "沟槽大小头",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-53",
+                    "title": "沟槽四通",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-52",
+                    "title": "沟槽异径丝接三通",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-51",
+                    "title": "沟槽异径四通",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-50",
+                    "title": "机械丝接三通",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-49",
+                    "title": "机械丝接四通",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-48",
+                    "title": "卡 箍",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-47",
+                    "title": "盲 片",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-46",
+                    "title": "丝接大小头",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-45",
+                    "title": "同径沟槽三通",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-44",
+                    "title": "异径沟槽三通",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-red-43",
+                    "title": "异径三通",
+                    "points": [
+                      "红色沟槽管件",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "valve-systems",
         "title": "阀门系统",
         "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
@@ -325,6 +909,123 @@
                       "联动控制稳定",
                       "适配多阀型",
                       "便于集中维护"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lined-grooved-fittings",
+        "title": "衬塑产品",
+        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/737292e3-10a5-45f0-8446-ee4eda3e18c5.jpg",
+        "subcategories": [
+          {
+            "title": "衬塑产品",
+            "children": [
+              {
+                "title": "衬塑产品",
+                "items": [
+                  {
+                    "slug": "xwx-lined-34",
+                    "title": "异径四通",
+                    "points": [
+                      "衬塑产品",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-lined-33",
+                    "title": "异径三通",
+                    "points": [
+                      "衬塑产品",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-lined-32",
+                    "title": "异径三通",
+                    "points": [
+                      "衬塑产品",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-lined-31",
+                    "title": "异径三通",
+                    "points": [
+                      "衬塑产品",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-lined-30",
+                    "title": "同经管箍",
+                    "points": [
+                      "衬塑产品",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-lined-29",
+                    "title": "速接",
+                    "points": [
+                      "衬塑产品",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-lined-28",
+                    "title": "补芯",
+                    "points": [
+                      "衬塑产品",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-lined-27",
+                    "title": "变径管箍",
+                    "points": [
+                      "衬塑产品",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-lined-26",
+                    "title": "90度同径管箍",
+                    "points": [
+                      "衬塑产品",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
+                    ]
+                  },
+                  {
+                    "slug": "xwx-lined-25",
+                    "title": "90度变径管箍",
+                    "points": [
+                      "衬塑产品",
+                      "官网对应商品图",
+                      "管道连接配件",
+                      "规格型号可咨询"
                     ]
                   }
                 ]
@@ -501,11 +1202,11 @@
       },
       {
         "label": "公司地址",
-        "value": "中国广东省佛山市高端装备产业园"
+        "value": "广东省佛山市顺德区乐从镇广东乐从钢铁世界E1区钢铁世界大道20号南一路39号"
       }
     ],
-    "contactImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
-    "footer": "广东嵘德钢管有限公司 · 广东嵘德阀门有限公司"
+    "contactImage": "/images/hero-project.jpg",
+    "footer": "广东嵘德 · 专注高端钢管与阀门解决方案"
   },
   "source": "cloudbase-static-export"
 }
