@@ -15,26 +15,26 @@ export const content = {
       "联系我们"
     ],
     "switchLabel": "English",
-    "heroEyebrow": "高端工业材料与流体控制系统",
+    "heroEyebrow": "金属材料销售与制造一体化服务",
     "heroTitle": "广东嵘德钢管有限公司",
-    "heroTagline": "Premium Steel Pipe & Valve Solutions",
+    "heroTagline": "专注金属材料全产业链服务",
     "heroPrimary": "进入产品中心",
     "heroSecondary": "联系团队",
     "heroSlides": [
       {
-        "title": "高端钢管系统",
-        "description": "面向能源、化工与船舶工程的高标准钢管供应，兼顾耐压、耐蚀与批次追溯。",
-        "image": "/images/hero-pipes.jpg"
+        "title": "金属材料销售",
+        "description": "涵盖钢材、有色金属、建筑材料的批发与零售，提供全品类金属材料一站式采购。",
+        "image": "/images/hero-metal-sales.jpg"
       },
       {
-        "title": "工业阀门解决方案",
-        "description": "覆盖球阀、闸阀、截止阀与止回阀，满足关键流体系统长期稳定运行需求。",
-        "image": "/images/hero-valves.jpg"
+        "title": "金属加工制造",
+        "description": "提供金属切削、压延加工、铸造等一站式加工服务，精准匹配客户需求。",
+        "image": "/images/hero-processing.jpg"
       },
       {
-        "title": "项目化成套交付",
-        "description": "从规格匹配到出口协同，为工业客户提供更高效率的一站式采购体验。",
-        "image": "/images/hero-project.jpg"
+        "title": "金属结构供应",
+        "description": "专业销售钢结构、金属框架、建筑用金属构件，服务于建筑工程与工业项目。",
+        "image": "/images/hero-structure.jpg"
       }
     ],
     "heroStats": [
@@ -52,33 +52,38 @@ export const content = {
       }
     ],
     "capabilitiesTitle": "核心业务",
-    "capabilitiesLead": "围绕钢管、阀门与项目成套交付，构建覆盖选型、加工、供应与服务的完整能力链。",
+    "capabilitiesLead": "集金属材料销售、加工制造、结构供应于一体，构建覆盖全产业链的综合服务能力。",
     "capabilities": [
       {
-        "title": "高端钢管",
-        "text": "覆盖无缝管、焊接管、精密管及异形管，满足高压、高温及耐腐蚀工况。",
-        "image": "/images/capability-pipes.jpg"
+        "title": "金属材料销售",
+        "text": "涵盖钢材、有色金属、建筑材料的批发与零售，提供板材、型材、管材等全品类金属材料，满足建筑、制造、工程等多行业需求。",
+        "image": "/images/capability-metal-sales.jpg"
       },
       {
-        "title": "工业阀门",
-        "text": "提供球阀、闸阀、截止阀和止回阀等产品，兼顾长期稳定运行与维护便利性。",
-        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/be69ac41-c3ef-4359-9834-426ab27bb071.jpg"
+        "title": "金属加工制造",
+        "text": "提供金属切削加工、压延加工、铸造等一站式加工服务，支持定制切割、折弯、焊接等深加工工艺，精准匹配客户需求。",
+        "image": "/images/capability-processing.jpg"
       },
       {
-        "title": "项目供配",
-        "text": "支持工程类订单的批量供货、规格整合与出口协同，缩短项目采购周期。",
-        "image": "/images/capability-project.jpg"
+        "title": "金属结构销售",
+        "text": "专业销售钢结构、金属框架、建筑用金属构件等产品，服务于建筑工程、桥梁建设、工业厂房等大型项目。",
+        "image": "/images/capability-structure.jpg"
+      },
+      {
+        "title": "建筑装饰材料",
+        "text": "供应建筑装饰用金属材料，包括金属天花板、幕墙板、装饰管材等，兼顾美观性与耐久性，助力高品质建筑工程。",
+        "image": "/images/capability-decoration.jpg"
       }
     ],
     "aboutTitle": "公司简介",
-    "aboutLead": "广东嵘德钢管有限公司专注于高端钢管、工业阀门及配套流体控制部件的研发、集成与交付，以稳定质量和快速响应服务全球工业客户。",
-    "aboutBody": "广东嵘德钢管有限公司成立于2020年，注册资本1500万元，位于佛山市顺德区乐从钢铁世界。我们深耕金属材料销售与制造，构建从选材建议、规格匹配、加工定制到出货追踪的完整服务链路，让每一次采购都更高效、更可靠。",
+    "aboutLead": "广东嵘德钢管有限公司是一家集金属材料销售、建筑材料供应、金属结构销售、建筑装饰材料销售及金属材料制造于一体的综合性企业。",
+    "aboutBody": "公司成立于2020年，注册资本1500万元，坐落于佛山市顺德区乐从钢铁世界。我们深耕金属材料领域，主营业务涵盖金属材料销售、建筑材料销售、金属结构销售、建筑装饰材料销售；同时提供金属材料制造、金属切削加工服务、有色金属压延加工、黑色金属铸造等加工服务。从选材建议、规格匹配到加工定制，构建完整的服务链路，为建筑、制造、工程等行业客户提供高效、可靠的一站式采购体验。",
     "aboutHighlights": [
       "金属材料销售与制造一体化服务",
-      "支持多规格切割、法兰连接与组配交付",
-      "服务海内外 EPC 与工业终端客户"
+      "金属切削、压延、铸造全链条加工能力",
+      "服务建筑、工程、制造等多元行业"
     ],
-    "aboutImage": "/images/hero-valves.jpg",
+    "aboutImage": "/images/about-metal.jpg",
     "showcaseTitle": "产品中心",
     "showcaseLead": "围绕关键工业场景，提供兼顾耐久性、精度与交付效率的产品矩阵。",
     "showcaseCta": "查看全部产品",
@@ -90,20 +95,20 @@ export const content = {
     "productSpecs": "应用规格",
     "categoriesLabelRelated": "相关产品",
     "productMore": "更多",
-    "projectTitle": "工程应用",
-    "projectLead": "从流程工业到装备制造，广东嵘德钢管有限公司以稳定产品与快速交付服务多元工业场景。",
+    "projectTitle": "应用领域",
+    "projectLead": "广东嵘德钢管有限公司以全品类金属材料与专业加工能力，服务建筑、基础设施与制造业多元化需求。",
     "projectCards": [
       {
-        "title": "能源化工",
-        "text": "满足高压输送、介质腐蚀与连续运行场景的关键材料需求。"
+        "title": "建筑工程",
+        "text": "为商业综合体、住宅小区、工业厂房提供钢材、金属结构及建筑装饰材料，支持定制化加工与配送。"
       },
       {
-        "title": "船舶海工",
-        "text": "支持复杂管系及海洋环境下的阀门和连接部件应用。"
+        "title": "基础设施",
+        "text": "供应桥梁、隧道、市政工程所需的金属结构件与建筑材料，满足高强度、耐腐蚀的工程需求。"
       },
       {
-        "title": "高端制造",
-        "text": "配合自动化、洁净和精密输送系统的多规格管材与控制部件。"
+        "title": "制造业配套",
+        "text": "为机械设备、汽车制造、能源设备等行业提供精密金属切削加工、压延加工及铸造服务。"
       }
     ],
     "products": [
@@ -817,7 +822,7 @@ export const content = {
       }
     ],
     "contactTitle": "联系我们",
-    "contactLead": "如果您正在寻找可靠的高端钢管与阀门供应伙伴，欢迎直接与广东嵘德钢管有限公司团队沟通。",
+    "contactLead": "如果您正在寻找可靠的金属材料供应商与加工服务伙伴，欢迎直接与广东嵘德钢管有限公司团队沟通。",
     "contactItems": [
       {
         "label": "服务热线",
@@ -832,8 +837,8 @@ export const content = {
         "value": "广东省佛山市顺德区乐从镇广东乐从钢铁世界E1区钢铁世界大道20号南一路39号"
       }
     ],
-    "contactImage": "/images/hero-project.jpg",
-    "footer": "广东嵘德钢管有限公司 · 专注高端钢管与阀门解决方案"
+    "contactImage": "/images/hero-metal-sales.jpg",
+    "footer": "广东嵘德钢管有限公司 · 金属材料销售与制造一体化服务"
   },
   "en": {
     "brand": "Guangdong Rongde Steel Pipe Co., Ltd.",
@@ -844,26 +849,26 @@ export const content = {
       "Contact"
     ],
     "switchLabel": "中文",
-    "heroEyebrow": "Premium Industrial Materials & Flow Control Systems",
+    "heroEyebrow": "Integrated Metal Material Sales & Manufacturing",
     "heroTitle": "Guangdong Rongde Steel Pipe Co., Ltd.",
-    "heroTagline": "Trusted Industrial Supply Partner",
+    "heroTagline": "Full-Chain Metal Material Solutions",
     "heroPrimary": "Open Product Center",
     "heroSecondary": "Contact Us",
     "heroSlides": [
       {
-        "title": "Premium Pipe Systems",
-        "description": "High-standard steel pipe supply for energy, chemical, and marine applications with traceable quality assurance.",
-        "image": "/images/hero-pipes.jpg"
+        "title": "Metal Material Sales",
+        "description": "Wholesale and retail of steel, non-ferrous metals, and construction materials—one-stop procurement for all metal needs.",
+        "image": "/images/hero-metal-sales.jpg"
       },
       {
-        "title": "Industrial Valve Solutions",
-        "description": "Ball, gate, globe, and check valves engineered for stable performance in critical flow-control systems.",
-        "image": "/images/hero-valves.jpg"
+        "title": "Metal Processing & Manufacturing",
+        "description": "One-stop processing services including cutting, rolling, and casting—precisely matching customer requirements.",
+        "image": "/images/hero-processing.jpg"
       },
       {
-        "title": "Integrated Project Delivery",
-        "description": "From specification matching to export execution, we simplify procurement for industrial customers.",
-        "image": "/images/hero-project.jpg"
+        "title": "Metal Structure Supply",
+        "description": "Professional sales of steel structures, metal frameworks, and construction components for engineering and industrial projects.",
+        "image": "/images/hero-structure.jpg"
       }
     ],
     "heroStats": [
@@ -881,31 +886,36 @@ export const content = {
       }
     ],
     "capabilitiesTitle": "Core Business",
-    "capabilitiesLead": "A complete industrial supply chain covering pipes, valves, customization, and project delivery.",
+    "capabilitiesLead": "Integrating metal material sales, processing, manufacturing, and structure supply across the complete industry chain.",
     "capabilities": [
       {
-        "title": "Premium Steel Pipes",
-        "text": "Seamless, welded, precision, and custom-profile pipes for demanding industrial operating conditions.",
-        "image": "/images/capability-pipes.jpg"
+        "title": "Metal Material Sales",
+        "text": "Comprehensive wholesale and retail of steel, non-ferrous metals, and construction materials. Supplying plates, sections, and pipes for construction, manufacturing, and engineering industries.",
+        "image": "/images/capability-metal-sales.jpg"
       },
       {
-        "title": "Industrial Valves",
-        "text": "Ball, gate, globe, and check valves designed for reliability, lifetime stability, and easier maintenance.",
-        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/be69ac41-c3ef-4359-9834-426ab27bb071.jpg"
+        "title": "Metal Processing & Manufacturing",
+        "text": "One-stop processing services including cutting, rolling, casting, and customization. Supporting precision cutting, bending, and welding to meet specific requirements.",
+        "image": "/images/capability-processing.jpg"
       },
       {
-        "title": "Project Supply",
-        "text": "Integrated execution for engineering orders with specification matching and export-ready coordination.",
-        "image": "/images/capability-project.jpg"
+        "title": "Metal Structure Sales",
+        "text": "Professional sales of steel structures, metal frameworks, and construction components for large-scale projects including buildings, bridges, and industrial facilities.",
+        "image": "/images/capability-structure.jpg"
+      },
+      {
+        "title": "Building Decoration Materials",
+        "text": "Supply of architectural metal materials including ceilings, curtain wall panels, and decorative pipes—combining aesthetics with durability for high-quality construction projects.",
+        "image": "/images/capability-decoration.jpg"
       }
     ],
     "aboutTitle": "About Us",
-    "aboutLead": "Guangdong Rongde Steel Pipe Co., Ltd. focuses on premium steel pipes, industrial valves, and fluid-control components with strong capabilities in engineering, integration, and delivery.",
-    "aboutBody": "Founded in 2020 with a registered capital of 15 million RMB, Guangdong Rongde Steel Pipe Co., Ltd. is located in Lecong Steel World, Shunde District, Foshan City. We support demanding industrial scenarios through end-to-end services covering material selection, spec matching, customization, and shipment visibility.",
+    "aboutLead": "Guangdong Rongde Steel Pipe Co., Ltd. is a comprehensive enterprise integrating metal material sales, construction material supply, metal structure sales, building decoration material sales, and metal material manufacturing.",
+    "aboutBody": "Established in 2020 with a registered capital of 15 million RMB, we are located in Lecong Steel World, Shunde District, Foshan City. Our business covers metal material sales, construction material sales, metal structure sales, and building decoration material sales. We also provide metal processing services including cutting, rolling, non-ferrous metal processing, and ferrous metal casting—building a complete service chain from material selection to customization for construction, manufacturing, and engineering industries.",
     "aboutHighlights": [
-      "Integrated metal material sales and manufacturing services",
-      "Support for cut-to-size, flange connection, and assembled delivery",
-      "Serving EPC contractors and industrial end clients worldwide"
+      "Integrated metal material sales & manufacturing",
+      "Full-chain processing: cutting, rolling, casting",
+      "Serving construction, engineering & manufacturing"
     ],
     "aboutImage": "/images/hero-valves.jpg",
     "showcaseTitle": "Product Center",
@@ -919,20 +929,20 @@ export const content = {
     "productSpecs": "Specifications",
     "categoriesLabelRelated": "Related Products",
     "productMore": "More",
-    "projectTitle": "Applications",
-    "projectLead": "From process industry to advanced manufacturing, Guangdong Rongde Steel Pipe Co., Ltd. supports a broad range of industrial use cases.",
+    "projectTitle": "Application Fields",
+    "projectLead": "Guangdong Rongde Steel Pipe Co., Ltd. serves diverse needs in construction, infrastructure, and manufacturing with comprehensive metal materials and professional processing capabilities.",
     "projectCards": [
       {
-        "title": "Energy & Chemicals",
-        "text": "Products for high-pressure transfer, corrosive media, and continuous industrial operation."
+        "title": "Construction Projects",
+        "text": "Supplying steel, metal structures, and decorative materials for commercial complexes, residential buildings, and industrial facilities with customization and delivery."
       },
       {
-        "title": "Marine Engineering",
-        "text": "Solutions for complex piping systems and harsh offshore operating environments."
+        "title": "Infrastructure",
+        "text": "Providing metal structural components and construction materials for bridges, tunnels, and municipal projects meeting high-strength and corrosion-resistant requirements."
       },
       {
-        "title": "Advanced Manufacturing",
-        "text": "Multi-spec tubes and control components for automated, clean, and precision systems."
+        "title": "Manufacturing Support",
+        "text": "Offering precision metal cutting, rolling, and casting services for machinery, automotive, and energy equipment industries."
       }
     ],
     "products": [
@@ -1662,6 +1672,6 @@ export const content = {
       }
     ],
     "contactImage": "/images/hero-project.jpg",
-    "footer": "Guangdong Rongde Steel Pipe Co., Ltd. · Premium Steel Pipe & Valve Solutions"
+    "footer": "Guangdong Rongde Steel Pipe Co., Ltd. · Integrated Metal Material Sales & Manufacturing"
   }
 };

@@ -1,6 +1,6 @@
 {
   "copy": {
-    "brand": "Guangdong Rongde",
+    "brand": "Guangdong Rongde Steel Pipe Co., Ltd.",
     "nav": [
       "Home",
       "About",
@@ -8,26 +8,26 @@
       "Contact"
     ],
     "switchLabel": "中文",
-    "heroEyebrow": "Premium Industrial Materials & Flow Control Systems",
-    "heroTitle": "Guangdong Rongde",
-    "heroTagline": "Trusted Industrial Supply Partner",
+    "heroEyebrow": "Integrated Metal Material Sales & Manufacturing",
+    "heroTitle": "Guangdong Rongde Steel Pipe Co., Ltd.",
+    "heroTagline": "Full-Chain Metal Material Solutions",
     "heroPrimary": "Open Product Center",
     "heroSecondary": "Contact Us",
     "heroSlides": [
       {
-        "title": "Premium Pipe Systems",
-        "description": "High-standard steel pipe supply for energy, chemical, and marine applications with traceable quality assurance.",
-        "image": "/images/hero-pipes.jpg"
+        "title": "Metal Material Sales",
+        "description": "Wholesale and retail of steel, non-ferrous metals, and construction materials—one-stop procurement for all metal needs.",
+        "image": "/images/hero-metal-sales.jpg"
       },
       {
-        "title": "Industrial Valve Solutions",
-        "description": "Ball, gate, globe, and check valves engineered for stable performance in critical flow-control systems.",
-        "image": "/images/hero-valves.jpg"
+        "title": "Metal Processing & Manufacturing",
+        "description": "One-stop processing services including cutting, rolling, and casting—precisely matching customer requirements.",
+        "image": "/images/hero-processing.jpg"
       },
       {
-        "title": "Integrated Project Delivery",
-        "description": "From specification matching to export execution, we simplify procurement for industrial customers.",
-        "image": "/images/hero-project.jpg"
+        "title": "Metal Structure Supply",
+        "description": "Professional sales of steel structures, metal frameworks, and construction components for engineering and industrial projects.",
+        "image": "/images/hero-structure.jpg"
       }
     ],
     "heroStats": [
@@ -45,31 +45,36 @@
       }
     ],
     "capabilitiesTitle": "Core Business",
-    "capabilitiesLead": "A complete industrial supply chain covering pipes, valves, customization, and project delivery.",
+    "capabilitiesLead": "Integrating metal material sales, processing, manufacturing, and structure supply across the complete industry chain.",
     "capabilities": [
       {
-        "title": "Premium Steel Pipes",
-        "text": "Seamless, welded, precision, and custom-profile pipes for demanding industrial operating conditions.",
-        "image": "/images/capability-pipes.jpg"
+        "title": "Metal Material Sales",
+        "text": "Comprehensive wholesale and retail of steel, non-ferrous metals, and construction materials. Supplying plates, sections, and pipes for construction, manufacturing, and engineering industries.",
+        "image": "/images/capability-metal-sales.jpg"
       },
       {
-        "title": "Industrial Valves",
-        "text": "Ball, gate, globe, and check valves designed for reliability, lifetime stability, and easier maintenance.",
-        "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/be69ac41-c3ef-4359-9834-426ab27bb071.jpg"
+        "title": "Metal Processing & Manufacturing",
+        "text": "One-stop processing services including cutting, rolling, casting, and customization. Supporting precision cutting, bending, and welding to meet specific requirements.",
+        "image": "/images/capability-processing.jpg"
       },
       {
-        "title": "Project Supply",
-        "text": "Integrated execution for engineering orders with specification matching and export-ready coordination.",
-        "image": "/images/capability-project.jpg"
+        "title": "Metal Structure Sales",
+        "text": "Professional sales of steel structures, metal frameworks, and construction components for large-scale projects including buildings, bridges, and industrial facilities.",
+        "image": "/images/capability-structure.jpg"
+      },
+      {
+        "title": "Building Decoration Materials",
+        "text": "Supply of architectural metal materials including ceilings, curtain wall panels, and decorative pipes—combining aesthetics with durability for high-quality construction projects.",
+        "image": "/images/capability-decoration.jpg"
       }
     ],
     "aboutTitle": "About Us",
-    "aboutLead": "Guangdong Rongde focuses on premium steel pipes, industrial valves, and fluid-control components with strong capabilities in engineering, integration, and delivery.",
-    "aboutBody": "Founded in 2020 with a registered capital of 15 million RMB, Guangdong Rongde Steel Pipe Co., Ltd. is located in Lecong Steel World, Shunde District, Foshan City. We support demanding industrial scenarios through end-to-end services covering material selection, spec matching, customization, and shipment visibility.",
+    "aboutLead": "Guangdong Rongde Steel Pipe Co., Ltd. is a comprehensive enterprise integrating metal material sales, construction material supply, metal structure sales, building decoration material sales, and metal material manufacturing.",
+    "aboutBody": "Established in 2020 with a registered capital of 15 million RMB, we are located in Lecong Steel World, Shunde District, Foshan City. Our business covers metal material sales, construction material sales, metal structure sales, and building decoration material sales. We also provide metal processing services including cutting, rolling, non-ferrous metal processing, and ferrous metal casting—building a complete service chain from material selection to customization for construction, manufacturing, and engineering industries.",
     "aboutHighlights": [
-      "Integrated metal material sales and manufacturing services",
-      "Support for cut-to-size, flange connection, and assembled delivery",
-      "Serving EPC contractors and industrial end clients worldwide"
+      "Integrated metal material sales & manufacturing",
+      "Full-chain processing: cutting, rolling, casting",
+      "Serving construction, engineering & manufacturing"
     ],
     "aboutImage": "/images/hero-valves.jpg",
     "showcaseTitle": "Product Center",
@@ -83,20 +88,20 @@
     "productSpecs": "Specifications",
     "categoriesLabelRelated": "Related Products",
     "productMore": "More",
-    "projectTitle": "Applications",
-    "projectLead": "From process industry to advanced manufacturing, Guangdong Rongde supports a broad range of industrial use cases.",
+    "projectTitle": "Application Fields",
+    "projectLead": "Guangdong Rongde Steel Pipe Co., Ltd. serves diverse needs in construction, infrastructure, and manufacturing with comprehensive metal materials and professional processing capabilities.",
     "projectCards": [
       {
-        "title": "Energy & Chemicals",
-        "text": "Products for high-pressure transfer, corrosive media, and continuous industrial operation."
+        "title": "Construction Projects",
+        "text": "Supplying steel, metal structures, and decorative materials for commercial complexes, residential buildings, and industrial facilities with customization and delivery."
       },
       {
-        "title": "Marine Engineering",
-        "text": "Solutions for complex piping systems and harsh offshore operating environments."
+        "title": "Infrastructure",
+        "text": "Providing metal structural components and construction materials for bridges, tunnels, and municipal projects meeting high-strength and corrosion-resistant requirements."
       },
       {
-        "title": "Advanced Manufacturing",
-        "text": "Multi-spec tubes and control components for automated, clean, and precision systems."
+        "title": "Manufacturing Support",
+        "text": "Offering precision metal cutting, rolling, and casting services for machinery, automotive, and energy equipment industries."
       }
     ],
     "products": [
@@ -826,7 +831,7 @@
       }
     ],
     "contactImage": "/images/hero-project.jpg",
-    "footer": "Guangdong Rongde · Premium Steel Pipe & Valve Solutions"
+    "footer": "Guangdong Rongde Steel Pipe Co., Ltd. · Integrated Metal Material Sales & Manufacturing"
   },
   "source": "cloudbase-static-export"
 }
