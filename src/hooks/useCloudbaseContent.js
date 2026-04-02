@@ -3,6 +3,14 @@ import { content as fallbackContent } from "../data/siteContent";
 
 const MIN_LOADING_TIME = 400; // 最小加载时间，避免闪烁
 
+// 获取预加载数据（SSR/SSG 时注入）
+function getPreloadedData() {
+  if (typeof window !== "undefined" && window.__PRELOADED_STATE__) {
+    return window.__PRELOADED_STATE__;
+  }
+  return null;
+}
+
 async function fetchLocaleContent(locale) {
   const response = await fetch(`/data/content.${locale}.json`, {
     cache: "no-cache",
@@ -17,17 +25,35 @@ async function fetchLocaleContent(locale) {
 }
 
 export function useCloudbaseContent(language) {
-  const [copy, setCopy] = useState(() => fallbackContent[language]);
-  const [loading, setLoading] = useState(true);
+  // 检查是否有预加载数据
+  const preloaded = getPreloadedData();
+  const initialCopy = preloaded?.copy && preloaded?.lang === language 
+    ? preloaded.copy 
+    : fallbackContent[language];
+  
+  const [copy, setCopy] = useState(() => initialCopy);
+  const [loading, setLoading] = useState(!preloaded); // 有预加载数据时直接就绪
   const [error, setError] = useState(null);
-  const [source, setSource] = useState("fallback");
-  const [isReady, setIsReady] = useState(false);
+  const [source, setSource] = useState(preloaded ? "ssg-preload" : "fallback");
+  const [isReady, setIsReady] = useState(!!preloaded);
   
   const loadingStartTimeRef = useRef(Date.now());
   const prevLanguageRef = useRef(language);
 
   useEffect(() => {
     let disposed = false;
+    
+    // 如果有预加载数据且语言匹配，直接使用
+    const preloadedData = getPreloadedData();
+    if (preloadedData && preloadedData.lang === language) {
+      if (!disposed) {
+        setCopy(preloadedData.copy);
+        setSource("ssg-preload");
+        setLoading(false);
+        setIsReady(true);
+      }
+      return;
+    }
     
     // 语言切换时重置状态
     if (prevLanguageRef.current !== language) {
@@ -79,7 +105,7 @@ export function useCloudbaseContent(language) {
     loading,
     error,
     source,
-    isReady, // 新增：表示内容已准备好可以显示
+    isReady,
   };
 }
 

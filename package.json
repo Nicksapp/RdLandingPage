@@ -7,6 +7,7 @@
     "sync:content": "node ./scripts/export-static-content.mjs",
     "dev": "vite",
     "build": "npm run sync:content && vite build",
+    "build:ssg": "node ./scripts/ssg-build.mjs",
     "preview": "vite preview",
     "start": "node server.mjs",
     "seed:cloudbase": "node ./scripts/seed-cloudbase.mjs"

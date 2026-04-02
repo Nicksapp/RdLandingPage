@@ -42,8 +42,29 @@ function cloudbaseContentApi() {
 
 export default defineConfig(({ mode }) => {
   Object.assign(process.env, loadEnv(mode, process.cwd(), ""));
+  
+  const base = process.env.BASE_URL || "/";
 
   return {
+    base,
     plugins: [react(), cloudbaseContentApi()],
+    build: {
+      // SSG 构建配置
+      rollupOptions: {
+        output: {
+          // 确保资源路径正确
+          entryFileNames: "assets/[name]-[hash].js",
+          chunkFileNames: "assets/[name]-[hash].js",
+          assetFileNames: (assetInfo) => {
+            const info = assetInfo.name.split(".");
+            const ext = info[info.length - 1];
+            if (/\.(png|jpe?g|gif|svg|webp|ico)$/i.test(assetInfo.name)) {
+              return "assets/images/[name]-[hash][extname]";
+            }
+            return "assets/[name]-[hash][extname]";
+          },
+        },
+      },
+    },
   };
 });

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { HashRouter, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import SiteHeader from "./components/SiteHeader";
 import SEO from "./components/SEO";
 import { useCloudbaseContent } from "./hooks/useCloudbaseContent";
@@ -71,16 +71,25 @@ function PageSkeleton() {
 }
 
 // 路由追踪组件（用于 SEO）
-function RouteTracker({ language, onRouteChange }) {
+function RouteTracker({ language, onRouteChange, copy, onProductTitleChange }) {
   const location = useLocation();
   
   useEffect(() => {
     const path = location.pathname;
     let page = "home";
     if (path === "/products") page = "products";
-    else if (path.startsWith("/products/")) page = "productDetail";
+    else if (path.startsWith("/products/")) {
+      page = "productDetail";
+      // 获取产品标题
+      const match = path.match(/\/products\/(.+)/);
+      if (match && copy.products) {
+        const slug = match[1];
+        const product = copy.products.find((p) => p.slug === slug);
+        onProductTitleChange(product?.title || null);
+      }
+    }
     onRouteChange(page);
-  }, [location, onRouteChange]);
+  }, [location, onRouteChange, copy, onProductTitleChange]);
   
   return null;
 }
@@ -88,6 +97,7 @@ function RouteTracker({ language, onRouteChange }) {
 function App() {
   const [language, setLanguage] = useState("zh");
   const [currentPage, setCurrentPage] = useState("home");
+  const [productTitle, setProductTitle] = useState(null);
   const [showBackToTop, setShowBackToTop] = useState(false);
   const { copy, error, source, isReady } = useCloudbaseContent(language);
 
@@ -106,28 +116,23 @@ function App() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  // 从 copy 中获取产品标题（用于产品详情页 SEO）
-  const getProductTitle = () => {
-    const path = window.location.hash;
-    const match = path.match(/\/products\/(.+)/);
-    if (match) {
-      const slug = match[1];
-      const product = copy.products?.find((p) => p.slug === slug);
-      return product?.title;
-    }
-    return null;
-  };
-
+  // SEO 配置
   const seoCustom = {};
-  const productTitle = getProductTitle();
   if (currentPage === "productDetail" && productTitle) {
     seoCustom.title = language === "zh" ? `${productTitle} - 广东嵘德` : `${productTitle} - Guangdong Rongde`;
   }
 
+  const basename = import.meta.env.BASE_URL || "/";
+
   return (
-    <HashRouter>
+    <BrowserRouter basename={basename}>
       <SEO language={language} page={currentPage} custom={seoCustom} />
-      <RouteTracker language={language} onRouteChange={setCurrentPage} />
+      <RouteTracker 
+        language={language} 
+        onRouteChange={setCurrentPage} 
+        copy={copy}
+        onProductTitleChange={setProductTitle}
+      />
       
       <div className="app-shell">
         <SiteHeader 
@@ -165,7 +170,7 @@ function App() {
         
         <footer className="site-footer">{copy.footer}</footer>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
