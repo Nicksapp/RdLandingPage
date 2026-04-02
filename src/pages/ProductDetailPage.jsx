@@ -4,9 +4,12 @@ import ImageWithFallback from "../components/ImageWithFallback";
 function ProductDetailPage({ copy }) {
   const { slug } = useParams();
   const product = copy.products.find((item) => item.slug === slug) ?? copy.products[0];
-  const relatedProducts = copy.products.filter(
-    (item) => item.category === product.category && item.slug !== product.slug,
-  );
+  
+  // 控制相关产品显示数量
+  const MAX_RELATED_PRODUCTS = 5;
+  const relatedProducts = copy.products
+    .filter((item) => item.category === product.category && item.slug !== product.slug)
+    .slice(0, MAX_RELATED_PRODUCTS);
 
   return (
     <main className="detail-page">

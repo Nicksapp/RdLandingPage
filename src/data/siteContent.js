@@ -826,11 +826,11 @@ export const content = {
     "contactItems": [
       {
         "label": "服务热线",
-        "value": "+86 400-888-2026"
+        "value": "18824500326 / 18688356988 / 18022150560"
       },
       {
         "label": "商务邮箱",
-        "value": "sales@rongde-gd.com"
+        "value": "rongdes_valves@163.com"
       },
       {
         "label": "公司地址",
@@ -1660,11 +1660,11 @@ export const content = {
     "contactItems": [
       {
         "label": "Hotline",
-        "value": "+86 400-888-2026"
+        "value": "18824500326 / 18688356988 / 18022150560"
       },
       {
         "label": "Email",
-        "value": "sales@rongde-gd.com"
+        "value": "rongdes_valves@163.com"
       },
       {
         "label": "Address",
