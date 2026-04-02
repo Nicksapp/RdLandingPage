@@ -7,7 +7,7 @@ export const sectionIds = {
 
 export const content = {
   "zh": {
-    "brand": "广东嵘德",
+    "brand": "广东嵘德钢管有限公司",
     "nav": [
       "首页",
       "公司简介",
@@ -16,7 +16,7 @@ export const content = {
     ],
     "switchLabel": "English",
     "heroEyebrow": "高端工业材料与流体控制系统",
-    "heroTitle": "广东嵘德",
+    "heroTitle": "广东嵘德钢管有限公司",
     "heroTagline": "Premium Steel Pipe & Valve Solutions",
     "heroPrimary": "进入产品中心",
     "heroSecondary": "联系团队",
@@ -71,7 +71,7 @@ export const content = {
       }
     ],
     "aboutTitle": "公司简介",
-    "aboutLead": "广东嵘德专注于高端钢管、工业阀门及配套流体控制部件的研发、集成与交付，以稳定质量和快速响应服务全球工业客户。",
+    "aboutLead": "广东嵘德钢管有限公司专注于高端钢管、工业阀门及配套流体控制部件的研发、集成与交付，以稳定质量和快速响应服务全球工业客户。",
     "aboutBody": "广东嵘德钢管有限公司成立于2020年，注册资本1500万元，位于佛山市顺德区乐从钢铁世界。我们深耕金属材料销售与制造，构建从选材建议、规格匹配、加工定制到出货追踪的完整服务链路，让每一次采购都更高效、更可靠。",
     "aboutHighlights": [
       "金属材料销售与制造一体化服务",
@@ -83,7 +83,7 @@ export const content = {
     "showcaseLead": "围绕关键工业场景，提供兼顾耐久性、精度与交付效率的产品矩阵。",
     "showcaseCta": "查看全部产品",
     "productsPageTitle": "产品中心",
-    "productsPageLead": "左侧按分类快速筛选，右侧查看广东嵘德的钢管、阀门与配套产品。",
+    "productsPageLead": "左侧按分类快速筛选，右侧查看广东嵘德钢管有限公司的钢管、阀门与配套产品。",
     "productsOverviewTitle": "产品与服务",
     "productCategoriesLabel": "产品分类",
     "productInquiry": "立即咨询",
@@ -91,7 +91,7 @@ export const content = {
     "categoriesLabelRelated": "相关产品",
     "productMore": "更多",
     "projectTitle": "工程应用",
-    "projectLead": "从流程工业到装备制造，广东嵘德以稳定产品与快速交付服务多元工业场景。",
+    "projectLead": "从流程工业到装备制造，广东嵘德钢管有限公司以稳定产品与快速交付服务多元工业场景。",
     "projectCards": [
       {
         "title": "能源化工",
@@ -817,7 +817,7 @@ export const content = {
       }
     ],
     "contactTitle": "联系我们",
-    "contactLead": "如果您正在寻找可靠的高端钢管与阀门供应伙伴，欢迎直接与广东嵘德团队沟通。",
+    "contactLead": "如果您正在寻找可靠的高端钢管与阀门供应伙伴，欢迎直接与广东嵘德钢管有限公司团队沟通。",
     "contactItems": [
       {
         "label": "服务热线",
@@ -833,10 +833,10 @@ export const content = {
       }
     ],
     "contactImage": "/images/hero-project.jpg",
-    "footer": "广东嵘德 · 专注高端钢管与阀门解决方案"
+    "footer": "广东嵘德钢管有限公司 · 专注高端钢管与阀门解决方案"
   },
   "en": {
-    "brand": "Guangdong Rongde",
+    "brand": "Guangdong Rongde Steel Pipe Co., Ltd.",
     "nav": [
       "Home",
       "About",
@@ -845,7 +845,7 @@ export const content = {
     ],
     "switchLabel": "中文",
     "heroEyebrow": "Premium Industrial Materials & Flow Control Systems",
-    "heroTitle": "Guangdong Rongde",
+    "heroTitle": "Guangdong Rongde Steel Pipe Co., Ltd.",
     "heroTagline": "Trusted Industrial Supply Partner",
     "heroPrimary": "Open Product Center",
     "heroSecondary": "Contact Us",
@@ -900,7 +900,7 @@ export const content = {
       }
     ],
     "aboutTitle": "About Us",
-    "aboutLead": "Guangdong Rongde focuses on premium steel pipes, industrial valves, and fluid-control components with strong capabilities in engineering, integration, and delivery.",
+    "aboutLead": "Guangdong Rongde Steel Pipe Co., Ltd. focuses on premium steel pipes, industrial valves, and fluid-control components with strong capabilities in engineering, integration, and delivery.",
     "aboutBody": "Founded in 2020 with a registered capital of 15 million RMB, Guangdong Rongde Steel Pipe Co., Ltd. is located in Lecong Steel World, Shunde District, Foshan City. We support demanding industrial scenarios through end-to-end services covering material selection, spec matching, customization, and shipment visibility.",
     "aboutHighlights": [
       "Integrated metal material sales and manufacturing services",
@@ -920,7 +920,7 @@ export const content = {
     "categoriesLabelRelated": "Related Products",
     "productMore": "More",
     "projectTitle": "Applications",
-    "projectLead": "From process industry to advanced manufacturing, Guangdong Rongde supports a broad range of industrial use cases.",
+    "projectLead": "From process industry to advanced manufacturing, Guangdong Rongde Steel Pipe Co., Ltd. supports a broad range of industrial use cases.",
     "projectCards": [
       {
         "title": "Energy & Chemicals",
@@ -1662,6 +1662,6 @@ export const content = {
       }
     ],
     "contactImage": "/images/hero-project.jpg",
-    "footer": "Guangdong Rongde · Premium Steel Pipe & Valve Solutions"
+    "footer": "Guangdong Rongde Steel Pipe Co., Ltd. · Premium Steel Pipe & Valve Solutions"
   }
 };

@@ -2,17 +2,17 @@ import { Helmet } from "react-helmet-async";
 
 const defaultSEO = {
   zh: {
-    title: "广东嵘德 - 高端钢管与工业阀门解决方案",
+    title: "广东嵘德钢管有限公司 - 高端钢管与工业阀门解决方案",
     description:
-      "广东嵘德专注于高端钢管、工业阀门及配套流体控制部件的研发、集成与交付，以稳定质量和快速响应服务全球工业客户。",
-    keywords: "钢管, 工业阀门, 流体控制, 无缝钢管, 球阀, 闸阀, 广东嵘德",
+      "广东嵘德钢管有限公司专注于高端钢管、工业阀门及配套流体控制部件的研发、集成与交付，以稳定质量和快速响应服务全球工业客户。",
+    keywords: "钢管, 工业阀门, 流体控制, 无缝钢管, 球阀, 闸阀, 广东嵘德钢管有限公司",
     ogImage: "/images/hero-pipes.jpg",
   },
   en: {
-    title: "Guangdong Rongde - Premium Steel Pipe & Valve Solutions",
+    title: "Guangdong Rongde Steel Pipe Co., Ltd. - Premium Steel Pipe & Valve Solutions",
     description:
-      "Guangdong Rongde focuses on premium steel pipes, industrial valves, and fluid-control components with strong capabilities in engineering, integration, and delivery.",
-    keywords: "steel pipe, industrial valves, flow control, seamless pipe, ball valve, gate valve, Guangdong Rongde",
+      "Guangdong Rongde Steel Pipe Co., Ltd. focuses on premium steel pipes, industrial valves, and fluid-control components with strong capabilities in engineering, integration, and delivery.",
+    keywords: "steel pipe, industrial valves, flow control, seamless pipe, ball valve, gate valve, Guangdong Rongde Steel Pipe",
     ogImage: "/images/hero-pipes.jpg",
   },
 };
@@ -22,14 +22,14 @@ export function SEO({ language = "zh", page = "home", custom = {} }) {
 
   const pageTitles = {
     zh: {
-      home: "广东嵘德 - 高端钢管与工业阀门解决方案",
-      products: "产品中心 - 广东嵘德",
-      productDetail: "产品详情 - 广东嵘德",
+      home: "广东嵘德钢管有限公司 - 高端钢管与工业阀门解决方案",
+      products: "产品中心 - 广东嵘德钢管有限公司",
+      productDetail: "产品详情 - 广东嵘德钢管有限公司",
     },
     en: {
-      home: "Guangdong Rongde - Premium Steel Pipe & Valve Solutions",
-      products: "Product Center - Guangdong Rongde",
-      productDetail: "Product Details - Guangdong Rongde",
+      home: "Guangdong Rongde Steel Pipe Co., Ltd. - Premium Steel Pipe & Valve Solutions",
+      products: "Product Center - Guangdong Rongde Steel Pipe Co., Ltd.",
+      productDetail: "Product Details - Guangdong Rongde Steel Pipe Co., Ltd.",
     },
   };
 

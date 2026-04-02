@@ -119,7 +119,7 @@ function App() {
   // SEO 配置
   const seoCustom = {};
   if (currentPage === "productDetail" && productTitle) {
-    seoCustom.title = language === "zh" ? `${productTitle} - 广东嵘德` : `${productTitle} - Guangdong Rongde`;
+    seoCustom.title = language === "zh" ? `${productTitle} - 广东嵘德钢管有限公司` : `${productTitle} - Guangdong Rongde Steel Pipe Co., Ltd.`;
   }
 
   const basename = import.meta.env.BASE_URL || "/";
