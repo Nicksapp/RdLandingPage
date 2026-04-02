@@ -101,18 +101,6 @@
     ],
     "products": [
       {
-        "slug": "premium-steel-pipes",
-        "category": "Pipe Series",
-        "title": "Premium Steel Pipes",
-        "text": "Seamless, welded, precision, and custom-profile pipes for transmission, structural, and high-pressure systems.",
-        "specs": [
-          "Stainless / Alloy / Duplex Steel",
-          "DN15-DN1200",
-          "Pressure & corrosion resistant"
-        ],
-        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
-      },
-      {
         "slug": "xwx-red-61",
         "category": "Red Grooved Fittings",
         "title": "Reducer Grooved Cross",
@@ -124,18 +112,6 @@
           "Specification on request"
         ],
         "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/1b3574d0-563f-4cde-a647-349a3db33e33.jpg"
-      },
-      {
-        "slug": "industrial-valves",
-        "category": "Valve Series",
-        "title": "Industrial Valves",
-        "text": "Ball, gate, globe, check, and control valves designed for sealing performance and long service life.",
-        "specs": [
-          "API / DIN / GB standards",
-          "Manual / pneumatic / electric",
-          "High-temp sealing structure"
-        ],
-        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
       },
       {
         "slug": "xwx-red-60",
@@ -151,18 +127,6 @@
         "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/a8010711-c0ab-44bd-8786-14d4c809832f.jpg"
       },
       {
-        "slug": "supporting-components",
-        "category": "Accessory Series",
-        "title": "Supporting Components",
-        "text": "Flanges, fittings, actuators, and connection accessories for complete fluid-control integration.",
-        "specs": [
-          "Flanges / elbows / tees",
-          "Actuator integration",
-          "Project package supply"
-        ],
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
-      },
-      {
         "slug": "xwx-red-59",
         "category": "Red Grooved Fittings",
         "title": "90° Elbow",
@@ -174,18 +138,6 @@
           "Specification on request"
         ],
         "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/33c37bfb-37a9-4308-8cfd-00c4c23c76b3.jpg"
-      },
-      {
-        "slug": "precision-stainless-tubes",
-        "category": "Pipe Series",
-        "title": "Precision Stainless Tubes",
-        "text": "Designed for clean transfer systems, instrumentation, and advanced manufacturing lines with tighter tolerances.",
-        "specs": [
-          "BA / EP finishes",
-          "High cleanliness",
-          "Cut-to-length support"
-        ],
-        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
       },
       {
         "slug": "xwx-red-58",
@@ -201,18 +153,6 @@
         "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/b74b9c47-e6e6-4de5-ab36-3483f510c229.jpg"
       },
       {
-        "slug": "high-performance-ball-valves",
-        "category": "Valve Series",
-        "title": "High-Performance Ball Valves",
-        "text": "Built for petrochemical, gas, and process-industry applications with rapid operation and low leakage.",
-        "specs": [
-          "Floating / trunnion",
-          "Soft / metal seated",
-          "Fire-safe and anti-static"
-        ],
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
-      },
-      {
         "slug": "xwx-red-57",
         "category": "Red Grooved Fittings",
         "title": "90° Grooved Elbow",
@@ -224,18 +164,6 @@
           "Specification on request"
         ],
         "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/7c59d32c-718d-4220-8a59-f9a1ed82d040.jpg"
-      },
-      {
-        "slug": "industrial-flanges-fittings",
-        "category": "Accessory Series",
-        "title": "Industrial Flanges & Fittings",
-        "text": "Multi-standard connections and custom machining for complex piping systems and export projects.",
-        "specs": [
-          "ASME / EN / JIS",
-          "Forged and machined",
-          "Material traceability reports"
-        ],
-        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
       },
       {
         "slug": "xwx-red-56",
@@ -557,83 +485,6 @@
     ],
     "productGroups": [
       {
-        "id": "pipe-systems",
-        "title": "Pipe Systems",
-        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1",
-        "subcategories": [
-          {
-            "title": "Premium Pipe",
-            "children": [
-              {
-                "title": "Industrial Transfer Pipe",
-                "items": [
-                  {
-                    "slug": "premium-steel-pipes",
-                    "title": "Premium Steel Pipes",
-                    "points": [
-                      "High-pressure transfer",
-                      "Multiple material grades",
-                      "Project-ready supply",
-                      "Full batch traceability"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "Precision Tubing",
-                "items": [
-                  {
-                    "slug": "precision-stainless-tubes",
-                    "title": "Precision Stainless Tubes",
-                    "points": [
-                      "High cleanliness",
-                      "Stable tolerance",
-                      "BA / EP support",
-                      "Instrumentation-ready"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Engineering Tubes",
-            "children": [
-              {
-                "title": "Seamless Pipe",
-                "items": [
-                  {
-                    "slug": "premium-steel-pipes",
-                    "title": "Seamless & Welded Pipes",
-                    "points": [
-                      "Structural and transfer use",
-                      "Pressure resistant",
-                      "Wide size coverage",
-                      "Flexible customization"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "Project Custom Tubes",
-                "items": [
-                  {
-                    "slug": "precision-stainless-tubes",
-                    "title": "Custom Engineering Tubes",
-                    "points": [
-                      "Cut-to-length delivery",
-                      "Profile customization",
-                      "Interface-ready",
-                      "Efficient for projects"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "red-grooved-fittings",
         "title": "Red Grooved Fittings",
         "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/fd85ca82-9d1d-425f-82a9-bc4267c8f841.jpg",
@@ -841,83 +692,6 @@
         ]
       },
       {
-        "id": "valve-systems",
-        "title": "Valve Systems",
-        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
-        "subcategories": [
-          {
-            "title": "General Valves",
-            "children": [
-              {
-                "title": "Ball Valve Series",
-                "items": [
-                  {
-                    "slug": "high-performance-ball-valves",
-                    "title": "High-Performance Ball Valves",
-                    "points": [
-                      "Fast opening and closing",
-                      "Low leakage control",
-                      "Fire-safe and anti-static",
-                      "Metal seated option"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "General Valve Series",
-                "items": [
-                  {
-                    "slug": "industrial-valves",
-                    "title": "Industrial Valves",
-                    "points": [
-                      "Stable sealing performance",
-                      "Multiple interface standards",
-                      "Manual / pneumatic / electric",
-                      "Reliable long-term operation"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Control & Actuation",
-            "children": [
-              {
-                "title": "Globe Valve",
-                "items": [
-                  {
-                    "slug": "industrial-valves",
-                    "title": "Globe & Check Valves",
-                    "points": [
-                      "Process-industry ready",
-                      "Robust structure",
-                      "Easy maintenance",
-                      "Project assembly support"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "Actuation Unit",
-                "items": [
-                  {
-                    "slug": "industrial-valves",
-                    "title": "Valve Control Components",
-                    "points": [
-                      "Automation ready",
-                      "Stable linked control",
-                      "Fits multiple valve types",
-                      "Easy centralized maintenance"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "lined-grooved-fittings",
         "title": "Lined Products",
         "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/737292e3-10a5-45f0-8446-ee4eda3e18c5.jpg",
@@ -1026,160 +800,6 @@
                       "Official matching image",
                       "Pipe connection fitting",
                       "Specification on request"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "fitting-systems",
-        "title": "Fittings & Components",
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
-        "subcategories": [
-          {
-            "title": "Connections",
-            "children": [
-              {
-                "title": "Flange Products",
-                "items": [
-                  {
-                    "slug": "industrial-flanges-fittings",
-                    "title": "Industrial Flanges & Fittings",
-                    "points": [
-                      "Multi-standard compatibility",
-                      "Forged and machined",
-                      "Complex piping support",
-                      "Material reports available"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "Special Fittings",
-                "items": [
-                  {
-                    "slug": "industrial-flanges-fittings",
-                    "title": "Elbows, Tees & Special Parts",
-                    "points": [
-                      "Multi-size machining",
-                      "Complex interface support",
-                      "Stable project supply",
-                      "Drawing-based sampling"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Package Components",
-            "children": [
-              {
-                "title": "Actuator Accessories",
-                "items": [
-                  {
-                    "slug": "supporting-components",
-                    "title": "Supporting Components",
-                    "points": [
-                      "Flanges, elbows, tees",
-                      "Actuators and accessories",
-                      "Complete package supply",
-                      "Shorter sourcing cycles"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "Project Spare Parts",
-                "items": [
-                  {
-                    "slug": "supporting-components",
-                    "title": "Engineering Spare Components",
-                    "points": [
-                      "Retrofit and maintenance ready",
-                      "Common sizes covered",
-                      "Centralized sourcing",
-                      "Fast delivery support"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "project-services",
-        "title": "Project Services",
-        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
-        "subcategories": [
-          {
-            "title": "Project Delivery",
-            "children": [
-              {
-                "title": "Integrated Delivery",
-                "items": [
-                  {
-                    "slug": "supporting-components",
-                    "title": "Integrated Engineering Supply",
-                    "points": [
-                      "Spec consolidation",
-                      "Export coordination",
-                      "Inspection and traceability",
-                      "Stable milestone delivery"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "Supply Coordination",
-                "items": [
-                  {
-                    "slug": "supporting-components",
-                    "title": "Project Supply Coordination",
-                    "points": [
-                      "Planned batch supply",
-                      "Aligned to project milestones",
-                      "Transparent tracking",
-                      "Improved sourcing efficiency"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Technical Support",
-            "children": [
-              {
-                "title": "Selection Service",
-                "items": [
-                  {
-                    "slug": "premium-steel-pipes",
-                    "title": "Selection & Processing Support",
-                    "points": [
-                      "Material guidance",
-                      "Interface matching",
-                      "Custom fabrication",
-                      "Sampling support"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "Project Consulting",
-                "items": [
-                  {
-                    "slug": "industrial-valves",
-                    "title": "Operating Condition Consulting",
-                    "points": [
-                      "Condition-based material advice",
-                      "Standard matching",
-                      "Optimized sourcing plan",
-                      "Less on-site adjustment"
                     ]
                   }
                 ]

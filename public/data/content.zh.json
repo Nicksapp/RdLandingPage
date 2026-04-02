@@ -101,18 +101,6 @@
     ],
     "products": [
       {
-        "slug": "premium-steel-pipes",
-        "category": "钢管系列",
-        "title": "高端钢管",
-        "text": "无缝钢管、焊接钢管、精密管及异形管，适配输送、结构与高压系统需求。",
-        "specs": [
-          "不锈钢 / 合金钢 / 双相钢",
-          "DN15-DN1200",
-          "耐压与耐腐蚀工况"
-        ],
-        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
-      },
-      {
         "slug": "xwx-red-61",
         "category": "红色沟槽管件",
         "title": "沟槽异径四通",
@@ -124,18 +112,6 @@
           "规格型号可咨询"
         ],
         "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/1b3574d0-563f-4cde-a647-349a3db33e33.jpg"
-      },
-      {
-        "slug": "industrial-valves",
-        "category": "阀门系列",
-        "title": "工业阀门",
-        "text": "球阀、闸阀、截止阀、止回阀与控制阀，兼顾密封性能与长期稳定运行。",
-        "specs": [
-          "API / DIN / GB 标准",
-          "手动 / 气动 / 电动",
-          "高温高压密封结构"
-        ],
-        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
       },
       {
         "slug": "xwx-red-60",
@@ -151,18 +127,6 @@
         "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/a8010711-c0ab-44bd-8786-14d4c809832f.jpg"
       },
       {
-        "slug": "supporting-components",
-        "category": "配件系列",
-        "title": "配套组件",
-        "text": "法兰、管件、执行器与连接附件，支持整套流体控制方案快速集成。",
-        "specs": [
-          "法兰 / 弯头 / 三通",
-          "执行器联动方案",
-          "项目成套供货"
-        ],
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
-      },
-      {
         "slug": "xwx-red-59",
         "category": "红色沟槽管件",
         "title": "90-°弯头",
@@ -174,18 +138,6 @@
           "规格型号可咨询"
         ],
         "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/33c37bfb-37a9-4308-8cfd-00c4c23c76b3.jpg"
-      },
-      {
-        "slug": "precision-stainless-tubes",
-        "category": "钢管系列",
-        "title": "精密不锈钢管",
-        "text": "用于洁净输送、仪表系统与高要求制造产线，具备更高尺寸精度与表面质量。",
-        "specs": [
-          "BA / EP 表面处理",
-          "高洁净度",
-          "支持定尺交付"
-        ],
-        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1"
       },
       {
         "slug": "xwx-red-58",
@@ -201,18 +153,6 @@
         "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/b74b9c47-e6e6-4de5-ab36-3483f510c229.jpg"
       },
       {
-        "slug": "high-performance-ball-valves",
-        "category": "阀门系列",
-        "title": "高性能球阀",
-        "text": "适用于石化、天然气与流程工业场景，兼顾快速启闭与低泄漏控制。",
-        "specs": [
-          "浮动式 / 固定式",
-          "软密封 / 硬密封",
-          "支持防火防静电"
-        ],
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
-      },
-      {
         "slug": "xwx-red-57",
         "category": "红色沟槽管件",
         "title": "90度沟槽弯头",
@@ -224,18 +164,6 @@
           "规格型号可咨询"
         ],
         "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/7c59d32c-718d-4220-8a59-f9a1ed82d040.jpg"
-      },
-      {
-        "slug": "industrial-flanges-fittings",
-        "category": "配件系列",
-        "title": "工业法兰与管件",
-        "text": "支持多标准连接与非标加工，适配复杂管路系统与出口项目。",
-        "specs": [
-          "ASME / EN / JIS",
-          "锻造与机加工",
-          "可提供材质报告"
-        ],
-        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261"
       },
       {
         "slug": "xwx-red-56",
@@ -557,83 +485,6 @@
     ],
     "productGroups": [
       {
-        "id": "pipe-systems",
-        "title": "钢管系统",
-        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1",
-        "subcategories": [
-          {
-            "title": "高端钢管",
-            "children": [
-              {
-                "title": "工业输送管",
-                "items": [
-                  {
-                    "slug": "premium-steel-pipes",
-                    "title": "高端钢管",
-                    "points": [
-                      "高压输送工况",
-                      "多材质可选",
-                      "支持项目批量供货",
-                      "批次追溯完整"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "精密管材",
-                "items": [
-                  {
-                    "slug": "precision-stainless-tubes",
-                    "title": "精密不锈钢管",
-                    "points": [
-                      "高洁净度",
-                      "尺寸精度稳定",
-                      "支持 BA / EP",
-                      "适配仪表与洁净系统"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "工程管材",
-            "children": [
-              {
-                "title": "无缝钢管",
-                "items": [
-                  {
-                    "slug": "premium-steel-pipes",
-                    "title": "无缝与焊接管",
-                    "points": [
-                      "结构与输送双场景",
-                      "耐压耐腐蚀",
-                      "规格覆盖广",
-                      "加工定制灵活"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "项目定制管",
-                "items": [
-                  {
-                    "slug": "precision-stainless-tubes",
-                    "title": "定制工程管",
-                    "points": [
-                      "支持定尺交付",
-                      "可做异形加工",
-                      "配合安装接口",
-                      "工程配套效率高"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "red-grooved-fittings",
         "title": "红色沟槽管件",
         "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/fd85ca82-9d1d-425f-82a9-bc4267c8f841.jpg",
@@ -841,83 +692,6 @@
         ]
       },
       {
-        "id": "valve-systems",
-        "title": "阀门系统",
-        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
-        "subcategories": [
-          {
-            "title": "通用工业阀门",
-            "children": [
-              {
-                "title": "球阀系列",
-                "items": [
-                  {
-                    "slug": "high-performance-ball-valves",
-                    "title": "高性能球阀",
-                    "points": [
-                      "快速启闭",
-                      "低泄漏控制",
-                      "防火防静电",
-                      "硬密封可选"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "通用阀门",
-                "items": [
-                  {
-                    "slug": "industrial-valves",
-                    "title": "工业阀门",
-                    "points": [
-                      "密封性能稳定",
-                      "适配多标准接口",
-                      "手动气动电动可选",
-                      "长期运行可靠"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "控制与执行",
-            "children": [
-              {
-                "title": "截止阀",
-                "items": [
-                  {
-                    "slug": "industrial-valves",
-                    "title": "截止阀与止回阀",
-                    "points": [
-                      "适用流程工业",
-                      "结构稳固",
-                      "维护便利",
-                      "支持项目组配"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "执行控制单元",
-                "items": [
-                  {
-                    "slug": "industrial-valves",
-                    "title": "阀门执行控制组件",
-                    "points": [
-                      "支持自动化改造",
-                      "联动控制稳定",
-                      "适配多阀型",
-                      "便于集中维护"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "lined-grooved-fittings",
         "title": "衬塑产品",
         "image": "https://omo-oss-image.thefastimg.com/portal-saas/new2024032715324889716/cms/image/737292e3-10a5-45f0-8446-ee4eda3e18c5.jpg",
@@ -1026,160 +800,6 @@
                       "官网对应商品图",
                       "管道连接配件",
                       "规格型号可咨询"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "fitting-systems",
-        "title": "管件配件",
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
-        "subcategories": [
-          {
-            "title": "连接件",
-            "children": [
-              {
-                "title": "法兰产品",
-                "items": [
-                  {
-                    "slug": "industrial-flanges-fittings",
-                    "title": "工业法兰与管件",
-                    "points": [
-                      "多标准兼容",
-                      "锻造与机加工",
-                      "适配复杂管路",
-                      "可提供材质报告"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "异形管件",
-                "items": [
-                  {
-                    "slug": "industrial-flanges-fittings",
-                    "title": "弯头三通与异形件",
-                    "points": [
-                      "多规格机加工",
-                      "适配复杂接口",
-                      "项目供货稳定",
-                      "支持图纸打样"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "成套配件",
-            "children": [
-              {
-                "title": "执行器附件",
-                "items": [
-                  {
-                    "slug": "supporting-components",
-                    "title": "配套组件",
-                    "points": [
-                      "法兰弯头三通",
-                      "执行器与附件",
-                      "整套配供",
-                      "缩短采购周期"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "项目备件",
-                "items": [
-                  {
-                    "slug": "supporting-components",
-                    "title": "工程备件组件",
-                    "points": [
-                      "适配改造维护",
-                      "常用规格覆盖",
-                      "便于集中采购",
-                      "快速交付支持"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "project-services",
-        "title": "项目服务",
-        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
-        "subcategories": [
-          {
-            "title": "项目交付",
-            "children": [
-              {
-                "title": "成套交付",
-                "items": [
-                  {
-                    "slug": "supporting-components",
-                    "title": "工程成套交付",
-                    "points": [
-                      "规格整合",
-                      "出口协同",
-                      "质检与追溯",
-                      "节点交付稳定"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "供应协同",
-                "items": [
-                  {
-                    "slug": "supporting-components",
-                    "title": "项目供应协同",
-                    "points": [
-                      "多批次计划供货",
-                      "对接工程节点",
-                      "交付跟踪透明",
-                      "提升整体采购效率"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "技术支持",
-            "children": [
-              {
-                "title": "选型服务",
-                "items": [
-                  {
-                    "slug": "premium-steel-pipes",
-                    "title": "选型与加工支持",
-                    "points": [
-                      "选材建议",
-                      "接口匹配",
-                      "非标加工",
-                      "样品与打样支持"
-                    ]
-                  }
-                ]
-              },
-              {
-                "title": "项目咨询",
-                "items": [
-                  {
-                    "slug": "industrial-valves",
-                    "title": "工况匹配咨询",
-                    "points": [
-                      "结合工况选材",
-                      "接口标准匹配",
-                      "帮助优化采购方案",
-                      "降低现场调整成本"
                     ]
                   }
                 ]
